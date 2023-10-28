@@ -1,0 +1,23 @@
+.category_main {
+    h1.title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    p.description {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        color: $grey_middle;
+    }
+}
+
+@media (max-width: 760px) {
+    .category_main {
+        p.description {
+            font-size: 14px;
+        }
+    }   
+}

@@ -1,0 +1,94 @@
+.category_top_options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    border: 1px solid $grey_light;
+    margin-bottom: 41px;
+    &__left {
+        &--icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .category_top--icon-grid {
+                cursor: pointer;
+                margin-left: 28px;
+                margin-top: 8px;
+                img {
+                    object-fit: contain;
+                }
+            }
+            .category_top--icon-list {
+                cursor: pointer;
+                margin-left: 10px;
+                margin-top: 8px;
+                img {
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+    &__right {
+        margin-right: 16px;
+        .category__right_options_container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            &--element {
+                padding: 0 8px;
+                &:first-of-type {
+                    p {
+                        border-left: 0;
+                    }
+                }
+                p {
+                    padding: 0 16px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 45px;
+                    color: $grey_middle;
+                    height: 45px;
+                    border-right: 1px solid $grey_light;
+                    border-left: 1px solid $grey_light;
+                }
+                &.filter {
+                    select {
+                        border: 0;
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $light_black;
+                        padding-right: 8px;
+                        &:hover,
+                        &:focus {
+                            border: 0;
+                            outline: 0;
+                        }
+                        option {
+                            padding: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .category_top_options {
+        margin-bottom: 24px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 54px;
+        &__left {
+            &--icons {
+                .category_top--icon-grid {
+                    cursor: pointer;
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}

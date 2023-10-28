@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import 'reset';
+@import 'variables';
+@import 'global';
+@import 'grid';
+@import 'nav';
+@import './breadcrumbs/breadcrumbs';
+@import './main_page/swiper';
+@import './common/aside_boxes';
+@import './common/aside_menu';
+@import './common/pagination';
+@import './category_page/category_aside_filters';
+@import './category_page/category_main';
+@import './category_page/category_top_options';
+@import './products_card/gallery';

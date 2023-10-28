@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    accent-color: $main_color;
+    &.open-modal {
+        position: fixed;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            content: '';
+            width: 100vw;
+            height: 100vh;
+            background-color: #505050b7;
+            z-index: 10;
+        }
+    }
+}
+
+body.main #main-wrapper {
+    background-color: #FFFFFF;
+}
+
+a {
+    color: $main_color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 180%;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 180%;
+}
+
+#main-wrapper {
+    width: 1576px;
+    margin: 0 auto;
+    position: relative;
+    top: 0
+}
+
+section {
+    margin: 40px auto 67px auto;
+    &:last-of-type {
+        margin-bottom: 7px;
+    }
+}
+
+h1.mainpage-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    margin: 35px 0;
+    padding-left: 40px;
+    span {
+        color: $main_color;
+    }
+    &::before {
+        position: absolute;
+        top: calc(50% - 9px);
+        left: 0;
+        content: '';
+        width: 14px;
+        height: 18px;
+        display: block;
+        background-color: $main_color;
+    }
+}
+
+@media (max-width: 1576px) {
+    #main-wrapper {
+        width: calc(100% - 108px);
+        padding: 0 52px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    #main-wrapper {
+        width: calc(100% - 72px);
+        padding: 0 36px;
+    }
+}
+
+@media (max-width: 760px) {
+    #main-wrapper {
+        width: calc(100% - 32px);
+        padding: 0 16px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .products_card_page {
+        aside {
+            order: 1;
+        }
+        .col_10__container {
+            order: 0;
+            margin-top: 9px;
+        }
+    }
+}

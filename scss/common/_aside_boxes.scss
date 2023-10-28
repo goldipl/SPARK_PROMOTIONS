@@ -1,0 +1,52 @@
+.aside_boxes {
+    margin-top: 29px;
+    margin-bottom: 47px;
+    &_slot {
+        padding: 15px 35px 35px 35px;
+        border: 1px solid #EEE;
+        margin-bottom: 19px;
+        .title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            justify-content: flex-start;
+        }
+        a {
+            .aside_img {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                img {
+                    padding: 12px;
+                }
+            }
+            .desc {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: normal;
+                text-align: center;
+                color: $light_black;
+                text-decoration: none;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &--list {
+            padding-left: 24px;
+            li {
+                a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    text-decoration: none;
+                    &:hover {
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+    }
+}
