@@ -335,7 +335,7 @@ header #nav .bottom-nav {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   width: 1576px;
   height: 40px;
@@ -517,13 +517,13 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
   display: none;
   margin-right: 0;
 }
-header #nav .bottom-nav ul.no-menu-links {
+header #nav .bottom-nav .right-container ul.no-menu-links {
   display: flex;
   list-style: none;
   align-items: center;
   margin-left: -40px;
 }
-header #nav .bottom-nav ul.no-menu-links li {
+header #nav .bottom-nav .right-container ul.no-menu-links li {
   display: inline-block;
   list-style: none;
   margin-left: 40px;
@@ -533,11 +533,11 @@ header #nav .bottom-nav ul.no-menu-links li {
   font-size: 18px;
   line-height: 22px;
 }
-header #nav .bottom-nav ul.no-menu-links li:hover {
+header #nav .bottom-nav .right-container ul.no-menu-links li:hover {
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   cursor: pointer;
 }
-header #nav .bottom-nav ul.no-menu-links li::after {
+header #nav .bottom-nav .right-container ul.no-menu-links li::after {
   display: none;
 }
 
@@ -937,6 +937,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-right: -52px;
     width: calc(100% + 108px);
   }
+  #swiper .swiper {
+    height: auto;
+  }
+  #swiper .swiper .swiper-slide a img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (max-width: 1280px) {
   #swiper {
@@ -944,6 +951,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-left: -36px;
     margin-right: -36px;
     width: calc(100% + 71px);
+  }
+  #swiper .swiper.desktop .swiper-pagination {
+    bottom: 8px;
+  }
+  #swiper .swiper.desktop .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
   }
 }
 @media (max-width: 760px) {
