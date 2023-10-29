@@ -49,39 +49,32 @@
                 <li class="bottom-nav-links category">Kategorie <div class="bottom-nav-sublist">
                         <ul>
                             <li>
-                                <a href="#">Ochrona zdrowia</a>
+                                <a href="#">Artykuły biurowe</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
-                                            <li>Maseczki ochronne</li>
+                                            <li>Artykuły biurowe</li>
                                         </a>
                                         <a href="#">
-                                            <li>Płyny antybakteryjne</li>
+                                            <li>Etui na wizytówki</li>
                                         </a>
                                         <a href="#">
-                                            <li>Żele antybakteryjne</li>
+                                            <li>Notatki i Notesy</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Piórniki</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Stojaki biurkowe</li>
+                                        </a>
+                                        <a href="#">
+                                            <li>Teczki na dokumenty</li>
                                         </a>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Artykuły piśmiennicze</a>
-                                <div class="bottom-nav-sub-sublist">
-                                    <ul>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">Breloki reklamowe</a>
+                                <a href="#">Artykuły szkolne</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -97,7 +90,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety biurowe</a>
+                                <a href="#">Breloki i odznaki</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -113,7 +106,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety dla dzieci</a>
+                                <a href="#">Do picia</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -129,7 +122,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety domowe</a>
+                                <a href="#">Długopisy i zestawy piśmienne</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -145,7 +138,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety elektroniczne</a>
+                                <a href="#">Dom i wyposażenie wnętrz</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -161,7 +154,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety podróżne</a>
+                                <a href="#">Dyski</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -177,7 +170,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety biurowe</a>
+                                <a href="#">Elektronika i zegary</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -193,7 +186,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Gadżety sportowe i wypoczynkowe</a>
+                                <a href="#">Elektronika markowa</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -209,7 +202,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Kubki i bidony</a>
+                                <a href="#">Gry i zabawki</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -225,7 +218,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Narzędzia reklamowe</a>
+                                <a href="#">Higiena i bezpieczeństwo</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -241,39 +234,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Odzież reklamowa</a>
-                                <div class="bottom-nav-sub-sublist">
-                                    <ul>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">Parasole reklamowe</a>
-                                <div class="bottom-nav-sub-sublist">
-                                    <ul>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Kategoria II</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">Torby i plecaki</a>
+                                <a href="#">Kosmetyki i pielęgnacja</a>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
