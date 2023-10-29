@@ -30,21 +30,14 @@
                         <img class="account-image" src="./assets/icons/account.svg" alt="account image" width="27" height="33">
                     </a>
                 </div>
-                <div class="account-text-container">
-                    <a class="login" href="#">
-                        <p>Zaloguj się</p>
-                    </a>
-                    <a class="create-account" href="#"> Utwórz konto </a>
-                </div>
             </div>
             <div class="cart-container">
                 <a class="cart-link" href="./cart_step_one.php">
                     <div class="cart-logo-container">
                         <img class="cart-image" src="./assets/icons/cart.svg" alt="cart image" width="31" height="31">
-                        <span class="cart-quantity">0</span>
                     </div>
-                    <div class="cart-total-price">
-                        <p>0,00 zł</p>
+                    <div class="cart-total">
+                        <p>Koszyk zapytań (<span>0</span>)</p>
                     </div>
                 </a>
             </div>
@@ -53,7 +46,7 @@
     <div class="bottom-nav">
         <div class="left-container">
             <ul>
-                <li class="bottom-nav-links">Produkty <div class="bottom-nav-sublist">
+                <li class="bottom-nav-links category">Kategorie <div class="bottom-nav-sublist">
                         <ul>
                             <li>
                                 <a href="#">Ochrona zdrowia</a>
@@ -300,7 +293,7 @@
                 </li>
             </ul>
             <ul>
-                <li class="bottom-nav-links">Producenci <div class="bottom-nav-sublist">
+                <li class="bottom-nav-links">Nasze Marki <div class="bottom-nav-sublist">
                         <ul>
                             <li class="no-arrow">
                                 <a href="#">Air Gifts</a>
@@ -318,17 +311,38 @@
                     </div>
                 </li>
             </ul>
+            <ul>
+                <li class="bottom-nav-links">Zamówienia Specjalne <div class="bottom-nav-sublist">
+                        <ul>
+                            <li class="no-arrow">
+                                <a href="#">Air Gifts</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">AdPen</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">AdSmycze</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">AXPOL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="no-menu-links">
+                <li class="no-arrow">
+                    <a href="#">Kontakt</a>
+                </li>
+            </ul>
         </div>
         <div class="right-container">
             <ul class="no-menu-links">
-                <a href="#">
+                <a class="promo-nav" href="#">
+                    <li>Promocje</li>
+                </a>
+                <a class="new-nav" href="#">
                     <li>Nowości</li>
-                </a>
-                <a href="./contact.php">
-                    <li>Kontakt</li>
-                </a>
-                <a href="#">
-                    <li>Blog</li>
                 </a>
             </ul>
         </div>

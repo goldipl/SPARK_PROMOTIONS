@@ -196,15 +196,18 @@ header #nav .top-nav .hamburger .hamburger-line {
   margin: 8px 32px 8px 0px;
 }
 header #nav .top-nav .logo {
-  width: 30%;
+  margin-right: 99px;
 }
 header #nav .top-nav .logo img {
   width: 181px;
   height: 94px;
+  max-height: 94px;
+  padding: 4px;
+  box-sizing: border-box;
 }
 header #nav .top-nav .search-bar-wrapper {
   display: flex;
-  width: 40%;
+  width: 65%;
 }
 header #nav .top-nav .search-bar-wrapper #searchQueryInput {
   font-family: "Poppins", sans-serif;
@@ -265,30 +268,7 @@ header #nav .top-nav .account-cart-container .account-container {
 }
 header #nav .top-nav .account-cart-container .account-container .logo-container {
   margin-right: 8px;
-}
-header #nav .top-nav .account-cart-container .account-container .account-text-container .login {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 122.5%;
-  color: #333333;
-  text-decoration: none;
-}
-header #nav .top-nav .account-cart-container .account-container .account-text-container .login:hover {
-  color: #68B236;
-}
-header #nav .top-nav .account-cart-container .account-container .account-text-container .login p {
-  margin: 0;
-  line-height: 1;
-}
-header #nav .top-nav .account-cart-container .account-container .account-text-container .create-account {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #333333;
-  text-decoration: none;
-}
-header #nav .top-nav .account-cart-container .account-container .account-text-container .create-account:hover {
-  color: #68B236;
+  margin-top: 12px;
 }
 header #nav .top-nav .account-cart-container .cart-container {
   display: flex;
@@ -304,32 +284,17 @@ header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-lo
   position: relative;
   display: flex;
   align-items: center;
-  margin-right: 24px;
+  margin-right: 14px;
 }
-header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-logo-container .cart-quantity {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: -4px;
-  right: -8px;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 14px;
-  color: #FFFFFF;
-  background: #68B236;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-}
-header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-total-price {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-total p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
   color: #333333;
 }
-header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-total-price p {
-  font-weight: 600;
+header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-total p span {
+  color: #68B236;
+  font-weight: 700;
 }
 header #nav .bottom-nav {
   position: relative;
@@ -342,18 +307,32 @@ header #nav .bottom-nav {
   margin: 0 auto;
   box-sizing: border-box;
 }
-header #nav .bottom-nav::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100vw;
-  height: 1px;
-  background-color: #68B236;
-  top: 50px;
-  left: calc((100vw - 1576px) / 2 * -1);
-}
 header #nav .bottom-nav .left-container {
+  position: relative;
   display: flex;
+}
+header #nav .bottom-nav .left-container ul.no-menu-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: -40px;
+}
+header #nav .bottom-nav .left-container ul.no-menu-links li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+header #nav .bottom-nav .left-container ul.no-menu-links li a {
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+header #nav .bottom-nav .left-container ul.no-menu-links li:hover a {
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  cursor: pointer;
+  color: #68B236;
+  text-decoration: none;
 }
 header #nav .bottom-nav .left-container ul {
   list-style: none;
@@ -367,7 +346,6 @@ header #nav .bottom-nav .left-container ul li.bottom-nav-links:hover {
 header #nav .bottom-nav .left-container ul li {
   position: relative;
   list-style: none;
-  text-transform: uppercase;
   color: #333333;
   text-shadow: none;
   font-size: 18px;
@@ -379,6 +357,23 @@ header #nav .bottom-nav .left-container ul li.no-arrow::after {
 }
 header #nav .bottom-nav .left-container ul li.bottom-nav-links {
   padding: 28px 0;
+  font-weight: 500;
+}
+header #nav .bottom-nav .left-container ul li.bottom-nav-links.category {
+  position: relative;
+  padding-left: 28px;
+}
+header #nav .bottom-nav .left-container ul li.bottom-nav-links.category::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 28px;
+  left: 0px;
+  background: url("./../assets/icons/header/category-layers.svg");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header #nav .bottom-nav .left-container ul li::after {
   position: absolute;
@@ -402,26 +397,27 @@ header #nav .bottom-nav .left-container ul li:hover {
   color: #68B236;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist {
-  position: relative;
+  position: absolute;
   display: none;
-  top: 20px;
+  top: 69px;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  height: auto;
+  background-color: #FFFFFF;
+  z-index: 0;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul {
+  position: relative;
   width: -moz-max-content;
   width: max-content;
   min-width: 200px;
   flex-direction: column;
-  position: absolute;
   top: 0;
   left: 0;
   padding-top: 0;
   z-index: 9999;
   background: #FFFFFF;
-  border: 1px solid #68B236;
   border-top: 0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
   position: relative;
@@ -442,9 +438,11 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a {
   color: #333333;
   text-align: left;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a:hover {
-  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-  color: #68B236;
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
+  background-color: #68B236;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover a {
+  color: #FFFFFF;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:last-child {
   border-color: none;
@@ -465,14 +463,8 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
   display: flex;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover a, header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
-  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-  color: #68B236;
-}
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover::after {
-  transition: 0.6s;
-  transform: rotate(90deg);
-  background: url("./../assets/icons/chevron-down.svg") no-repeat;
+  background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -493,8 +485,6 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
   left: 0;
   z-index: 9999;
   background: #FFFFFF;
-  border: 1px solid #68B236;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a {
   text-decoration: none;
@@ -517,6 +507,10 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
   display: none;
   margin-right: 0;
 }
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li:hover {
+  background-color: #68B236;
+  color: #FFFFFF;
+}
 header #nav .bottom-nav .right-container ul.no-menu-links {
   display: flex;
   list-style: none;
@@ -534,11 +528,48 @@ header #nav .bottom-nav .right-container ul.no-menu-links li {
   line-height: 22px;
 }
 header #nav .bottom-nav .right-container ul.no-menu-links li:hover {
-  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-  cursor: pointer;
+  color: #68B236;
+}
+header #nav .bottom-nav .right-container ul.no-menu-links li:hover a {
+  color: #FFFFFF;
 }
 header #nav .bottom-nav .right-container ul.no-menu-links li::after {
   display: none;
+}
+header #nav .bottom-nav .right-container ul.no-menu-links .promo-nav li {
+  position: relative;
+  color: #68B236;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  margin-right: 24px;
+}
+header #nav .bottom-nav .right-container ul.no-menu-links .promo-nav li::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0px;
+  left: -28px;
+  background: url("./../assets/icons/header/promotions.svg");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li {
+  position: relative;
+  color: #E84848;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+}
+header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0px;
+  left: -28px;
+  background: url("./../assets/icons/header/news.svg");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1576px) {
@@ -548,23 +579,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links li::after {
   header #nav .bottom-nav {
     width: 90vw;
   }
-  header #nav .bottom-nav::after {
-    left: calc(-10vw + 15px);
-    width: 110vw;
-  }
 }
 @media (max-width: 1280px) {
-  .account-cart-container .account-text-container .login {
+  .cart-container .cart-total {
     display: none;
-  }
-  .account-cart-container .account-text-container .create-account {
-    display: none;
-  }
-  .cart-container .cart-total-price {
-    display: none;
-  }
-  .cart-container .cart-quantity {
-    top: 0 !important;
   }
   header #nav .top-nav .search-bar-wrapper {
     width: 50%;
@@ -703,9 +721,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links li::after {
     width: 100vw;
     height: auto;
   }
-  header #nav .bottom-nav.active::after {
-    display: none;
-  }
   header #nav .bottom-nav.active .left-container {
     display: flex;
     flex-direction: column;
@@ -719,13 +734,18 @@ header #nav .bottom-nav .right-container ul.no-menu-links li::after {
     margin: 8px 0;
     width: 100vw;
   }
+  header #nav .bottom-nav.active .left-container ul.no-menu-links:last-of-type li {
+    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  }
   header #nav .bottom-nav.active .left-container ul li {
     margin-left: 0 !important;
     padding-right: 0;
     margin-top: 8px;
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist {
+    position: relative;
     display: flex;
+    top: 20px;
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul {
     position: relative;
@@ -763,15 +783,16 @@ header #nav .bottom-nav .right-container ul.no-menu-links li::after {
   header #nav .bottom-nav.active .right-container ul {
     flex-direction: column;
     padding: 0;
-    margin: 16px 0;
+    margin: 8px 0;
     width: 100vw;
   }
   header #nav .bottom-nav.active .right-container ul a {
     margin: 8px 0;
-    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   }
   header #nav .bottom-nav.active .right-container ul a li {
     margin-left: 0 !important;
+    text-transform: none;
+    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   }
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
     width: 100%;
@@ -806,6 +827,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links li::after {
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
     justify-content: flex-start !important;
     align-items: center !important;
+  }
+  header #nav .top-nav .account-cart-container .account-container .logo-container {
+    margin-top: 0;
   }
   header #nav .top-nav .account-cart-container .account-container .logo-container .account-image {
     width: 30px !important;

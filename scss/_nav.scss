@@ -43,15 +43,18 @@ header {
                 }
             }
             .logo {
-                width: 30%;
+                margin-right: 99px;
                 img {
                     width: 181px;
                     height: 94px;
+                    max-height: 94px;
+                    padding: 4px;
+                    box-sizing: border-box;
                 }
             }
             .search-bar-wrapper {
                 display: flex;
-                width: 40%;
+                width: 65%;
                 #searchQueryInput {
                     font-family: 'Poppins', sans-serif;
                     color: #484848;
@@ -104,32 +107,7 @@ header {
                     align-items: center;
                     .logo-container {
                         margin-right: 8px;
-                    }
-                    .account-text-container {
-                        .login {
-                            font-weight: 400;
-                            font-size: 14px;
-                            line-height: 122.5%;
-                            color: $light_black;
-                            text-decoration: none;
-                            &:hover {
-                                color: $main_color;
-                            }
-                            p {
-                                margin: 0;
-                                line-height: 1;
-                            }
-                        }
-                        .create-account {
-                            font-weight: 700;
-                            font-size: 16px;
-                            line-height: 19px;
-                            color: $light_black;
-                            text-decoration: none;
-                            &:hover {
-                                color: $main_color;
-                            }
-                        }
+                        margin-top: 12px;
                     }
                 }
                 .cart-container {
@@ -144,31 +122,18 @@ header {
                         position: relative;
                         display: flex;
                         align-items: center;
-                        margin-right: 24px;
-                        .cart-quantity {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            position: absolute;
-                            top: -4px;
-                            right: -8px;
-                            font-weight: 500;
-                            font-size: 11px;
-                            line-height: 14px;
-                            color: $white;
-                            background: $main_color;
-                            width: 16px;
-                            height: 16px;
-                            border-radius: 50%;
-                        }
+                        margin-right: 14px;
                     }
-                    .cart-total-price {
-                        font-weight: 700;
-                        font-size: 20px;
-                        line-height: 24px;
-                        color: $light_black;
+                    .cart-total {
                         p {
-                            font-weight: 600;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 18px;
+                            color: $light_black;
+                            span {
+                                color: $main_color;
+                                font-weight: 700;;
+                            }
                         }
                     }
                 }
@@ -185,18 +150,36 @@ header {
             height: 40px;
             margin: 0 auto;
             box-sizing: border-box;
-            &::after {
-                position: absolute;
-                content: "";
-                display: block;
-                width: 100vw;
-                height: 1px;
-                background-color: $main_color;
-                top: 50px;
-                left: calc(((100vw - 1576px)/2)*(-1));
-            }
             .left-container {
+                position: relative;
                 display: flex;
+                ul {
+                    &.no-menu-links {
+                        display: flex;
+                        list-style: none;
+                        align-items: center;
+                        margin-left: -40px;
+                        li {
+                            display: inline-block;
+                            list-style: none;
+                            margin-left: 40px;
+                            a {
+                                color: $light_black;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 22px;
+                            }
+                            &:hover {
+                                a {
+                                    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                                    cursor: pointer;
+                                    color: $main_color;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
                 ul {
                     list-style: none;
                     padding: 0;
@@ -208,7 +191,6 @@ header {
                     li {
                         position: relative;
                         list-style: none;
-                        text-transform: uppercase;
                         color: $light_black;
                         text-shadow: none;
                         font-size: 18px;
@@ -221,6 +203,23 @@ header {
                         }
                         &.bottom-nav-links {
                             padding: 28px 0;
+                            font-weight: 500;
+                            &.category {
+                                position: relative;
+                                padding-left: 28px;
+                                &::before {
+                                    position: absolute;
+                                    display: block;
+                                    content: "";
+                                    top: 28px;
+                                    left: 0px;
+                                    background: url("./../assets/icons/header/category-layers.svg");
+                                    height: 20px;
+                                    width: 20px;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
+                            }
                         }
                         &::after {
                             position: absolute;
@@ -244,24 +243,25 @@ header {
                             color: $main_color;
                         }
                         .bottom-nav-sublist {
-                            position: relative;
+                            position: absolute;
                             display: none;
-                            top: 20px;
+                            top: 69px;
                             left: 0;
-                            width: 100%;
+                            width: 100vw;
+                            height: auto;
+                            background-color: $white;
+                            z-index: 0;
                             ul {
+                                position: relative;
                                 width: max-content;
                                 min-width: 200px;
                                 flex-direction: column;
-                                position: absolute;
                                 top: 0;
                                 left: 0;
                                 padding-top: 0;
                                 z-index: 9999;
                                 background: $white;
-                                border: 1px solid $main_color;
                                 border-top: 0;
-                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                                 li {
                                     position: relative;
                                     display: flex;
@@ -279,9 +279,11 @@ header {
                                         text-decoration: none;
                                         color: $light_black;
                                         text-align: left;
-                                        &:hover {
-                                            text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                                            color: $main_color;
+                                    }
+                                    &:hover {
+                                        background-color: $main_color;
+                                        a {
+                                            color: $white;
                                         }
                                     }
                                     &:last-child {
@@ -303,15 +305,8 @@ header {
                                     &:hover .bottom-nav-sub-sublist {
                                         display: flex;
                                     }
-                                    &:hover a,
-                                    &:hover {
-                                        text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                                        color: $main_color;
-                                    }
                                     &:hover::after {
-                                        transition: 0.6s;
-                                        transform: rotate(90deg);
-                                        background: url("./../assets/icons/chevron-down.svg") no-repeat;
+                                        background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
                                     }
@@ -331,8 +326,6 @@ header {
                                         left: 0;
                                         z-index: 9999;
                                         background: $white;
-                                        border: 1px solid $main_color;
-                                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
                                         a {
                                             text-decoration: none;
                                             li {
@@ -351,6 +344,10 @@ header {
                                                 &::after {
                                                     display: none;
                                                     margin-right: 0;
+                                                }
+                                                &:hover {
+                                                    background-color: $main_color;
+                                                    color: $white;
                                                 }
                                             }
                                         }
@@ -378,11 +375,52 @@ header {
                             font-size: 18px;
                             line-height: 22px;
                             &:hover {
-                                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                                cursor: pointer;
+                                color: $main_color;
+                                a {
+                                    color: $white;
+                                }
                             }
                             &::after {
                                 display: none;
+                            }
+                        }
+                        .promo-nav {
+                            li {
+                                position: relative;
+                                color: $main_color;
+                                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                                margin-right: 24px;
+                                &::before {
+                                    position: absolute;
+                                    display: block;
+                                    content: "";
+                                    top: 0px;
+                                    left: -28px;
+                                    background: url("./../assets/icons/header/promotions.svg");
+                                    height: 20px;
+                                    width: 20px;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
+                            }
+                        }
+                        .new-nav {
+                            li {
+                                position: relative;
+                                color: $red;
+                                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                                &::before {
+                                    position: absolute;
+                                    display: block;
+                                    content: "";
+                                    top: 0px;
+                                    left: -28px;
+                                    background: url("./../assets/icons/header/news.svg");
+                                    height: 20px;
+                                    width: 20px;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
                             }
                         }
                     }
@@ -400,32 +438,15 @@ header {
             }
             .bottom-nav {
                 width: 90vw;
-                &::after {
-                    left: calc(-10vw + 15px);
-                    width: 110vw;
-                }
             }
         }
     }
 }
 
 @media (max-width: 1280px) {
-    .account-cart-container {
-        .account-text-container {
-            .login {
-                display: none;
-            }
-            .create-account {
-                display: none;
-            }
-        }
-    }
     .cart-container {
-        .cart-total-price {
+        .cart-total {
             display: none;
-        }
-        .cart-quantity {
-            top: 0 !important;
         }
     }
     header #nav .top-nav .search-bar-wrapper {
@@ -565,9 +586,6 @@ header {
         margin: 0;
         width: 100vw;
         height: auto;
-        &::after {
-            display: none;
-        }
         .left-container {
             display: flex;
             flex-direction: column;  
@@ -579,13 +597,20 @@ header {
                 padding: 0;
                 margin: 8px 0;
                 width: 100vw;  
+                &.no-menu-links:last-of-type {
+                    li {
+                        text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                    }
+                }
                 li {
                     margin-left: 0 !important;
                     padding-right: 0;
                     margin-top: 8px;
                 }     
                 .bottom-nav-sublist {
+                    position: relative;
                     display: flex;
+                    top: 20px;
                     ul {
                         position: relative;
                         margin: 0;
@@ -624,13 +649,14 @@ header {
             ul { 
                 flex-direction: column;  
                 padding: 0;
-                margin: 16px 0;
+                margin: 8px 0;
                 width: 100vw; 
                 a {
                     margin: 8px 0;
-                    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                     li {
                         margin-left: 0 !important;
+                        text-transform: none;
+                        text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                     }
                 }
             }
@@ -673,6 +699,9 @@ header {
     header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
         justify-content: flex-start !important;
         align-items: center !important;
+    }
+    header #nav .top-nav .account-cart-container .account-container .logo-container {
+        margin-top: 0;
     }
     header #nav .top-nav .account-cart-container .account-container .logo-container .account-image {
         width: 30px !important;
