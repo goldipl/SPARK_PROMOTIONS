@@ -251,6 +251,7 @@ header {
                             height: auto;
                             background-color: $white;
                             z-index: 0;
+                            padding-bottom: 21px;
                             ul {
                                 position: relative;
                                 width: max-content;
@@ -326,6 +327,7 @@ header {
                                         left: 0;
                                         z-index: 9999;
                                         background: $white;
+                                        padding-left: 54px;
                                         a {
                                             text-decoration: none;
                                             li {
@@ -346,8 +348,8 @@ header {
                                                     margin-right: 0;
                                                 }
                                                 &:hover {
-                                                    background-color: $main_color;
-                                                    color: $white;
+                                                    color: $light_black;
+                                                    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                                                 }
                                             }
                                         }
@@ -669,6 +671,7 @@ header {
         ul {
             position: relative;
             border: 0;
+            padding-left: 0;
         }
     }
     header #nav .bottom-nav .left-container ul li.bottom-nav-links {
@@ -721,5 +724,12 @@ header {
     }
     header #nav .top-nav .hamburger .hamburger-line {
         margin-right: 12px !important;
+    }
+    header #nav .bottom-nav .left-container ul li.bottom-nav-links.category::before {
+        display: none;
+    }
+    header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active > a {
+        height: 32px;
+        line-height: 32px;
     }
 }
