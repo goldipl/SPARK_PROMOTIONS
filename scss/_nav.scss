@@ -252,6 +252,30 @@ header {
                             background-color: $white;
                             z-index: 0;
                             padding-bottom: 21px;
+                            &.office::before {
+                                content: '';
+                                display: block;
+                                position: absolute;
+                                top: 0;
+                                left: -50vw;
+                                width: 100%;
+                                background-color: $white;
+                                height: 100%;
+                                z-index: 0;
+                            }
+                            &.office::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                bottom: 0;
+                                left: 40%;
+                                background: url("./../assets/img/header/header_image.jpg");
+                                height: 396px;
+                                width: 614px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                z-index: 0;
+                            }
                             ul {
                                 position: relative;
                                 width: max-content;
@@ -613,6 +637,10 @@ header {
                     position: relative;
                     display: flex;
                     top: 20px;
+                    &.office::before,
+                    &.office::after {
+                        display: none;
+                    }
                     ul {
                         position: relative;
                         margin: 0;
@@ -656,6 +684,7 @@ header {
                 a {
                     margin: 8px 0;
                     li {
+                        margin-right: 0 !important;
                         margin-left: 0 !important;
                         text-transform: none;
                         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;

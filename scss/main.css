@@ -407,6 +407,30 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist {
   z-index: 0;
   padding-bottom: 21px;
 }
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.office::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -50vw;
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 100%;
+  z-index: 0;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.office::after {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: 0;
+  left: 40%;
+  background: url("./../assets/img/header/header_image.jpg");
+  height: 396px;
+  width: 614px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul {
   position: relative;
   width: -moz-max-content;
@@ -749,6 +773,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     display: flex;
     top: 20px;
   }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist.office::before, header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist.office::after {
+    display: none;
+  }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul {
     position: relative;
     margin: 0;
@@ -792,6 +819,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     margin: 8px 0;
   }
   header #nav .bottom-nav.active .right-container ul a li {
+    margin-right: 0 !important;
     margin-left: 0 !important;
     text-transform: none;
     text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;

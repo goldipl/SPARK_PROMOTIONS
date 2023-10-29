@@ -46,7 +46,7 @@
     <div class="bottom-nav">
         <div class="left-container">
             <ul>
-                <li class="bottom-nav-links category">Kategorie <div class="bottom-nav-sublist">
+                <li class="bottom-nav-links category">Kategorie <div class="bottom-nav-sublist office">
                         <ul>
                             <li>
                                 <a href="#">Artykuły biurowe</a>
