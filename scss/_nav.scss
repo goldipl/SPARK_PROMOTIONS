@@ -28,7 +28,7 @@ header {
             align-items: center;
             width: 1576px;
             height: 96px;
-            margin: 0 auto;
+            margin: 18px auto 0 auto;
             box-sizing: border-box;
             .hamburger {
                 -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -45,8 +45,8 @@ header {
             .logo {
                 width: 30%;
                 img {
-                    width: 274px;
-                    height: 60px;
+                    width: 181px;
+                    height: 94px;
                 }
             }
             .search-bar-wrapper {
@@ -474,6 +474,7 @@ header {
             margin-bottom: 56px;
         }
         .top-nav {
+            margin-top: 0 !important;
             width: 90vw !important;
             height: 52px !important;
             margin-left: 16px;
@@ -541,11 +542,11 @@ header {
     header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
         display: flex !important;
         position: absolute;
-        top: 6px;
+        top: 10px;
         right: 88px;
         svg {
-            height: 32px !important;
-            width: 32px !important;
+            height: 30px !important;
+            width: 30px !important;
         }
     }
     header #nav .top-nav .account-cart-container .cart-container {
@@ -673,13 +674,21 @@ header {
         justify-content: flex-start !important;
         align-items: center !important;
     }
-    header #nav .top-nav .account-cart-container .account-container .logo-container {
-        margin-right: 4px !important;
+    header #nav .top-nav .account-cart-container .account-container .logo-container .account-image {
+        width: 30px !important;
+        height: auto !important;
+        margin-top: 6px;
+        margin-right: -4px;
     }
     header #nav .top-nav .account-cart-container .cart-container {
         width: 31px;
         height: 31px;
-        top: 8px !important;
+        margin-top: 6px;
+    }
+    header #nav .top-nav .account-cart-container .cart-container .cart-link {
+        width: 30px !important;
+        height: auto !important;
+        margin-left: 4px;
     }
     header #nav .top-nav .hamburger .hamburger-line {
         margin-right: 12px !important;
