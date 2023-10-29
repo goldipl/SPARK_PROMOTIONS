@@ -179,7 +179,7 @@ header {
             position: relative;
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
+            justify-content: space-between;
             align-items: center;
             width: 1576px;
             height: 40px;
@@ -361,27 +361,29 @@ header {
                     }
                 }
             }
-            ul {
-                &.no-menu-links {
-                    display: flex;
-                    list-style: none;
-                    align-items: center;
-                    margin-left: -40px;
-                    li {
-                        display: inline-block;
+            .right-container {
+                ul {
+                    &.no-menu-links {
+                        display: flex;
                         list-style: none;
-                        margin-left: 40px;
-                        text-transform: uppercase;
-                        color: $light_black;
-                        font-weight: 400;
-                        font-size: 18px;
-                        line-height: 22px;
-                        &:hover {
-                            text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                            cursor: pointer;
-                        }
-                        &::after {
-                            display: none;
+                        align-items: center;
+                        margin-left: -40px;
+                        li {
+                            display: inline-block;
+                            list-style: none;
+                            margin-left: 40px;
+                            text-transform: uppercase;
+                            color: $light_black;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            &:hover {
+                                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                                cursor: pointer;
+                            }
+                            &::after {
+                                display: none;
+                            }
                         }
                     }
                 }

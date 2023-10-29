@@ -319,6 +319,8 @@
                     </div>
                 </li>
             </ul>
+        </div>
+        <div class="right-container">
             <ul class="no-menu-links">
                 <a href="#">
                     <li>Nowości</li>
