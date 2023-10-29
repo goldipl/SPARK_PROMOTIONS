@@ -27,7 +27,7 @@
             background-color: #808080;
         }
         .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            border: 2px solid $main_color;
+            border: 2px solid $blue_color;
             background-color: #cac9c9be;
         }
     }
@@ -38,6 +38,16 @@
         margin-left: -52px;
         margin-right: -52px;
         width: calc(100% + 108px);
+        .swiper {
+            height: auto;
+            .swiper-slide {
+                a {
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -47,6 +57,17 @@
         margin-left: -36px;
         margin-right: -36px;
         width: calc(100% + 71px);
+        .swiper {
+            &.desktop {
+                .swiper-pagination {
+                    bottom: 8px;
+                    .swiper-pagination-bullet {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+        }   
     }
 }
 
