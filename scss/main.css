@@ -930,12 +930,15 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
 }
 #swiper {
-  width: 100%;
+  position: relative;
+  width: 100vw;
   margin: 10px auto 40px;
+  left: calc((100vw - 1576px) / 2 * -1);
+  top: 0;
 }
 #swiper .swiper {
   width: 100%;
-  height: 498px;
+  height: 507px;
   z-index: 0;
 }
 #swiper .swiper.mobile {
@@ -966,6 +969,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 
 @media (max-width: 1576px) {
   #swiper {
+    left: 0;
     margin-left: -52px;
     margin-right: -52px;
     width: calc(100% + 108px);

@@ -1,9 +1,12 @@
 #swiper {
-    width: 100%;
+    position: relative;
+    width: 100vw;
     margin: 10px auto 40px;
+    left: calc(((100vw - 1576px)/2)*(-1));
+    top: 0;
     .swiper {
         width: 100%;
-        height: 498px;
+        height: 507px;
         z-index: 0;
         &.mobile {
             display: none;
@@ -35,6 +38,7 @@
 
 @media (max-width: 1576px) {
     #swiper {
+        left: 0;
         margin-left: -52px;
         margin-right: -52px;
         width: calc(100% + 108px);
