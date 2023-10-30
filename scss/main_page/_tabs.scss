@@ -13,12 +13,26 @@
   }
 
   .tab-text {
-    border-bottom: 4px solid #FFF;
-    padding-bottom: 40px;
     margin-bottom: 48px;
     width: 20%;
     min-width: 20%;
     height: 84px;
+    background-color: $white;
+    border-right: 1px solid $light_black;
+    box-sizing: border-box;
+    &:first-of-type {
+      border-radius: 10px 0 0 10px;
+      label {
+        border-radius: 10px 0 0 10px;
+      }
+    }
+    &.last {
+      border-right: 0;
+      border-radius: 0 10px 10px 0; 
+      label {
+        border-radius: 0 10px 10px 0; 
+      }
+    }
   }
   
   .the_tabs label {
@@ -28,6 +42,7 @@
     align-items: center;
     text-transform: uppercase;
     cursor: pointer;
+    height: 84px;
     img {
       width: 40px;
       height: 40px;
@@ -36,14 +51,15 @@
     }
     p {
       font-family: 'Tahoma', sans-serif;
-      font-weight: 400;
       font-size: 18px;
-      line-height: 22px;
-      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 123.5%; 
+      text-align: left;
     }
-    &:hover p {
-      color: #83C000;
-      text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+    &:hover {
+      color: $white;
+      background-color: $main_color;
     }
   }
   
@@ -66,9 +82,8 @@
   }
   
   .the_tabs input[type="radio"]:checked + .tab-text {
-    color: #83C000;
-    border-bottom: 4px solid #012E71;
-    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+    color: $white;
+    background-color: $main_color;
   }
   
 @media (max-width: 1280px) {
