@@ -996,13 +996,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   background-color: #808080;
+  border: 1px solid #FFFFFF;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border: 2px solid #68B236;
-  background-color: rgba(202, 201, 201, 0.7450980392);
+  border: 2px solid #FFFFFF;
+  background-color: #68B236;
 }
 
 @media (max-width: 1320px) {

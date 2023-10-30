@@ -25,13 +25,14 @@
         }
         .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
         .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-            width: 16px;
-            height: 16px;
+            width: 17px;
+            height: 17px;
             background-color: #808080;
+            border: 1px solid $white;
         }
         .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            border: 2px solid $main_color;
-            background-color: #cac9c9be;
+            border: 2px solid $white;
+            background-color: $main_color;
         }
     }
 } 
