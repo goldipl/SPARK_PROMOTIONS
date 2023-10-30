@@ -276,16 +276,16 @@
                 <li class="bottom-nav-links">Zamówienia Specjalne <div class="bottom-nav-sublist">
                         <ul>
                             <li class="no-arrow">
-                                <a href="#">Air Gifts</a>
+                                <a href="#">Specjal 1</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AdPen</a>
+                                <a href="#">Specjal 2</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AdSmycze</a>
+                                <a href="#">Specjal 3</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AXPOL</a>
+                                <a href="#">Specjal 4</a>
                             </li>
                         </ul>
                     </div>
