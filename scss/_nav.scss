@@ -26,7 +26,7 @@ header {
             display: flex;
             flex-direction: row;
             align-items: center;
-            width: 1576px;
+            width: 1320px;
             height: 96px;
             margin: 18px auto 0 auto;
             box-sizing: border-box;
@@ -146,7 +146,7 @@ header {
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            width: 1576px;
+            width: 1320px;
             height: 40px;
             margin: 0 auto;
             box-sizing: border-box;
@@ -456,7 +456,7 @@ header {
     }
 }
 
-@media (max-width: 1576px) {
+@media (max-width: 1320px) {
     header {
         #nav {
             .top-nav {

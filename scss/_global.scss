@@ -44,7 +44,7 @@ p {
 }
 
 #main-wrapper {
-    width: 1576px;
+    width: 1320px;
     margin: 0 auto;
     position: relative;
     top: 0
@@ -80,7 +80,7 @@ h1.mainpage-title {
     }
 }
 
-@media (max-width: 1576px) {
+@media (max-width: 1320px) {
     #main-wrapper {
         width: calc(100% - 108px);
         padding: 0 52px;

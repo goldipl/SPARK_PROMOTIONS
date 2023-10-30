@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     margin: 10px auto 40px;
-    left: calc(((100vw - 1576px)/2)*(-1));
+    left: calc(((100vw - 1320px)/2)*(-1));
     top: 0;
     .swiper {
         width: 100%;
@@ -36,7 +36,7 @@
     }
 } 
 
-@media (max-width: 1576px) {
+@media (max-width: 1320px) {
     #swiper {
         left: 0;
         margin-left: -52px;
