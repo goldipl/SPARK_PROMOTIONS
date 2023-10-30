@@ -1,0 +1,14 @@
+#popular_categories {
+    .title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $light_black;
+        span {
+            color: $main_color;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1851,4 +1851,16 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .gallery-container-big .gallery-item {
     width: 100%;
   }
+}
+#popular_categories .title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+}
+#popular_categories .title span {
+  color: #68B236;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
