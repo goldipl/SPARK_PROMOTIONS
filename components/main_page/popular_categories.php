@@ -7,17 +7,17 @@
         <div class="tab-text">
             <label for="tab_1">
                 <img src="./assets/icons/tabs/bestseller.svg" alt="icon" width="40" height="40">
-                <p>Artykuły biurowe</p>
+                <p>Bestsellery</p>
             </label>
         </div>
         <div class="tab">
-          
+
         </div>
         <input type="radio" id="tab_2" name="the_tabs">
         <div class="tab-text second">
             <label for="tab_2">
-                <img src="./assets/tabs-icons/headbands.svg" alt="icon" width="40" height="80">
-                <p>Opaski</p>
+                <img src="./assets/icons/tabs/office-items.svg" alt="icon" width="40" height="40">
+                <p>Artykuły<br> biurowe</p>
             </label>
         </div>
         <div class="tab">
@@ -26,8 +26,8 @@
         <input type="radio" id="tab_3" name="the_tabs">
         <div class="tab-text">
             <label for="tab_3">
-                <img src="./assets/tabs-icons/bags.svg" alt="icon" width="40" height="80">
-                <p>Torby reklamowe</p>
+                <img src="./assets/icons/tabs/electronics_clocks.svg" alt="icon" width="40" height="40">
+                <p>Elektronika<br> i zegary</p>
             </label>
         </div>
         <div class="tab">
@@ -36,8 +36,8 @@
         <input type="radio" id="tab_4" name="the_tabs">
         <div class="tab-text second">
             <label for="tab_4">
-                <img src="./assets/tabs-icons/keychains.svg" alt="icon" width="40" height="80">
-                <p>Breloki</p>
+                <img src="./assets/icons/tabs/clothes.svg" alt="icon" width="40" height="40">
+                <p>Odzież i<br> tekstylia</p>
             </label>
         </div>
         <div class="tab">
@@ -46,8 +46,8 @@
         <input type="radio" id="tab_5" name="the_tabs">
         <div class="tab-text">
             <label for="tab_5">
-                <img src="./assets/tabs-icons/cosmetics.svg" alt="icon" width="40" height="80">
-                <p>Kosmetyki</p>
+                <img src="./assets/icons/tabs/lanyards.svg" alt="icon" width="40" height="40">
+                <p>Smycze i<br> opaski na rękę</p>
             </label>
         </div>
         <div class="tab">
