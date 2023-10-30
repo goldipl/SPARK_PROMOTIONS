@@ -1,0 +1,127 @@
+.the_tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    .slot-price {
+      padding-top: 12px;
+    }
+  }
+  
+  .the_tabs input[type="radio"] {
+    display: none;
+  }
+
+  .tab-text {
+    border-bottom: 4px solid #FFF;
+    padding-bottom: 40px;
+    margin-bottom: 48px;
+    width: 20%;
+    min-width: 20%;
+    height: 84px;
+  }
+  
+  .the_tabs label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      margin-right: 17px;
+    }
+    p {
+      font-family: 'Tahoma', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+    }
+    &:hover p {
+      color: #83C000;
+      text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+    }
+  }
+  
+  .the_tabs .tab {
+    width: 100%;
+    order: 1;
+    display: none;
+  }
+  
+  .the_tabs .tab h2 {
+    font-size: 2rem;
+  }
+  
+  .the_tabs .tab p {
+    padding-bottom: 1rem;
+  }
+  
+  .the_tabs input[type="radio"]:checked + .tab-text + .tab {
+    display: block;
+  }
+  
+  .the_tabs input[type="radio"]:checked + .tab-text {
+    color: #83C000;
+    border-bottom: 4px solid #012E71;
+    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+  }
+  
+@media (max-width: 1280px) {
+    .tab-text {
+      width: 18%;
+      min-width: 18%;
+      margin-right: 2%;
+    }
+}
+
+@media (max-width: 1120px) {
+  .the_tabs label {
+    p {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .the_tabs {
+    justify-content: center;
+  }
+  .tab-text {
+    width: 20%;
+    min-width: 20%;
+    margin-right: 2%;
+    margin-bottom: 24px;
+    height: 64px;
+  }
+  .the_tabs label {
+    padding: 0px 0 8px 0;
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+}
+
+@media (max-width: 600px) {
+  .tab-text {
+    width: 40%;
+    min-width: 40%;
+    margin-right: 10%;
+    margin-bottom: 24px;
+    padding-bottom: 32px;
+    &.second {
+      margin-right: 0;
+      margin-left: 10%;
+    }
+  }
+}
