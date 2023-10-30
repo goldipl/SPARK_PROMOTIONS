@@ -407,7 +407,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist {
   z-index: 0;
   padding-bottom: 21px;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.office::before {
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist::before {
   content: "";
   display: block;
   position: absolute;
