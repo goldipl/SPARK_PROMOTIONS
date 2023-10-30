@@ -1499,7 +1499,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1576px) {
+@media (max-width: 1320px) {
   .products_blocks_wrapper {
     justify-content: center;
   }
@@ -2178,7 +2178,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #68B236;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1320px) {
   .tab-text {
     width: 18%;
     min-width: 18%;
