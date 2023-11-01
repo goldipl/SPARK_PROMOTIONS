@@ -1726,6 +1726,53 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-align: center;
 }
 
+.button01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #8A8A8A;
+  background-color: #FFFFFF;
+  height: 46px;
+  width: -moz-max-content;
+  width: max-content;
+}
+.button01 a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  width: 100%;
+  height: 100%;
+  padding: 8px 36px 8px 24px;
+}
+.button01 a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: calc(50% - 6px);
+  right: 16px;
+  background: url("./../assets/icons/arrow-right-grey.svg");
+  height: 12px;
+  width: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.button01:hover {
+  border: 1px solid #68B236;
+  background-color: #68B236;
+}
+.button01:hover a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .category_filters .accordion_box_title {
   display: flex;
   justify-content: space-between;
@@ -2305,6 +2352,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #68B236;
   text-decoration: underline;
 }
+#popular_categories .button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 37px;
+}
+
 .the_tabs {
   position: relative;
   display: flex;

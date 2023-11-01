@@ -11,7 +11,10 @@
             text-decoration: underline;
         }
     }
-    .the_tabs {
-        
+    .button_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 37px;
     }
 }
