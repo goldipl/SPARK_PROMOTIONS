@@ -18,6 +18,7 @@
             <?php include "./components/main_page/popular_categories.php"; ?> 
             <?php include "./components/main_page/banners.php"; ?> 
             <?php include "./components/main_page/our_clients.php"; ?> 
+            <?php include "./components/main_page/about_us.php"; ?> 
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
