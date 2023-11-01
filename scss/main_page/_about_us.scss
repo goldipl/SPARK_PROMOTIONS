@@ -1,3 +1,52 @@
 #about_us {
-    
+    background-color: $grey_light3;
+    .about_us_container {
+        display: flex;
+        flex-direction: row;
+        &__column {
+            display: flex;
+            flex-direction: column;
+            width: calc(50% - 56px);
+            margin-right: 56px;
+            &.second {
+                width: 50%;
+                margin-right: 0;
+            }
+            .title {
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                color: $light_black;
+                span {
+                    color: $main_color;
+                }
+            }
+            .desc {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%;
+                color: $text_color;
+                margin: 0 0 24px 0;
+                a {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    color: $main_color;
+                }
+                &.first {
+                    margin-bottom: 0;
+                }
+            }
+            i {
+                font-size: 14px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 180%;
+                color: $main_color;
+            }
+        }
+    }
 }

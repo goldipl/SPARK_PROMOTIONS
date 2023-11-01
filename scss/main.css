@@ -1322,6 +1322,59 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   left: -56px;
 }
 
+#about_us {
+  background-color: #F8F8F8;
+}
+#about_us .about_us_container {
+  display: flex;
+  flex-direction: row;
+}
+#about_us .about_us_container__column {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 56px);
+  margin-right: 56px;
+}
+#about_us .about_us_container__column.second {
+  width: 50%;
+  margin-right: 0;
+}
+#about_us .about_us_container__column .title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+}
+#about_us .about_us_container__column .title span {
+  color: #68B236;
+}
+#about_us .about_us_container__column .desc {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  color: #8C8B8D;
+  margin: 0 0 24px 0;
+}
+#about_us .about_us_container__column .desc a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  color: #68B236;
+}
+#about_us .about_us_container__column .desc.first {
+  margin-bottom: 0;
+}
+#about_us .about_us_container__column i {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 180%;
+  color: #68B236;
+}
+
 .aside_boxes {
   margin-top: 29px;
   margin-bottom: 47px;
