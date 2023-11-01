@@ -10,7 +10,7 @@
             <img src="./assets/icons/tabs/arrow-right.svg">
         </div>
         <input type="radio" id="tab_1" name="the_tabs" checked="checked">
-        <div class="tab-text">
+        <div class="tab-text first">
             <label for="tab_1">
                 <img src="./assets/icons/tabs/bestseller.svg" alt="icon" width="40" height="40">
                 <p>Bestsellery</p>

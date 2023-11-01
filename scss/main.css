@@ -2345,10 +2345,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border-right: 1px solid #333333;
   box-sizing: border-box;
 }
-.tab-text:first-of-type {
+.tab-text.first {
   border-radius: 10px 0 0 10px;
 }
-.tab-text:first-of-type label {
+.tab-text.first label {
   border-radius: 10px 0 0 10px;
 }
 .tab-text.last {

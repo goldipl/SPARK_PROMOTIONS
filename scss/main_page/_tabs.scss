@@ -37,7 +37,7 @@
     background-color: $white;
     border-right: 1px solid $light_black;
     box-sizing: border-box;
-    &:first-of-type {
+    &.first {
       border-radius: 10px 0 0 10px;
       label {
         border-radius: 10px 0 0 10px;
