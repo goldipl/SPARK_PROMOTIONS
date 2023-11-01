@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('header #nav .top-nav .hamburger');
 const menu = document.querySelector('header #nav .bottom-nav');
 const menu_li = document.querySelectorAll('header #nav .bottom-nav .left-container ul li .bottom-nav-sublist > ul > li');
-const footer_year = document.querySelector('.footer-bottom span');
+const footer_year = document.querySelector('.footer_bottom span');
 const header = document.querySelector('body header');
 const search_mobile_bar = document.querySelector('header #nav .top-nav .search-bar-wrapper');
 
