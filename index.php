@@ -19,6 +19,7 @@
             <?php include "./components/main_page/banners.php"; ?> 
             <?php include "./components/main_page/our_clients.php"; ?> 
             <?php include "./components/main_page/about_us.php"; ?> 
+            <?php include "./components/main_page/our_team.php"; ?> 
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
