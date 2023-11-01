@@ -1375,6 +1375,108 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #68B236;
 }
 
+#our_team .title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 0 26px 0;
+}
+#our_team .title span {
+  color: #68B236;
+  text-decoration: underline;
+}
+#our_team .desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  margin: 0 0 53px 0;
+}
+#our_team .our_team_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1320px;
+  margin-bottom: 91px;
+}
+#our_team .our_team_container__slot {
+  display: flex;
+  flex-direction: row;
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 45px;
+}
+#our_team .our_team_container__slot--image {
+  width: 123px;
+  height: 176px;
+  margin-right: 16px;
+}
+#our_team .our_team_container__slot--image img {
+  width: 123px;
+  height: 176px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#our_team .our_team_container__slot--text .name {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  color: #333333;
+  margin: 0 0 4px 0;
+}
+#our_team .our_team_container__slot--text .position {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  margin: 0 0 4px 0;
+}
+#our_team .our_team_container__slot--text .tel {
+  margin: 0;
+}
+#our_team .our_team_container__slot--text .tel a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  text-decoration: none;
+  margin: 0;
+}
+#our_team .our_team_container__slot--text .mail {
+  margin: 0 0 9px 0;
+  line-height: 1;
+}
+#our_team .our_team_container__slot--text .mail a {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+  color: #333333;
+  text-decoration: none;
+}
+#our_team .our_team_container__slot--text .qrcode {
+  margin: 0;
+  line-height: 1;
+}
+#our_team .our_team_container__slot--text .qrcode a {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 180%;
+  text-decoration: none;
+  color: #68B236;
+}
+#our_team .our_team_container__slot--text .qrcode a:hover {
+  text-decoration: underline;
+}
+
 .aside_boxes {
   margin-top: 29px;
   margin-bottom: 47px;

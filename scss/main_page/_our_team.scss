@@ -1,3 +1,104 @@
 #our_team {
-    
+    .title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $light_black;
+        margin: 0 0 26px 0;
+        span {
+            color: $main_color;
+            text-decoration: underline;
+        }
+    }
+    .desc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        color: $light_black;
+        margin: 0 0 53px 0;
+    }
+    .our_team_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1320px;
+        margin-bottom: 91px;
+        &__slot {
+            display: flex;
+            flex-direction: row;
+            width: 24%;
+            margin-right: 1%;
+            margin-bottom: 45px;
+            &--image {
+                width: 123px;
+                height: 176px;
+                margin-right: 16px;
+                img {
+                    width: 123px;
+                    height: 176px;
+                    object-fit: contain;
+                }
+            }
+            &--text {
+                .name {
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 180%;
+                    color: $light_black;
+                    margin: 0 0 4px 0;
+                }
+                .position {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 180%; 
+                    color: $light_black;
+                    margin: 0 0 4px 0;
+                }
+                .tel {
+                    margin: 0;
+                    a {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 180%; 
+                        color: $light_black;
+                        text-decoration: none;
+                        margin: 0;
+                    }
+                }
+                .mail {
+                    margin: 0 0 9px 0;
+                    line-height: 1;
+                    a {
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 180%; 
+                        color: $light_black;
+                        text-decoration: none; 
+                    }
+                }
+                .qrcode {
+                    margin: 0;
+                    line-height: 1;
+                    a {
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 180%;
+                        text-decoration: none; 
+                        color: $main_color;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
