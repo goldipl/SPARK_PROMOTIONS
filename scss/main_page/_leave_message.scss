@@ -1,0 +1,23 @@
+#leave_message {
+    .title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $light_black;
+        margin: 0 0 19px 0;
+        span {
+            color: $main_color;
+            text-decoration: underline;
+        }
+    }
+    .desc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        color: $light_black;
+        margin: 0 0 36px 0;
+    }
+}

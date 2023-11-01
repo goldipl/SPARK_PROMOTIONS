@@ -1477,6 +1477,28 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-decoration: underline;
 }
 
+#leave_message .title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 0 19px 0;
+}
+#leave_message .title span {
+  color: #68B236;
+  text-decoration: underline;
+}
+#leave_message .desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  margin: 0 0 36px 0;
+}
+
 .aside_boxes {
   margin-top: 29px;
   margin-bottom: 47px;
