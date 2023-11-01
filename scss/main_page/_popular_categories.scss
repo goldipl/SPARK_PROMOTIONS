@@ -1,4 +1,8 @@
 #popular_categories {
+    background-color: $grey_light3;
+    padding-top: 54px;
+    margin-top: 0;
+    margin-bottom: 0;
     .title {
         font-size: 28px;
         font-style: normal;
@@ -6,6 +10,7 @@
         line-height: normal;
         text-transform: uppercase;
         color: $light_black;
+        margin: 0 0 44px 0;
         span {
             color: $main_color;
             text-decoration: underline;
@@ -15,6 +20,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 37px;
+        padding-bottom: 37px;
     }
 }

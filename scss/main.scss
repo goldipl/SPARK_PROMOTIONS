@@ -6,6 +6,9 @@
 @import 'nav';
 @import './breadcrumbs/breadcrumbs';
 @import './main_page/swiper';
+@import './main_page/popular_categories';
+@import './main_page/tabs';
+@import './main_page/banners';
 @import './common/aside_boxes';
 @import './common/aside_menu';
 @import './common/pagination';
@@ -16,5 +19,3 @@
 @import './category_page/category_main';
 @import './category_page/category_top_options';
 @import './products_card/gallery';
-@import './main_page/popular_categories';
-@import './main_page/tabs';
