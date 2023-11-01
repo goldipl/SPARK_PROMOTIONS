@@ -558,4 +558,9 @@
             </div>
         </div>
     </div>
+    <div class="button_container">
+        <div class="button01">
+            <a href="./category.php">Sprawdź wszystkie</a>
+        </div>
+    </div>
 </section>
