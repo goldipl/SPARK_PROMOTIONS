@@ -25,6 +25,7 @@
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/swiper-bundle.js"></script>
         <script src="./js/swiper.js"></script>
+        <script src="./js/clients_swiper.js"></script>
         <script src="./js/script.js"></script>
     </body>
 </html>

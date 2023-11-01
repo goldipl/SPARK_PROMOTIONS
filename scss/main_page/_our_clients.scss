@@ -1,3 +1,69 @@
 #our_clients {
-    
+    .title {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $light_black;
+        margin: 0 0 23px 0;
+        span {
+            color: $main_color;
+            text-decoration: underline;
+        }
+    }
+    .desc {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        color: $light_black;
+        margin: 0 0 68px 0;
+    }
+    #clients_swiper {
+        position: relative;
+        margin-bottom: 73px;
+        .clients_swiper {
+            width: 100px;
+            .swiper-wrapper {
+                width: 1320px;
+                .swiper-slide {
+                    width: 100px;
+                    margin-right: 63px;
+                    &:first-child {
+                        margin-left: 36px;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+            .swiper-button-next::after {
+                display: block;
+                width: 18px;
+                height: 18px;
+                content: '';
+                font-size: 0;
+                background: url("./../assets/icons/swiper/swiper-arrow-left.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                position: relative;
+                z-index: 1;
+                right: -56px;
+                transform: rotate(180deg);
+            }
+            .swiper-button-prev::after {
+                display: block;
+                width: 18px;
+                height: 18px;
+                font-size: 0;
+                background: url('./../assets/icons/swiper/swiper-arrow-left.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                position: relative;
+                z-index: 1;
+                left: -56px;
+            }
+        }
+    }
 }
