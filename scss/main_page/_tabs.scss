@@ -1,8 +1,25 @@
 .the_tabs {
+  position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    &__arrow-left {
+      position: absolute;
+      top: 32px;
+      left: -36px;
+      img {
+        cursor: pointer;
+      }
+    }
+    &__arrow-right {
+      position: absolute;
+      top: 32px;
+      left: calc(100% + 24px);
+      img {
+        cursor: pointer;
+      }
+    }
     .slot-price {
       padding-top: 12px;
     }

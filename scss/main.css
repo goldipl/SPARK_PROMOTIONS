@@ -2266,10 +2266,27 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-decoration: underline;
 }
 .the_tabs {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+}
+.the_tabs__arrow-left {
+  position: absolute;
+  top: 32px;
+  left: -36px;
+}
+.the_tabs__arrow-left img {
+  cursor: pointer;
+}
+.the_tabs__arrow-right {
+  position: absolute;
+  top: 32px;
+  left: calc(100% + 24px);
+}
+.the_tabs__arrow-right img {
+  cursor: pointer;
 }
 .the_tabs .slot-price {
   padding-top: 12px;

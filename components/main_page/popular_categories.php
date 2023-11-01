@@ -3,6 +3,12 @@
         <span>Popularne</span> kategorie
     </h1>
     <div class="the_tabs">
+        <div class="the_tabs__arrow-left">
+            <img src="./assets/icons/tabs/arrow-left.svg">
+        </div>
+        <div class="the_tabs__arrow-right">
+            <img src="./assets/icons/tabs/arrow-right.svg">
+        </div>
         <input type="radio" id="tab_1" name="the_tabs" checked="checked">
         <div class="tab-text">
             <label for="tab_1">
