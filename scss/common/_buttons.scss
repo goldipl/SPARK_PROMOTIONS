@@ -1,0 +1,45 @@
+.button01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid $grey_middle;
+    background-color: $white;
+    height: 46px;
+    width: max-content;
+    a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $light_black;
+        width: 100%;
+        height: 100%;
+        padding: 8px 36px 8px 24px; 
+        &::after {
+            position: absolute;
+            display: block;
+            content: "";
+            top: calc(50% - 6px);
+            right: 16px;
+            background: url("./../assets/icons/arrow-right-grey.svg");
+            height: 12px;
+            width: 12px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 0;
+        }
+    }
+    &:hover {
+        border: 1px solid $main_color;
+        background-color: $main_color;
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}
