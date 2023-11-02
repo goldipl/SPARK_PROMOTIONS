@@ -105,3 +105,53 @@
         }
     }
 }
+
+@media (max-width: 1320px) {
+    #our_team {
+        .title {
+            font-size: 24px;
+        }
+        .desc {
+            font-size: 16px;
+            margin: 0 0 36px 0;
+        }
+        .our_team_container {
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 64px;
+            &__slot {
+                display: flex;
+                flex-direction: row;
+                width: 32%;
+                margin-bottom: 36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    #our_team {
+        .our_team_container {
+            margin-bottom: 64px;
+            &__slot {
+                display: flex;
+                flex-direction: row;
+                width: 49%;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    #our_team {
+        .our_team_container {
+            margin-bottom: 32px;
+            &__slot {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}

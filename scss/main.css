@@ -1602,6 +1602,47 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-decoration: underline;
 }
 
+@media (max-width: 1320px) {
+  #our_team .title {
+    font-size: 24px;
+  }
+  #our_team .desc {
+    font-size: 16px;
+    margin: 0 0 36px 0;
+  }
+  #our_team .our_team_container {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  #our_team .our_team_container__slot {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 1080px) {
+  #our_team .our_team_container {
+    margin-bottom: 64px;
+  }
+  #our_team .our_team_container__slot {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+  }
+}
+@media (max-width: 700px) {
+  #our_team .our_team_container {
+    margin-bottom: 32px;
+  }
+  #our_team .our_team_container__slot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+}
 #leave_message {
   margin-bottom: 100px;
 }
