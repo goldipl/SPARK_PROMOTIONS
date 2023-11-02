@@ -1647,48 +1647,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin-bottom: 47px;
 }
 .aside_boxes_slot {
-  padding: 15px 35px 35px 35px;
-  border: 1px solid #EEE;
   margin-bottom: 19px;
-}
-.aside_boxes_slot .title {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  justify-content: flex-start;
-}
-.aside_boxes_slot a .aside_img {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-.aside_boxes_slot a .aside_img img {
-  padding: 12px;
-}
-.aside_boxes_slot a .desc {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
-  text-align: center;
-  color: #333333;
-  text-decoration: none;
-}
-.aside_boxes_slot a:hover {
-  text-decoration: none;
-}
-.aside_boxes_slot--list {
-  padding-left: 24px;
-}
-.aside_boxes_slot--list li a {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
-  color: #333333;
-  text-decoration: none;
-}
-.aside_boxes_slot--list li a:hover {
-  color: #68B236;
 }
 
 .aside_menu .accordion_box_title {
