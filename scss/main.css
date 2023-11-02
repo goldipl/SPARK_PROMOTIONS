@@ -1304,6 +1304,26 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
      object-fit: contain;
 }
 
+@media (max-width: 1320px) {
+  #banners .banners_container {
+    height: auto;
+  }
+  #banners .banners_container__left a img, #banners .banners_container__right a img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 760px) {
+  #banners .banners_container {
+    flex-direction: column;
+  }
+  #banners .banners_container__right, #banners .banners_container__left {
+    margin-top: -10px;
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 32px);
+  }
+}
 #our_clients .title {
   font-size: 28px;
   font-style: normal;
