@@ -91,7 +91,7 @@
         </div>
         <div class="our_team_container__slot">
             <div class="our_team_container__slot--image">
-                <img src="./assets/img/our_team/monika-karkuszewska.jpg" alt="team image" width="123" height="176">
+                <img src="./assets/img/our_team/barbara-floryn.jpg" alt="team image" width="123" height="176">
             </div>
             <div class="our_team_container__slot--text">
                 <p class="name">Barbara Floryn</p>
