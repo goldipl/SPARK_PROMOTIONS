@@ -28,4 +28,6 @@ License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mi
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
 ## Screenshots
-* Desktop & mobile version :desktop_computer: :iphone:       
+* Desktop & mobile version :desktop_computer: :iphone: 
+
+![screenshot](./screenshots/spark_promotions_01.jpg)
