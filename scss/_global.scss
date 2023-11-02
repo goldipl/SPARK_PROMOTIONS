@@ -96,6 +96,9 @@ h1.mainpage-title {
 }
 
 @media (max-width: 760px) {
+    section {
+        margin: 16px auto 24px auto;
+    }
     #main-wrapper {
         width: calc(100% - 32px);
         padding: 0 16px;

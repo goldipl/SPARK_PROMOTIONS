@@ -24,18 +24,11 @@
         position: relative;
         margin-bottom: 73px;
         .clients_swiper {
-            width: 100px;
+            overflow: hidden;
             .swiper-wrapper {
-                width: 1320px;
                 .swiper-slide {
                     width: 100px;
-                    margin-right: 63px;
-                    &:first-child {
-                        margin-left: 36px;
-                    }
-                    &:last-child {
-                        margin-right: 0;
-                    }
+                    margin-right: 8px;
                 }
             }
             .swiper-button-next::after {
@@ -64,6 +57,29 @@
                 z-index: 1;
                 left: -56px;
             }
+        }
+    }
+}
+
+@media (max-width: 1320px) {
+    #our_clients {
+        .title {
+            font-size: 24px;
+        }
+        .desc {
+            margin: 0 0 48px 0;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    #our_clients {
+        .title {
+            font-size: 20px;
+        }
+        .desc {
+            font-size: 14px;
+            line-height: 160%;
         }
     }
 }
