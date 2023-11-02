@@ -1072,9 +1072,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   top: 0;
   width: 100vw;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 #popular_categories .title {
+  position: relative;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -1082,6 +1083,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-transform: uppercase;
   color: #333333;
   margin: 0 0 44px 0;
+  z-index: 1;
 }
 #popular_categories .title span {
   color: #68B236;
@@ -1096,29 +1098,24 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 
 @media (max-width: 1320px) {
   #popular_categories {
-    background-color: #F8F8F8;
-    padding-top: 54px;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-top: 40px;
+    margin-top: -10px;
+  }
+  #popular_categories::before {
+    left: -36px;
   }
   #popular_categories .title {
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    color: #333333;
-    margin: 0 0 44px 0;
+    font-size: 24px;
+    margin: 0 0 32px 0;
   }
-  #popular_categories .title span {
-    color: #68B236;
-    text-decoration: underline;
+}
+@media (max-width: 760px) {
+  #popular_categories::before {
+    left: -16px;
   }
-  #popular_categories .button_container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 37px;
+  #popular_categories .title {
+    font-size: 20px;
+    margin: 0 0 24px 0;
   }
 }
 .the_tabs {
