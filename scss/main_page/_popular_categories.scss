@@ -36,6 +36,10 @@
         justify-content: center;
         padding-bottom: 37px;
     }
+    .products_blocks_wrapper {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 1320px) {

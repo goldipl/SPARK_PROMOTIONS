@@ -1,7 +1,7 @@
 .the_tabs {
   position: relative;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     &__arrow-left {
@@ -32,7 +32,7 @@
   .tab-text {
     margin-bottom: 61px;
     width: 20%;
-    min-width: 20%;
+    min-width: 264px;
     height: 84px;
     background-color: $white;
     border-right: 1px solid $light_black;
@@ -104,11 +104,29 @@
   }
   
 @media (max-width: 1320px) {
-    .tab-text {
-      width: 18%;
-      min-width: 18%;
-      margin-right: 2%;
+  .the_tabs {
+    border-radius: 10px;
+    &__arrow-left {
+      display: none;
     }
+    &__arrow-right {
+      display: none;
+    }
+    .tab-text {
+      margin-bottom: 40px;
+      margin-right: 16px;
+      border-radius: 10px;
+      border: 0;
+      label {
+        border-radius: 10px;
+      }
+    }
+    .tab {
+      .products_blocks_wrapper {
+        overflow-x: scroll;
+      }
+    }
+  }
 }
 
 @media (max-width: 1120px) {
@@ -125,11 +143,7 @@
     justify-content: center;
   }
   .tab-text {
-    width: 20%;
-    min-width: 20%;
-    margin-right: 2%;
     margin-bottom: 24px;
-    height: 64px;
   }
   .the_tabs label {
     padding: 0px 0 8px 0;
@@ -144,16 +158,12 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 590px) {
   .tab-text {
-    width: 40%;
-    min-width: 40%;
-    margin-right: 10%;
-    margin-bottom: 24px;
-    padding-bottom: 32px;
-    &.second {
-      margin-right: 0;
-      margin-left: 10%;
-    }
+    width: 90%;
+    min-width: 90%;
+    margin-right: 0 !important;
+    margin-bottom: 16px !important;
+    padding-bottom: 16px;
   }
 }

@@ -9,6 +9,7 @@
     margin-bottom: 41px;
     &__slot {
         position: relative;
+        min-width: 249px;
         width: 19%;
         background-color: $white;
         border: 1px solid $grey_light5;
@@ -93,7 +94,7 @@
                 line-height: 140%;
                 color: $light_black;
                 text-align: center;
-                height: 80px;
+                height: 64px;
                 width: 100%;
                 p {
                     margin-top: 0;
