@@ -231,6 +231,16 @@
     .footer {
         &_bottom {
             p {
+                font-size: 10px;
+            }
+        }
+    }  
+}
+
+@media (max-width: 370px) {
+    .footer {
+        &_bottom {
+            p {
                 font-size: 9px;
             }
         }
