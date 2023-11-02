@@ -19,7 +19,7 @@
                     <img src="./assets/img/contact_component/recaptcha.jpg" alt="captcha" width="308" height="82">
                 </div>
                 <div class="button">
-                    <input class="button" type="submit" value="Wyślij">
+                    <a href="">Wyślij<img src="./assets/icons/arrow-right-grey.svg" alt="captcha" width="12" height="12"></a>
                 </div>
             </div>
         </form>
