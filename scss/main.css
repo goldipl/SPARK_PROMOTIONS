@@ -35,8 +35,19 @@ body.open-modal::before {
   z-index: 10;
 }
 
-body.main #main-wrapper {
+body #main-wrapper {
+  position: relative;
   background-color: #FFFFFF;
+}
+body #main-wrapper.dark-background::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: calc((100vw - 1320px) / 2 * -1);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  width: 100vw;
+  height: 100%;
+  z-index: 9;
 }
 
 a {
@@ -94,6 +105,9 @@ h1.mainpage-title::before {
 }
 
 @media (max-width: 1320px) {
+  body #main-wrapper::before {
+    left: 0;
+  }
   #main-wrapper {
     width: calc(100% - 108px);
     padding: 0 52px;
@@ -158,7 +172,7 @@ header {
   right: 0;
   background-color: #FFFFFF;
   width: 100vw;
-  z-index: 1;
+  z-index: 10;
   margin-bottom: -10px;
 }
 header.menu-open {
