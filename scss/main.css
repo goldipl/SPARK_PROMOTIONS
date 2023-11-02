@@ -156,6 +156,7 @@ header {
   background-color: #FFFFFF;
   width: 100vw;
   z-index: 1;
+  margin-bottom: -10px;
 }
 header.menu-open {
   position: static;
@@ -172,6 +173,7 @@ header #nav {
   margin: 0 auto;
   margin-left: 16px;
   margin-right: 16px;
+  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.05);
 }
 header #nav .top-nav {
   position: relative;
@@ -411,11 +413,11 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist::before {
   content: "";
   display: block;
   position: absolute;
-  top: 0;
+  top: -10px;
   left: -50vw;
-  width: 100%;
+  width: 200vw;
   background-color: #FFFFFF;
-  height: 100%;
+  height: calc(100% + 10px);
   z-index: 0;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.office::after {
@@ -1055,10 +1057,22 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
 }
 #popular_categories {
+  position: relative;
   background-color: #F8F8F8;
   padding-top: 54px;
   margin-top: 0;
   margin-bottom: 0;
+}
+#popular_categories::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F8F8F8;
+  left: calc((100vw - 1320px) / 2 * -1);
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
 }
 #popular_categories .title {
   font-size: 28px;
@@ -1080,6 +1094,33 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding-bottom: 37px;
 }
 
+@media (max-width: 1320px) {
+  #popular_categories {
+    background-color: #F8F8F8;
+    padding-top: 54px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #popular_categories .title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0 0 44px 0;
+  }
+  #popular_categories .title span {
+    color: #68B236;
+    text-decoration: underline;
+  }
+  #popular_categories .button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 37px;
+  }
+}
 .the_tabs {
   position: relative;
   display: flex;
@@ -1323,7 +1364,19 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 
 #about_us {
+  position: relative;
   background-color: #F8F8F8;
+}
+#about_us::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #F8F8F8;
+  left: calc((100vw - 1320px) / 2 * -1);
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
 }
 #about_us .about_us_container {
   display: flex;

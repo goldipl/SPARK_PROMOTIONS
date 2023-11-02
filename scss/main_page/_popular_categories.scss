@@ -1,8 +1,20 @@
 #popular_categories {
+    position: relative;
     background-color: $grey_light3;
     padding-top: 54px;
     margin-top: 0;
     margin-bottom: 0;
+    &::before {
+        position: absolute;
+        display: block;
+        content: '';
+        background-color: $grey_light3;
+        left: calc(((100vw - 1320px)/2)*(-1));
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+    }
     .title {
         font-size: 28px;
         font-style: normal;
@@ -21,5 +33,33 @@
         display: flex;
         justify-content: center;
         padding-bottom: 37px;
+    }
+}
+
+@media (max-width: 1320px) {
+    #popular_categories {
+        background-color: $grey_light3;
+        padding-top: 54px;
+        margin-top: 0;
+        margin-bottom: 0;
+        .title {
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            color: $light_black;
+            margin: 0 0 44px 0;
+            span {
+                color: $main_color;
+                text-decoration: underline;
+            }
+        }
+        .button_container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 37px;
+        }
     }
 }

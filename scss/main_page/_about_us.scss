@@ -1,5 +1,17 @@
 #about_us {
+    position: relative;
     background-color: $grey_light3;
+    &::before {
+        position: absolute;
+        display: block;
+        content: '';
+        background-color: $grey_light3;
+        left: calc(((100vw - 1320px)/2)*(-1));
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+    }
     .about_us_container {
         display: flex;
         flex-direction: row;
