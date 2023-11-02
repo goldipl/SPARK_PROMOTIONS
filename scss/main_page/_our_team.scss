@@ -81,6 +81,9 @@
                         line-height: 180%; 
                         color: $light_black;
                         text-decoration: none; 
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
                 .qrcode {
