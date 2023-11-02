@@ -186,6 +186,10 @@
                     input {
                         width: 100%;
                         margin-right: 0;
+                        font-size: 14px;
+                        &::placeholder {
+                            font-size: 14px;
+                        }
                     }
                 }
                 &__right {
@@ -194,6 +198,10 @@
                         width: 100%;
                         margin-left: 0;
                         margin-top: 16px;
+                        font-size: 14px;
+                        &::placeholder {
+                            font-size: 14px;
+                        }
                     }
                 }
             }
@@ -202,6 +210,10 @@
                 textarea {
                     margin-top: 16px;
                     margin-bottom: 0;
+                    font-size: 14px;
+                    &::placeholder {
+                        font-size: 14px;
+                    }
                 }
             }
             &__button {

@@ -1835,6 +1835,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #leave_message .leave_message_container__top__left input {
     width: 100%;
     margin-right: 0;
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__top__left input::-moz-placeholder {
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__top__left input::placeholder {
+    font-size: 14px;
   }
   #leave_message .leave_message_container__top__right {
     width: 100%;
@@ -1843,6 +1850,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     width: 100%;
     margin-left: 0;
     margin-top: 16px;
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__top__right input::-moz-placeholder {
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__top__right input::placeholder {
+    font-size: 14px;
   }
   #leave_message .leave_message_container__bottom {
     width: 100%;
@@ -1850,6 +1864,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #leave_message .leave_message_container__bottom textarea {
     margin-top: 16px;
     margin-bottom: 0;
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__bottom textarea::-moz-placeholder {
+    font-size: 14px;
+  }
+  #leave_message .leave_message_container__bottom textarea::placeholder {
+    font-size: 14px;
   }
   #leave_message .leave_message_container__button {
     flex-direction: column;
