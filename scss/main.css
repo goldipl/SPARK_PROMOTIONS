@@ -1480,6 +1480,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-decoration: underline;
 }
 
+#leave_message {
+  margin-bottom: 100px;
+}
 #leave_message .title {
   font-size: 28px;
   font-style: normal;
@@ -1500,6 +1503,126 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   line-height: 180%;
   color: #333333;
   margin: 0 0 36px 0;
+}
+#leave_message .leave_message_container__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+#leave_message .leave_message_container__top__left {
+  width: 100%;
+}
+#leave_message .leave_message_container__top__left input {
+  width: 98%;
+  height: 47px;
+  box-sizing: border-box;
+  margin-right: 2%;
+  border-radius: 10px;
+  border: 1px solid #8A8A8A;
+  background: #F8F8F8;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  box-sizing: border-box;
+}
+#leave_message .leave_message_container__top__left input::-moz-placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__top__left input::placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__top__left input:hover, #leave_message .leave_message_container__top__left input:focus {
+  border: 0;
+  outline: 1px solid #68B236;
+}
+#leave_message .leave_message_container__top__right {
+  width: 100%;
+}
+#leave_message .leave_message_container__top__right input {
+  width: 98%;
+  height: 47px;
+  box-sizing: border-box;
+  margin-left: 2%;
+  border-radius: 10px;
+  border: 1px solid #8A8A8A;
+  background: #F8F8F8;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  box-sizing: border-box;
+}
+#leave_message .leave_message_container__top__right input::-moz-placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__top__right input::placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__top__right input:hover, #leave_message .leave_message_container__top__right input:focus {
+  border: 0;
+  outline: 1px solid #68B236;
+}
+#leave_message .leave_message_container__bottom {
+  width: 100%;
+}
+#leave_message .leave_message_container__bottom textarea {
+  width: 100%;
+  height: 223px;
+  margin-top: 36px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  border: 1px solid #8A8A8A;
+  background: #F8F8F8;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #333333;
+  box-sizing: border-box;
+}
+#leave_message .leave_message_container__bottom textarea::-moz-placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__bottom textarea::placeholder {
+  color: #333333;
+}
+#leave_message .leave_message_container__bottom textarea:hover, #leave_message .leave_message_container__bottom textarea:focus {
+  border: 0;
+  outline: 1px solid #68B236;
+}
+#leave_message .leave_message_container__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#leave_message .leave_message_container__button .captcha img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#leave_message .leave_message_container__button .button input {
+  width: 112px;
+  height: 44px;
+  border: 1px solid #8A8A8A;
+  background: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#leave_message .leave_message_container__button .button input:hover {
+  background-color: #68B236;
+  border-color: #68B236;
+  color: #FFFFFF;
 }
 
 .aside_boxes {
