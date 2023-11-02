@@ -254,7 +254,8 @@
                 </li>
             </ul>
             <ul>
-                <li class="bottom-nav-links">Nasze Marki <div class="bottom-nav-sublist">
+                <li class="bottom-nav-links">Nasze Marki 
+                    <div class="bottom-nav-sublist brands">
                         <ul>
                             <li class="no-arrow">
                                 <a href="#">Acme</a>
@@ -291,7 +292,8 @@
                 </li>
             </ul>
             <ul>
-                <li class="bottom-nav-links">Zamówienia Specjalne <div class="bottom-nav-sublist">
+                <li class="bottom-nav-links">Zamówienia Specjalne 
+                    <div class="bottom-nav-sublist special-orders">
                         <ul>
                             <li class="no-arrow">
                                 <a href="#">Nasze Realizacje</a>
