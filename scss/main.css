@@ -657,7 +657,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     margin-right: 0;
   }
   header #nav.show-mobile-search-bar {
-    margin-bottom: 56px;
+    padding-bottom: 50px;
   }
   header #nav .top-nav {
     margin-top: 0 !important;
