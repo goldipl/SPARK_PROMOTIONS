@@ -257,16 +257,34 @@
                 <li class="bottom-nav-links">Nasze Marki <div class="bottom-nav-sublist">
                         <ul>
                             <li class="no-arrow">
-                                <a href="#">Air Gifts</a>
+                                <a href="#">Acme</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AdPen</a>
+                                <a href="#">Cerruti 1881</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AdSmycze</a>
+                                <a href="#">Frost</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">AXPOL</a>
+                                <a href="#">JBL</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">Christian Lacroix</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">aladdin</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">pqi</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">Schwarzwolf</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">Trust</a>
+                            </li>
+                            <li class="no-arrow">
+                                <a href="#">acme</a>
                             </li>
                         </ul>
                     </div>
@@ -276,16 +294,13 @@
                 <li class="bottom-nav-links">Zamówienia Specjalne <div class="bottom-nav-sublist">
                         <ul>
                             <li class="no-arrow">
-                                <a href="#">Specjal 1</a>
+                                <a href="#">Nasze Realizacje</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Specjal 2</a>
+                                <a href="#">Jak To Działa</a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Specjal 3</a>
-                            </li>
-                            <li class="no-arrow">
-                                <a href="#">Specjal 4</a>
+                                <a href="#">Wyślij Zapytanie</a>
                             </li>
                         </ul>
                     </div>
