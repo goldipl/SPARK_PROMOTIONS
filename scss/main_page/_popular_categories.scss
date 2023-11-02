@@ -47,7 +47,8 @@
         padding-top: 40px;
         margin-top: -10px;
         &::before {
-            left: -36px;
+            left: -52px;
+            width: calc(100vw + 52px);
         }
         .title {
             font-size: 24px;
@@ -60,6 +61,7 @@
     #popular_categories {
         &::before {
             left: -16px;
+            width: calc(100vw + 16px);
         }
         .title {
             font-size: 20px;
