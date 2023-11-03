@@ -30,5 +30,6 @@
         <script src="./js/swiper.js"></script>
         <script src="./js/clients_swiper.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/tabs_checker.js"></script>
     </body>
 </html>
