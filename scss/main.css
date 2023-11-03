@@ -324,7 +324,7 @@ header #nav .bottom-nav {
   width: 1320px;
   height: 40px;
   margin: 0 auto;
-  box-sizing: border-box;
+  padding: 10px 0 20px 0;
 }
 header #nav .bottom-nav .left-container {
   position: relative;
