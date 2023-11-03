@@ -258,34 +258,74 @@
                     <div class="bottom-nav-sublist brands">
                         <ul>
                             <li class="no-arrow">
-                                <a href="#">Acme</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image1.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Cerruti 1881</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image2.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Frost</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image3.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">JBL</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image4.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Christian Lacroix</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image5.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">aladdin</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image6.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">pqi</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image7.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Schwarzwolf</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image8.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Trust</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image9.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">acme</a>
+                                <a href="#">
+                                    <div class="order-nav-img">
+                                        <img src="./assets/img/header/brands/image10.jpg" alt="Brand" width="132" height="52">
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -296,13 +336,40 @@
                     <div class="bottom-nav-sublist special-orders">
                         <ul>
                             <li class="no-arrow">
-                                <a href="#">Nasze Realizacje</a>
+                                <a href="#">
+                                    <div class="order-nav-box">
+                                        <div class="order-nav-box--img">
+                                            <img src="./assets/img/header/special/image1.jpg" alt="Nasze Realizacje" width="102" height="121">
+                                        </div>
+                                        <div class="order-nav-box--text">
+                                            <p>Nasze Realizacje</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Jak To Działa</a>
+                                <a href="#">
+                                    <div class="order-nav-box">
+                                        <div class="order-nav-box--img">
+                                            <img src="./assets/img/header/special/image2.jpg" alt="Jak To Działa" width="102" height="121">
+                                        </div>
+                                        <div class="order-nav-box--text">
+                                            <p>Jak To Działa</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                             <li class="no-arrow">
-                                <a href="#">Wyślij Zapytanie</a>
+                            <a href="#">
+                                    <div class="order-nav-box">
+                                        <div class="order-nav-box--img">
+                                            <img src="./assets/img/header/special/image3.jpg" alt="Wyślij Zapytanie" width="102" height="121">
+                                        </div>
+                                        <div class="order-nav-box--text">
+                                            <p>Wyślij Zapytanie</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
                         </ul>
                     </div>

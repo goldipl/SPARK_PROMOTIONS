@@ -426,6 +426,85 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist {
   z-index: 0;
   padding-bottom: 21px;
 }
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -200px;
+  width: 1320px;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 162px;
+  height: 81px;
+  padding: 40px;
+  margin-right: 20px;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a {
+  border-radius: 10px;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a .order-nav-img {
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a .order-nav-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a:hover {
+  border: 1px solid #A4A4A4;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -340px;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 267px;
+  height: 280px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li a .order-nav-box--img {
+  text-align: center;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li a .order-nav-box--img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li a .order-nav-box--text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #68B236;
+  border-bottom: 4px solid #68B236;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.special-orders ul li:hover a {
+  color: #333333;
+}
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist::before {
   content: "";
   display: block;
@@ -623,6 +702,46 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
   header #nav .bottom-nav {
     width: 90vw;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+    justify-content: center !important;
+    margin-left: 30px !important;
+    width: 100% !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul li {
+    width: 122px !important;
+    height: 61px !important;
+    padding: 24px !important;
+    border-bottom: 0 !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul {
+    justify-content: center !important;
+    margin-left: 30px !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul li {
+    width: 167px !important;
+    height: 180px !important;
+  }
+}
+@media (max-width: 760px) {
+  header #nav .bottom-nav {
+    width: 90vw;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+    margin-left: 16px !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul li {
+    width: 25vw !important;
+    height: auto !important;
+    padding: 24px !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul {
+    flex-wrap: wrap !important;
+    margin-left: 15px !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul li {
+    width: 30vw !important;
+    height: auto !important;
   }
 }
 @media (max-width: 1280px) {
