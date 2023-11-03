@@ -1404,8 +1404,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     margin-bottom: 24px;
   }
   .the_tabs label {
-    padding: 0px 0 8px 0;
     height: 52px;
+    box-sizing: border-box;
   }
   .the_tabs label img {
     width: 28px;
