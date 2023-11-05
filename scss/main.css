@@ -1953,6 +1953,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #FFFFFF;
   text-decoration: none;
 }
+#leave_message .leave_message_container__button .button:hover img {
+  content: url("./../assets/icons/arrow-right-white.svg");
+}
 
 @media (max-width: 1320px) {
   #leave_message {
@@ -2745,12 +2748,17 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   z-index: 0;
 }
 .button01:hover {
-  border: 1px solid #68B236;
+  border: 1px solid #FFFFFF;
   background-color: #68B236;
 }
 .button01:hover a {
   text-decoration: none;
   color: #FFFFFF;
+}
+.button01:hover a::after {
+  background: url("./../assets/icons/arrow-right-white.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .category_filters .accordion_box_title {

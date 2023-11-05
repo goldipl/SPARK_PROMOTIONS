@@ -152,6 +152,9 @@
                         color: $white;
                         text-decoration: none;
                     }
+                    img {
+                        content: url("./../assets/icons/arrow-right-white.svg");
+                    }
                 }
             }
         }
