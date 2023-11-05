@@ -560,7 +560,7 @@
     </div>
     <div class="button_container">
         <div class="button01">
-            <a href="">Sprawdź wszystkie</a>
+            <a href="./category.php">Sprawdź wszystkie</a>
         </div>
     </div>
 </section>
