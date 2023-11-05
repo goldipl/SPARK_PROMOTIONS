@@ -78,6 +78,71 @@
       color: $white;
       background-color: $main_color;
     }
+    &.label_tab_1:hover {
+      img {
+        content: url('./../assets/icons/tabs/bestseller-white.svg');
+      }
+    }
+    &.label_tab_2:hover {
+      img {
+        content: url('./../assets/icons/tabs/office-items-white.svg');
+      }
+    }
+    &.label_tab_3:hover {
+      img {
+        content: url('./../assets/icons/tabs/electronics_clocks-white.svg');
+      }
+    }
+    &.label_tab_4:hover {
+      img {
+        content: url('./../assets/icons/tabs/clothes-white.svg');
+      }
+    }
+    &.label_tab_5:hover {
+      img {
+        content: url('./../assets/icons/tabs/lanyards-white.svg');
+      }
+    }
+  }
+
+  #tab_1:checked + .tab-text {
+    .label_tab_1 {
+      img {
+        content: url('./../assets/icons/tabs/bestseller-white.svg');
+      }
+    }
+  }
+
+  #tab_2:checked + .tab-text {
+    .label_tab_2 {
+      img {
+        content: url('./../assets/icons/tabs/office-items-white.svg');
+      }
+    }
+  }
+
+  #tab_3:checked + .tab-text {
+    .label_tab_3 {
+      img {
+        content: url('./../assets/icons/tabs/electronics_clocks-white.svg');
+      }
+    }
+  }
+
+  #tab_4:checked + .tab-text {
+    .label_tab_4 {
+      img {
+        content: url('./../assets/icons/tabs/clothes-white.svg');
+      }
+    }
+  }
+
+  #tab_5:checked + .tab-text {
+    .label_tab_5 {
+      img {
+        content: url('./../assets/icons/tabs/lanyards-white.svg');
+      }
+    }
   }
   
   .the_tabs .tab {

@@ -11,7 +11,7 @@
         </div>
         <input type="radio" id="tab_1" name="the_tabs" checked="checked">
         <div class="tab-text first">
-            <label for="tab_1">
+            <label class="label_tab_1" for="tab_1">
                 <img src="./assets/icons/tabs/bestseller.svg" alt="icon" width="40" height="40">
                 <p>Bestsellery</p>
             </label>
@@ -119,7 +119,7 @@
         </div>
         <input type="radio" id="tab_2" name="the_tabs">
         <div class="tab-text">
-            <label for="tab_2">
+            <label class="label_tab_2" for="tab_2">
                 <img src="./assets/icons/tabs/office-items.svg" alt="icon" width="40" height="40">
                 <p>Artykuły<br> biurowe</p>
             </label>
@@ -215,7 +215,7 @@
         </div>
         <input type="radio" id="tab_3" name="the_tabs">
         <div class="tab-text">
-            <label for="tab_3">
+            <label class="label_tab_3" for="tab_3">
                 <img src="./assets/icons/tabs/electronics_clocks.svg" alt="icon" width="40" height="40">
                 <p>Elektronika<br> i zegary</p>
             </label>
@@ -332,7 +332,7 @@
         </div>
         <input type="radio" id="tab_4" name="the_tabs">
         <div class="tab-text">
-            <label for="tab_4">
+            <label class="label_tab_4" for="tab_4">
                 <img src="./assets/icons/tabs/clothes.svg" alt="icon" width="40" height="40">
                 <p>Odzież i<br> tekstylia</p>
             </label>
@@ -463,7 +463,7 @@
         </div>
         <input type="radio" id="tab_5" name="the_tabs">
         <div class="tab-text last">
-            <label for="tab_5">
+            <label class="label_tab_5" for="tab_5">
                 <img src="./assets/icons/tabs/lanyards.svg" alt="icon" width="40" height="40">
                 <p>Smycze i<br> opaski na rękę</p>
             </label>
