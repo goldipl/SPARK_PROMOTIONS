@@ -735,6 +735,12 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     height: auto !important;
     padding: 24px !important;
   }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul li a {
+    height: auto !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul li a:hover {
+    border: 0;
+  }
   header #nav .bottom-nav .bottom-nav-sublist.special-orders ul {
     flex-wrap: wrap !important;
     margin-left: 15px !important;
@@ -742,6 +748,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   header #nav .bottom-nav .bottom-nav-sublist.special-orders ul li {
     width: 30vw !important;
     height: auto !important;
+    margin-bottom: 15px !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul li a {
+    height: auto !important;
+  }
+  header #nav .bottom-nav .bottom-nav-sublist.special-orders ul li:hover {
+    border: 0;
   }
 }
 @media (max-width: 1280px) {

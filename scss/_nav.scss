@@ -596,6 +596,12 @@ header {
                                 width: 25vw !important;
                                 height: auto !important;
                                 padding: 24px !important;
+                                a {
+                                    height: auto !important; 
+                                    &:hover {
+                                        border: 0;
+                                    }
+                                }
                             }
                         }
                     }
@@ -606,6 +612,13 @@ header {
                             li {
                                 width: 30vw !important;
                                 height: auto !important;
+                                margin-bottom: 15px !important;
+                                a {
+                                    height: auto !important; 
+                                }
+                                &:hover {
+                                    border: 0;
+                                }
                             }
                         }
                     }
