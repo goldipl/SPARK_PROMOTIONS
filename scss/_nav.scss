@@ -560,13 +560,18 @@ header {
                 .bottom-nav-sublist {
                     &.brands {
                         ul {
-                            margin-left: -20vw !important;
+                            margin-left: -16vw !important;
                             width: 100% !important;  
+                            li {
+                                width: 18vw !important;
+                                height: auto !important;
+                                padding: 24px !important;
+                            }
                         }
                     }
                     &.special-orders {
                         ul {
-                            margin-left: -20vw !important;              
+                            margin-left: -22vw !important;              
                         }
                     }
                 }
@@ -575,7 +580,7 @@ header {
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1320px) {
     header {
         #nav {
             .top-nav {
