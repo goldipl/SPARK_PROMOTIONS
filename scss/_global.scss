@@ -91,6 +91,13 @@ h1.mainpage-title {
     }
 }
 
+@media (max-width: 1600px) {
+    #main-wrapper {
+        width: 80vw;
+        padding: 0 10vw;
+    }
+}
+
 @media (max-width: 1320px) {
     body #main-wrapper {
         &::before {

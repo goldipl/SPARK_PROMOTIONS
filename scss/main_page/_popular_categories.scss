@@ -39,13 +39,31 @@
     .products_blocks_wrapper {
         flex-wrap: nowrap;
         justify-content: flex-start;
+        .products_blocks_wrapper__slot {
+            min-width: unset;
+        }
     }
+}
+
+@media (max-width: 1600px) {
+    #popular_categories {
+        margin-top: -10px;
+        &::before {
+            left: -10vw;
+            width: calc(100vw + 20vw);
+        }
+    }  
 }
 
 @media (max-width: 1320px) {
     #popular_categories {
         padding-top: 40px;
         margin-top: -10px;
+        .products_blocks_wrapper {
+            .products_blocks_wrapper__slot {
+                min-width: 249px;
+            }
+        }
         &::before {
             left: -52px;
             width: calc(100vw + 52px);

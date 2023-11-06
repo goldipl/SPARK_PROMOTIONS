@@ -37,6 +37,25 @@
     }
 } 
 
+@media (max-width: 1600px) {
+    #swiper {
+        left: 0;
+        margin-left: -20vw;
+        margin-right: -20vw;
+        width: calc(100% + 40vw);
+        .swiper {
+            height: auto;
+            .swiper-slide {
+                a {
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1320px) {
     #swiper {
         left: 0;

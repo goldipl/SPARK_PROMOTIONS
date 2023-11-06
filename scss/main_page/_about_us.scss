@@ -65,6 +65,15 @@
     }
 }
 
+@media (max-width: 1600px) {
+    #about_us {
+        &::before {
+            left: -10vw;
+            width: calc(100vw + 20vw);
+        }
+    }  
+}
+
 @media (max-width: 1320px) {
     #about_us {
         &::before {

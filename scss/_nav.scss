@@ -20,8 +20,8 @@ header {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        margin-left: 16px;
-        margin-right: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
         box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.05);
         .top-nav {
             position: relative;
@@ -132,6 +132,7 @@ header {
                             font-size: 16px;
                             line-height: 18px;
                             color: $light_black;
+                            white-space: pre;
                             span {
                                 color: $main_color;
                                 font-weight: 700;;
@@ -545,14 +546,17 @@ header {
     }
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1600px) {
     header {
         #nav {
             .top-nav {
-                width: 90vw;
+                width: 80vw;
+                .logo {
+                    margin-right: 40px;
+                }
             }
             .bottom-nav {
-                width: 90vw;
+                width: 80vw;
                 .bottom-nav-sublist {
                     &.brands {
                         ul {
