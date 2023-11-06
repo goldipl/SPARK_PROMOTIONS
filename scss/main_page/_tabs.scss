@@ -202,13 +202,17 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 960px) {
   .the_tabs {
     justify-content: center;
   }
   .tab-text {
     height: 52px;
     margin-bottom: 24px;
+    width: 90%;
+    min-width: 90%;
+    margin-right: 0 !important;
+    margin-bottom: 16px !important;
   }
   .the_tabs label {
     height: 52px;
@@ -226,10 +230,6 @@
 
 @media (max-width: 590px) {
   .tab-text {
-    width: 90%;
-    min-width: 90%;
-    margin-right: 0 !important;
-    margin-bottom: 16px !important;
     padding-bottom: 16px;
   }
 }
