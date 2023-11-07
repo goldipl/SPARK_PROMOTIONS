@@ -661,6 +661,18 @@ header {
             display: block !important;
         }
     }
+    .bottom-nav {
+        width: 90vw;
+        .bottom-nav-sublist {
+            &.brands {
+                ul {
+                    li {
+                        border-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
     header #nav .bottom-nav {
         display: none;
     }

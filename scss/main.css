@@ -801,6 +801,12 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .top-nav .hamburger {
     display: block !important;
   }
+  .bottom-nav {
+    width: 90vw;
+  }
+  .bottom-nav .bottom-nav-sublist.brands ul li {
+    border-bottom: 0 !important;
+  }
   header #nav .bottom-nav {
     display: none;
   }
