@@ -1906,9 +1906,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     margin-bottom: 32px;
   }
   #our_team .our_team_container__slot {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
   }
 }
