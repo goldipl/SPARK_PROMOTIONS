@@ -1,7 +1,10 @@
 .aside_boxes {
-    margin-top: 29px;
-    margin-bottom: 47px;
+    margin-top: 0;
+    margin-bottom: 16px;
     &_slot {
-        margin-bottom: 19px;
+        margin-bottom: -8px;
+        img {
+            object-fit: contain;
+        }
     }
 }
