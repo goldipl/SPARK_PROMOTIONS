@@ -186,19 +186,36 @@ header {
                 ul {
                     list-style: none;
                     padding: 0;
-                    margin-right: 56px;
+                    padding-right: 56px;
                     li.bottom-nav-links:hover {
                         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                         cursor: pointer;
                     }
                     li {
-                        position: relative;
                         list-style: none;
                         color: $light_black;
                         text-shadow: none;
                         font-size: 18px;
                         line-height: 22px;
                         z-index: 99;
+                        &.first-line {
+                            position: relative;
+                            &::after {
+                                position: absolute;
+                                content: "";
+                                background: url("./../assets/icons/chevron-down.svg") no-repeat;
+                                background-position: center;
+                                background-size: contain;
+                                width: 15px;
+                                height: 7.5px;
+                                top: 34px;
+                                right: -24px;
+                            }
+                            &:hover::after {
+                                transition: 0.6s;
+                                transform: rotate(180deg)
+                            }
+                        }
                         &.no-arrow {
                             &::after {
                                 display: none;
@@ -222,22 +239,38 @@ header {
                                     background-size: cover;
                                     background-repeat: no-repeat;
                                 }
+                                .bottom-nav-sublist {
+                                    &.office {
+                                        ul {
+                                            li {
+                                                a {
+                                                    &::after {
+                                                        position: absolute;
+                                                        content: "";
+                                                        background: url("./../assets/icons/chevron-down.svg") no-repeat;
+                                                        background-position: center;
+                                                        background-size: contain;
+                                                        width: 15px;
+                                                        height: 7.5px;
+                                                        top: 14px;
+                                                        right: -24px;
+                                                    }
+                                                }
+                                                
+                                                &:hover {
+                                                    a {
+                                                        &::after {
+                                                            background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
+                                                            background-position: center;
+                                                            background-size: contain;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
-                        }
-                        &::after {
-                            position: absolute;
-                            content: "";
-                            background: url("./../assets/icons/chevron-down.svg") no-repeat;
-                            background-position: center;
-                            background-size: contain;
-                            width: 15px;
-                            height: 7.5px;
-                            top: 34px;
-                            right: -24px;
-                        }
-                        &:hover::after {
-                            transition: 0.6s;
-                            transform: rotate(180deg)
                         }
                         &:hover .bottom-nav-sublist {
                             display: flex;
@@ -378,22 +411,44 @@ header {
                                 background: $white;
                                 border-top: 0;
                                 li {
-                                    position: relative;
                                     display: flex;
                                     justify-content: flex-start;
                                     align-items: center;
                                     background: $white;
                                     min-height: 37px;
-                                    padding-right: 40px;
                                     padding-left: 16px;
                                     text-transform: none;
+                                    width: 110%;
+                                    padding-right: 10%;
                                     a {
+                                        position: relative;
                                         font-size: 14px;
-                                        line-height: 21px;
+                                        line-height: 34px;
                                         font-weight: 400;
                                         text-decoration: none;
                                         color: $light_black;
                                         text-align: left;
+                                        width: 100%;
+                                        &::after {
+                                            position: absolute;
+                                            top: 10px;
+                                            right: 0;
+                                            transform: rotate(-90deg);
+                                            background: url("./../assets/icons/chevron-down.svg") no-repeat;
+                                            background-position: center;
+                                            background-size: contain;
+                                            width: 12px;
+                                            height: 12px;
+                                            margin-right: 16px;
+                                        }
+                                        &:hover::after {
+                                            background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
+                                            background-position: center;
+                                            background-size: contain;
+                                        }
+                                    }
+                                    &:hover .bottom-nav-sub-sublist {
+                                        display: flex;
                                     }
                                     &:hover {
                                         background-color: $main_color;
@@ -404,26 +459,6 @@ header {
                                     &:last-child {
                                         border-color: none;
                                         border-bottom: 0;
-                                    }
-                                    &::after {
-                                        position: absolute;
-                                        top: 10px;
-                                        right: 0;
-                                        transform: rotate(-90deg);
-                                        background: url("./../assets/icons/chevron-down.svg") no-repeat;
-                                        background-position: center;
-                                        background-size: contain;
-                                        width: 12px;
-                                        height: 12px;
-                                        margin-right: 16px;
-                                    }
-                                    &:hover .bottom-nav-sub-sublist {
-                                        display: flex;
-                                    }
-                                    &:hover::after {
-                                        background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
-                                        background-position: center;
-                                        background-size: contain;
                                     }
                                 }
                                 .bottom-nav-sub-sublist {
@@ -444,6 +479,9 @@ header {
                                         padding-left: 54px;
                                         a {
                                             text-decoration: none;
+                                            &::after {
+                                                display: none;
+                                            }
                                             li {
                                                 display: flex;
                                                 justify-content: flex-start;
@@ -934,5 +972,8 @@ header {
     header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active > a {
         height: 32px;
         line-height: 32px;
+        padding-left: 28px;
+        background-color: $main_color;
+        color: $white;
     }
 }

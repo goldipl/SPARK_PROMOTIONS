@@ -46,7 +46,7 @@
     <div class="bottom-nav">
         <div class="left-container">
             <ul>
-                <li class="bottom-nav-links category">Kategorie <div class="bottom-nav-sublist office">
+                <li class="bottom-nav-links category first-line">Kategorie <div class="bottom-nav-sublist office">
                         <ul>
                             <li>
                                 <a href="#">Artykuły biurowe</a>
@@ -254,7 +254,7 @@
                 </li>
             </ul>
             <ul>
-                <li class="bottom-nav-links">Nasze Marki 
+                <li class="bottom-nav-links first-line">Nasze Marki 
                     <div class="bottom-nav-sublist brands">
                         <ul>
                             <li class="no-arrow">
@@ -332,7 +332,7 @@
                 </li>
             </ul>
             <ul>
-                <li class="bottom-nav-links">Zamówienia Specjalne 
+                <li class="bottom-nav-links first-line">Zamówienia Specjalne 
                     <div class="bottom-nav-sublist special-orders">
                         <ul>
                             <li class="no-arrow">

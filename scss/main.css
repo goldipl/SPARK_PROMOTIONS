@@ -370,20 +370,37 @@ header #nav .bottom-nav .left-container ul.no-menu-links li:hover a {
 header #nav .bottom-nav .left-container ul {
   list-style: none;
   padding: 0;
-  margin-right: 56px;
+  padding-right: 56px;
 }
 header #nav .bottom-nav .left-container ul li.bottom-nav-links:hover {
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   cursor: pointer;
 }
 header #nav .bottom-nav .left-container ul li {
-  position: relative;
   list-style: none;
   color: #333333;
   text-shadow: none;
   font-size: 18px;
   line-height: 22px;
   z-index: 99;
+}
+header #nav .bottom-nav .left-container ul li.first-line {
+  position: relative;
+}
+header #nav .bottom-nav .left-container ul li.first-line::after {
+  position: absolute;
+  content: "";
+  background: url("./../assets/icons/chevron-down.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 15px;
+  height: 7.5px;
+  top: 34px;
+  right: -24px;
+}
+header #nav .bottom-nav .left-container ul li.first-line:hover::after {
+  transition: 0.6s;
+  transform: rotate(180deg);
 }
 header #nav .bottom-nav .left-container ul li.no-arrow::after {
   display: none;
@@ -408,7 +425,7 @@ header #nav .bottom-nav .left-container ul li.bottom-nav-links.category::before 
   background-size: cover;
   background-repeat: no-repeat;
 }
-header #nav .bottom-nav .left-container ul li::after {
+header #nav .bottom-nav .left-container ul li.bottom-nav-links.category .bottom-nav-sublist.office ul li a::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/chevron-down.svg") no-repeat;
@@ -416,12 +433,13 @@ header #nav .bottom-nav .left-container ul li::after {
   background-size: contain;
   width: 15px;
   height: 7.5px;
-  top: 34px;
+  top: 14px;
   right: -24px;
 }
-header #nav .bottom-nav .left-container ul li:hover::after {
-  transition: 0.6s;
-  transform: rotate(180deg);
+header #nav .bottom-nav .left-container ul li.bottom-nav-links.category .bottom-nav-sublist.office ul li:hover a::after {
+  background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 header #nav .bottom-nav .left-container ul li:hover .bottom-nav-sublist {
   display: flex;
@@ -557,35 +575,27 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul {
   border-top: 0;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
-  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background: #FFFFFF;
   min-height: 37px;
-  padding-right: 40px;
   padding-left: 16px;
   text-transform: none;
+  width: 110%;
+  padding-right: 10%;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a {
+  position: relative;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 34px;
   font-weight: 400;
   text-decoration: none;
   color: #333333;
   text-align: left;
+  width: 100%;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
-  background-color: #68B236;
-}
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover a {
-  color: #FFFFFF;
-}
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:last-child {
-  border-color: none;
-  border-bottom: 0;
-}
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a::after {
   position: absolute;
   top: 10px;
   right: 0;
@@ -597,13 +607,23 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li::after {
   height: 12px;
   margin-right: 16px;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
-  display: flex;
-}
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover::after {
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a:hover::after {
   background: url("./../assets/icons/chevron-down-white.svg") no-repeat;
   background-position: center;
   background-size: contain;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
+  display: flex;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover {
+  background-color: #68B236;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:hover a {
+  color: #FFFFFF;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li:last-child {
+  border-color: none;
+  border-bottom: 0;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
   position: absolute;
@@ -626,6 +646,9 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a {
   text-decoration: none;
+}
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a::after {
+  display: none;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
   display: flex;
@@ -1060,6 +1083,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active > a {
     height: 32px;
     line-height: 32px;
+    padding-left: 28px;
+    background-color: #68B236;
+    color: #FFFFFF;
   }
 }
 .breadcrumbs {
