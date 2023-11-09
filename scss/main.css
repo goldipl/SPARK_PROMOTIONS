@@ -2326,7 +2326,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
-  max-height: 2040px;
   margin-bottom: 45px;
 }
 .products_blocks_wrapper__slot {
