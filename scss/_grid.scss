@@ -4,13 +4,19 @@
     aside {
         display: flex;
         flex-direction: column;
-        width: 314px;
-        margin-right: 20px;
+        width: 232px;
+        margin-right: 35px;
     }
     .col_10__container {
         display: flex;
         flex-direction: column;
         width: 1240px;
+        .products_blocks_wrapper {
+            &__slot {
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 
