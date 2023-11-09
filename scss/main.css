@@ -2227,37 +2227,22 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .aside_menu .accordion_box_title.active img {
   transform: rotate(0);
 }
-.aside_menu .accordion {
+.aside_menu .aside_menu_content {
   display: block;
   position: relative;
   z-index: 0;
-  flex: 1;
-  margin-bottom: 32px;
 }
-.aside_menu .accordion.hide {
+.aside_menu .aside_menu_content.hide {
   display: none;
 }
-.aside_menu .accordion-tabs {
-  overflow: hidden;
+.aside_menu .aside_menu_content--title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: uppercase;
+  margin: 14px 0 16px 0;
 }
-.aside_menu .accordion-tabs .accordion-tab {
-  width: 99%;
-  color: #ffffff;
-  overflow: hidden;
-}
-.aside_menu .accordion-tabs .accordion-tab .accordion-input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-.aside_menu .accordion-tabs .accordion-tab .accordion-input:checked + .accordion-tab-label::after {
-  content: "-";
-}
-.aside_menu .accordion-tabs .accordion-tab .accordion-input:checked ~ .accordion-tab-content {
-  max-height: 100vh;
-  padding: 8px 0;
-}
-.aside_menu .accordion-tabs .accordion-tab-label {
+.aside_menu .aside_menu_content--slot {
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
@@ -2270,55 +2255,12 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  margin: 0;
 }
-.aside_menu .accordion-tabs .accordion-tab-label:hover {
-  color: #68B236;
-  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-}
-.aside_menu .accordion-tabs .accordion-tab-label::after {
-  content: "+";
-  font-size: 24px;
-  width: 1em;
-  height: 1em;
-  text-align: center;
-  transition: all 0.35s;
-  color: #8A8A8A;
-  margin-top: -6px;
-}
-.aside_menu .accordion-tabs .accordion-tab-content {
-  max-height: 0;
-  padding: 0 1em;
-  font-size: 14px;
-  font-weight: 400;
-  color: #333333;
-  line-height: normal;
-  transition: all 0.35s;
-  margin-left: 24px;
-  width: 100%;
-}
-.aside_menu .accordion-tabs .accordion-tab-content--link {
-  display: inline-flex;
-  font-size: 14px;
-  font-weight: 400;
-  color: #333333;
-  width: 100%;
-  margin-bottom: 4px;
-}
-.aside_menu .accordion-tabs .accordion-tab-content--link:hover {
+.aside_menu .aside_menu_content--slot:hover {
   text-decoration: none;
   color: #68B236;
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-}
-.aside_menu .accordion-tabs .accordion-tab-close {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1em;
-  font-size: 0.75em;
-  background: #ffffff;
-  cursor: pointer;
-}
-.aside_menu .accordion-tabs .accordion-tab-close:hover {
-  background: #e6e6e6;
 }
 
 @media (max-width: 760px) {
@@ -2930,6 +2872,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  margin-top: 25px;
 }
 .category_filters .accordion_box_title .title {
   font-size: 18px;
@@ -2941,6 +2884,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  margin-top: 0;
 }
 .category_filters .accordion_box_title--img {
   -webkit-user-select: none;

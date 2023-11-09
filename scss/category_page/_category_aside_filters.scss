@@ -4,6 +4,7 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        margin-top: 25px;
         .title {
             font-size: 18px;
             font-weight: 700;
@@ -12,6 +13,7 @@
             text-transform: uppercase;
             margin-bottom: 0;
             user-select: none;
+            margin-top: 0;
         }
         &--img {
             user-select: none;
