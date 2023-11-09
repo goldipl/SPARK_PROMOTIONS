@@ -157,13 +157,17 @@ h1.mainpage-title::before {
 .row__container aside {
   display: flex;
   flex-direction: column;
-  width: 314px;
-  margin-right: 20px;
+  width: 232px;
+  margin-right: 35px;
 }
 .row__container .col_10__container {
   display: flex;
   flex-direction: column;
   width: 1240px;
+}
+.row__container .col_10__container .products_blocks_wrapper__slot {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 760px) {
@@ -2376,8 +2380,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: flex-start;
   align-items: center;
   overflow: hidden;
-  max-height: 1712px;
-  margin-bottom: 41px;
+  max-height: 2040px;
+  margin-bottom: 40px;
 }
 .products_blocks_wrapper__slot {
   position: relative;
