@@ -35,7 +35,7 @@
     input[type="range"]::-webkit-slider-thumb {
       pointer-events: all;
       position: relative;
-      z-index: 10;
+      z-index: 2;
       outline: 0;    
       -webkit-appearance: none;
       width: $input-height;
@@ -64,7 +64,7 @@
     input[type="range"]::-ms-thumb {
       pointer-events: all;
       position: relative;
-      z-index: 10;
+      z-index: 2;
       -ms-appearance: none;
       width: $input-height;
       height: $input-height;

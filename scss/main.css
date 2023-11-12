@@ -3120,7 +3120,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .category_filters-slot .price_filters_box .range-slider input[type=range]::-webkit-slider-thumb {
   pointer-events: all;
   position: relative;
-  z-index: 10;
+  z-index: 2;
   outline: 0;
   -webkit-appearance: none;
   width: 20px;
@@ -3147,7 +3147,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .category_filters-slot .price_filters_box .range-slider input[type=range]::-ms-thumb {
   pointer-events: all;
   position: relative;
-  z-index: 10;
+  z-index: 2;
   -ms-appearance: none;
   width: 20px;
   height: 20px;
