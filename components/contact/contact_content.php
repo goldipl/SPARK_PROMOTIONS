@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="contact_box__slot_bottom">
-                <div class="contact_box__slot_top--text">
+                <div class="contact_box__slot_bottom--text">
                     <p class="desc location">ul. Św. Jerzego 1A</p>
                     <p class="desc">50-518 Wrocław</p>
                     <p class="desc telephone">tel. <a href="tel:+48 71 326 74 10">+48 71 326 74 10</a></p>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="contact_box__slot_bottom">
-                <div class="contact_box__slot_top--text">
+                <div class="contact_box__slot_bottom--text">
                     <p class="desc">Spark Promotions Sp. z o.o. Sp. k.</p>
                     <p class="desc">ul. Św. Jerzego 1A</p>
                     <p class="desc">50-518 Wrocław</p>
