@@ -2211,7 +2211,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  height: 42px;
+  height: 36px;
 }
 .aside_menu .accordion_box_title--title {
   font-size: 18px;
@@ -2248,11 +2248,24 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   display: none;
 }
 .aside_menu .aside_menu_content--title {
+  display: block;
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
   text-transform: uppercase;
-  margin: 14px 0 16px 0;
+  color: #333333;
+  line-height: normal;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 16px 0 16px 0;
+}
+.aside_menu .aside_menu_content--title:hover {
+  text-decoration: none;
+  color: #68B236;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
 .aside_menu .aside_menu_content--slot {
   display: flex;
@@ -2883,7 +2896,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 15px;
+  height: 36px;
 }
 .category_filters .accordion_box_title .title {
   font-size: 18px;
@@ -2928,10 +2942,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   height: auto;
   overflow: initial;
 }
-.category_filters-slot--list.color {
-  height: 96px;
-  overflow: hidden;
-}
 .category_filters-slot--list.color.active {
   height: auto;
   overflow: initial;
@@ -2940,6 +2950,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   list-style: none;
   display: inline-flex;
   width: 100%;
+  padding: 4px 0;
 }
 .category_filters-slot--list li label {
   display: inline-flex;

@@ -28,14 +28,6 @@
                 <label for="tag05">Lecce Pen <p>(<span>4</span>)</p></label>
             </li>
         </ul>
-        <div class="filters-btns">
-            <div class="expand-filters-btn producer">
-                <p>Rozwiń</p>
-            </div>
-            <div class="set-changes-filters-btn">
-                <p>Zastosuj</p>
-            </div>
-        </div>
     </div>
 
     <div class="accordion_box_title">
@@ -67,11 +59,6 @@
                 <label for="color05"><div class="color_square green"></div>Zielony <p>(<span>4</span>)</p></label>
             </li>
         </ul>
-        <div class="filters-btns">
-            <div class="expand-filters-btn color">
-                <p>Rozwiń</p>
-            </div>
-        </div>
     </div>
 
     <div class="accordion_box_title">

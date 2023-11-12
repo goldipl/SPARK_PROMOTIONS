@@ -4,7 +4,7 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
-        height: 42px;
+        height: 36px;
         &--title {
             font-size: 18px;
             font-weight: 700;
@@ -38,11 +38,22 @@
             display: none;
         }
         &--title {
+            display: block;
             font-size: 14px;
             font-weight: 400;
             line-height: 160%;
             text-transform: uppercase;
-            margin: 14px 0 16px 0;
+            color: $light_black;
+            line-height: normal;
+            background: #ffffff;
+            cursor: pointer;
+            user-select: none;
+            margin: 16px 0 16px 0;
+            &:hover {
+                text-decoration: none;
+                color: $main_color;
+                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+            }
         }
         &--slot {
             display: flex;
