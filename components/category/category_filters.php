@@ -77,12 +77,12 @@
     </div>
     <div class="category_filters-slot">
         <div class="price_filters_box">
+            <div class="price_filter_range">
+                <input type="range" name="points" min="1" max="20" value="1">
+            </div>
             <div class="price_filter_container">
                 <div class="price_filter_container--from">
                     <input type="number" name="" id="" placeholder="od" min="0">
-                </div>
-                <div class="price_filter_container--separator">
-                    <p>-</p>
                 </div>
                 <div class="price_filter_container--to">
                     <input type="number" name="" id="" placeholder="do" min="0">
