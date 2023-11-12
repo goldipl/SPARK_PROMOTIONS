@@ -73,6 +73,7 @@
                                 padding: 20px;
                                 margin: 0 0 16px 0;
                                 min-height: 115px;
+                                max-width: 100%;
                                 &::placeholder {
                                     color: $light_black;
                                 }

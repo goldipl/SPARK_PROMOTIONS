@@ -3655,6 +3655,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding: 20px;
   margin: 0 0 16px 0;
   min-height: 115px;
+  max-width: 100%;
 }
 .send_request_page .send_request_box .send_request_form_top__left--textarea textarea::-moz-placeholder {
   color: #333333;
