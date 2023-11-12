@@ -48,7 +48,7 @@
     </form>
     <h2 class="second-title">Dane teleadresowe</h1>
     <div class="contact_box">
-        <div class="contact_box__slot">
+        <div class="contact_box__slot left">
             <div class="contact_box__slot_top">
                 <div class="contact_box__slot_top--title">
                     <h3>Centrala we Wrocławiu:</h3>
@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact_box__slot">
+        <div class="contact_box__slot right">
             <div class="contact_box__slot_top">
                 <div class="contact_box__slot_top--title">
                     <h3>Dane fakturowe:</h3>
