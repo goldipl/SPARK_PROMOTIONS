@@ -21,7 +21,7 @@
                     <li class="breadcrumb-item">
                         <a href="#">Alladin</a>
                     </li>
-                    <li class="breadcrumb-item">
+                    <li class="breadcrumb-item actual">
                         <a href="#">Akcesoria biurowe</a>
                     </li>
                 </ul>

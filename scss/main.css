@@ -1108,6 +1108,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   list-style: none;
   margin-right: 40px;
 }
+.breadcrumbs ul li.breadcrumb-item.actual a {
+  color: #8A8A8A;
+}
 .breadcrumbs ul li.breadcrumb-item:nth-child(1)::after {
   display: none;
 }
@@ -1117,8 +1120,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   top: 8px;
   left: -24px;
   background-size: contain;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   content: "";
   background-image: url("./../assets/icons/breadcrumb_icon.svg");
   display: inline-block;
@@ -1129,7 +1132,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #8A8A8A;
+  color: #333333;
   text-decoration: none;
 }
 .breadcrumbs ul li.breadcrumb-item a:hover {
