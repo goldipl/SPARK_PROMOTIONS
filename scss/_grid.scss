@@ -13,8 +13,11 @@
         width: 1240px;
         .products_blocks_wrapper {
             &__slot {
-                margin-right: 14px;
-                margin-bottom: 14px;
+                margin-right: 19px;
+                margin-bottom: 19px;
+                &:nth-child(4n) {
+                    margin-right: 0;
+                }
             }
         }
     }

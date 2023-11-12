@@ -166,8 +166,11 @@ h1.mainpage-title::before {
   width: 1240px;
 }
 .row__container .col_10__container .products_blocks_wrapper__slot {
-  margin-right: 14px;
-  margin-bottom: 14px;
+  margin-right: 19px;
+  margin-bottom: 19px;
+}
+.row__container .col_10__container .products_blocks_wrapper__slot:nth-child(4n) {
+  margin-right: 0;
 }
 
 @media (max-width: 760px) {
