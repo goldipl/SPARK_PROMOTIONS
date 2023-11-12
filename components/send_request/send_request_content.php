@@ -20,10 +20,10 @@
                 </div>
                 <div class="send_request_form_top__right">
                     <div class="send_request_form_top__right--input">
-                        <input type="text" name="telephone" placeholder="Nazwisko *" required>
+                        <input type="text" name="surname" placeholder="Nazwisko *" required>
                     </div>
                     <div class="send_request_form_top__right--input">
-                        <input type="text" name="telephone" placeholder="Adres email *" required>
+                        <input type="text" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
                     <div class="add-files">
                         <p class="add-files-title">Dodaj pliki</p>
