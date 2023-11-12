@@ -30,4 +30,8 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ## Screenshots
 * Desktop & mobile version :desktop_computer: :iphone: 
 
-![screenshot](./screenshots/spark_promotions_01.jpg)
+![screenshot](./screenshots/spark_promotions_01.jpg)   
+
+![screenshot](./screenshots/spark_promotions_02.jpg)   
+
+![screenshot](./screenshots/spark_promotions_03.jpg)   
