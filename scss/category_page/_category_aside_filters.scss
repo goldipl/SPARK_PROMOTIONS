@@ -148,6 +148,104 @@
             }
         }
         .price_filters_box {
+            @mixin range-slider($width, $height, $input-top, $input-bg-color, $input-thumb-color, $float:none, $input-height:20px, $input-border-radius:14px) {
+                position: relative;
+                width: $width;
+                height: $height;
+                float: $float;
+                text-align: center;
+                  
+                input[type="range"] {
+                  pointer-events: none;
+                  position: absolute;
+                  -webkit-appearance: none;
+                  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);    
+                  border: none;
+                  border-radius: $input-border-radius;
+                  background: $input-bg-color;
+                  box-shadow: inset 0 1px 0 0 darken($input-bg-color,15%), inset 0 -1px 0 0 darken($input-bg-color,10%);
+                  -webkit-box-shadow: inset 0 1px 0 0 darken($input-bg-color,15%), inset 0 -1px 0 0 darken($input-bg-color,10%);
+                  left: 0;
+                  top: $input-top;
+                  width: $width;
+                  outline: none;
+                  height: $input-height;
+                  margin: 0;
+                  padding: 0;
+                  width: 100%;
+                  -webkit-appearance: none;
+                  height: 5px;
+                  background: $main_color;
+                  border-radius: 5px;
+                  background-image: linear-gradient($main_color, $main_color);
+                  background-size: 70% 100%;
+                  background-repeat: no-repeat;
+                }  
+                
+                input[type="range"]::-webkit-slider-thumb {
+                  pointer-events: all;
+                  position: relative;
+                  z-index: 10;
+                  outline: 0;    
+                  -webkit-appearance: none;
+                  width: $input-height;
+                  height: $input-height;
+                  border: none;
+                  border-radius: $input-border-radius;
+                  background-color: #E1E1E1;
+                  width: 16px;
+                  height: 16px;
+                }
+                
+                input[type="range"]::-moz-range-thumb {
+                width: 16px;
+                height: 16px;
+                  pointer-events: all;
+                  position: relative;
+                  z-index: 1;
+                  -moz-appearance: none;
+                  width: $input-height;
+                  height: $input-height;
+                  border: none;
+                  border-radius: $input-border-radius;
+                  background-color: #E1E1E1;
+                }
+              
+                input[type="range"]::-ms-thumb {
+                  pointer-events: all;
+                  position: relative;
+                  z-index: 10;
+                  -ms-appearance: none;
+                  width: $input-height;
+                  height: $input-height;
+                  border-radius: $input-border-radius;
+                  border: 0;
+                }
+                
+                input[type=range]::-moz-range-track {
+                  position: relative;
+                  z-index: -1;
+                  background-color: rgba(0, 0, 0, 1);
+                  border: 0;
+                }
+                
+                input[type=range]:last-of-type::-moz-range-track {
+                  -moz-appearance: none;
+                  background: none transparent;
+                  border: 0;
+                } 
+                
+                input[type=range]::-moz-focus-outer {
+                  border: 0;
+                }
+            }
+              
+            .range-slider {
+                margin-top: -35px;
+                margin-bottom: 30px;
+                @include range-slider(100%, 50px, 50px, #E1E1E1, #E1E1E1, none);
+            }
+              
             .price_filter_range {
                 margin: 10px 0 15px 0;
                 input {

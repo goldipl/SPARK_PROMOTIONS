@@ -3082,6 +3082,92 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.category_filters-slot .price_filters_box .range-slider {
+  margin-top: -35px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  float: none;
+  text-align: center;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range] {
+  pointer-events: none;
+  position: absolute;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 14px;
+  background: #E1E1E1;
+  box-shadow: inset 0 1px 0 0 #bbbbbb, inset 0 -1px 0 0 #c8c8c8;
+  -webkit-box-shadow: inset 0 1px 0 0 #bbbbbb, inset 0 -1px 0 0 #c8c8c8;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  outline: none;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 5px;
+  background: #68B236;
+  border-radius: 5px;
+  background-image: linear-gradient(#68B236, #68B236);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]::-webkit-slider-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 10;
+  outline: 0;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 14px;
+  background-color: #E1E1E1;
+  width: 16px;
+  height: 16px;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 14px;
+  background-color: #E1E1E1;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]::-ms-thumb {
+  pointer-events: all;
+  position: relative;
+  z-index: 10;
+  -ms-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 14px;
+  border: 0;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]::-moz-range-track {
+  position: relative;
+  z-index: -1;
+  background-color: rgb(0, 0, 0);
+  border: 0;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]:last-of-type::-moz-range-track {
+  -moz-appearance: none;
+  background: none transparent;
+  border: 0;
+}
+.category_filters-slot .price_filters_box .range-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
 .category_filters-slot .price_filters_box .price_filter_range {
   margin: 10px 0 15px 0;
 }

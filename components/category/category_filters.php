@@ -77,8 +77,9 @@
     </div>
     <div class="category_filters-slot">
         <div class="price_filters_box">
-            <div class="price_filter_range">
-                <input type="range" name="points" min="1" max="20" value="1">
+            <div class="range-slider">
+                <input value="2" min="0" max="500" step="1" type="range">
+                <input value="480" min="0" max="500" step="1" type="range">
             </div>
             <div class="price_filter_container">
                 <div class="price_filter_container--from">
