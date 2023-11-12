@@ -3301,6 +3301,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 1px solid #E6E6E6;
   border-radius: 10px;
   padding: 8px 12px;
+  background-color: #FFFFFF;
 }
 .category_top_options__left--element.filter select:hover, .category_top_options__left--element.filter select:focus, .category_top_options__right--element.filter select:hover, .category_top_options__right--element.filter select:focus {
   border: 1px solid #68B236;
