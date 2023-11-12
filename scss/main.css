@@ -1034,6 +1034,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     border: 0;
     padding-left: 0;
   }
+  header {
+    margin-bottom: 4px;
+  }
   header #nav .bottom-nav .left-container ul li.bottom-nav-links {
     text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
   }
@@ -2194,6 +2197,15 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
      object-fit: contain;
 }
 
+@media (max-width: 760px) {
+  .aside_boxes {
+    margin: 16px 0 0 0;
+  }
+  .aside_boxes_slot img {
+    width: 100%;
+    margin: 16px 0 0 0;
+  }
+}
 .aside_menu .accordion_box_title {
   display: flex;
   justify-content: space-between;
