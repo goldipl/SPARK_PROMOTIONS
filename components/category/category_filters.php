@@ -9,23 +9,23 @@
         <ul class="category_filters-slot--list producer">
             <li>
                 <input type="checkbox" id="tag01" name="tag01" value="Tag 01">
-                <label for="tag01">Air Gifts <p>(<span>457</span>)</p></label>
+                <label for="tag01">Acme<p>(<span>457</span>)</p></label>
             </li>
             <li>
                 <input type="checkbox" id="tag02" name="tag02" value="Tag 02">
-                <label for="tag02">AdPen <p>(<span>4</span>)</p></label>
+                <label for="tag02">Alladin<p>(<span>4</span>)</p></label>
             </li>
             <li>
                 <input type="checkbox" id="tag03" name="tag03" value="Tag 03">
-                <label for="tag03">AdSmycze <p>(<span>4</span>)</p></label>
+                <label for="tag03">Trust<p>(<span>4</span>)</p></label>
             </li>
             <li>
                 <input type="checkbox" id="tag04" name="tag04" value="Tag 04">
-                <label for="tag04">AXPOL <p>(<span>4</span>)</p></label>
+                <label for="tag04">pqi<p>(<span>4</span>)</p></label>
             </li>
             <li>
                 <input type="checkbox" id="tag05" name="tag05" value="Tag 05">
-                <label for="tag05">Lecce Pen <p>(<span>4</span>)</p></label>
+                <label for="tag05">JBL<p>(<span>4</span>)</p></label>
             </li>
         </ul>
     </div>

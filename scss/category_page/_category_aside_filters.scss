@@ -38,20 +38,7 @@
         }
         &--list {
             padding-left: 0;
-            &.producer {
-                height: 48px;
-                overflow: hidden;
-                &.active {
-                    height: auto;
-                    overflow: initial;
-                }
-            }
-            &.color {
-                &.active {
-                    height: auto;
-                    overflow: initial;
-                }
-            }
+            margin-top: 10px;
             li {
                 list-style: none;
                 display: inline-flex;

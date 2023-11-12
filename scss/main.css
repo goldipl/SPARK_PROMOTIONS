@@ -2969,18 +2969,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 .category_filters-slot--list {
   padding-left: 0;
-}
-.category_filters-slot--list.producer {
-  height: 48px;
-  overflow: hidden;
-}
-.category_filters-slot--list.producer.active {
-  height: auto;
-  overflow: initial;
-}
-.category_filters-slot--list.color.active {
-  height: auto;
-  overflow: initial;
+  margin-top: 10px;
 }
 .category_filters-slot--list li {
   list-style: none;
