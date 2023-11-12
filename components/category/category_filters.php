@@ -58,6 +58,14 @@
                 <input type="checkbox" id="color05" name="color05" value="color 05">
                 <label for="color05"><div class="color_square green"></div>Zielony <p>(<span>4</span>)</p></label>
             </li>
+            <li>
+                <input type="checkbox" id="color06" name="color06" value="color 06">
+                <label for="color06"><div class="color_square purple"></div>Fioletowy <p>(<span>4</span>)</p></label>
+            </li>
+            <li>
+                <input type="checkbox" id="color07" name="color07" value="color 07">
+                <label for="color07"><div class="color_square brown"></div>Brązowy <p>(<span>4</span>)</p></label>
+            </li>
         </ul>
     </div>
 

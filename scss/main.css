@@ -3013,6 +3013,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
           user-select: none;
   margin: 0;
 }
+.category_filters-slot--list li label p {
+  display: block;
+  margin-left: 4px;
+}
 .category_filters-slot--list li label .color_square {
   display: inline-flex;
   width: 15px;
