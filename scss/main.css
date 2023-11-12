@@ -1127,6 +1127,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     background-color: #68B236;
     color: #FFFFFF;
   }
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 600px) {
+  header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+    margin-left: -24px !important;
+  }
 }
 .breadcrumbs {
   margin-top: 16px;

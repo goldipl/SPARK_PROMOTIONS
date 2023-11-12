@@ -979,4 +979,13 @@ header {
         background-color: $main_color;
         color: $white;
     }
+    header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    header #nav .bottom-nav .bottom-nav-sublist.brands ul {
+        margin-left: -24px !important;
+    }
 }
