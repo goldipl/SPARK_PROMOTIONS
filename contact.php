@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div class="row__container">
-            <?php include "./components/contact/contact_content.php"; ?> 
+                <?php include "./components/contact/contact_content.php"; ?> 
             </div>
         </div>
         <footer> 
