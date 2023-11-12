@@ -377,7 +377,7 @@
             </ul>
             <ul class="no-menu-links">
                 <li class="no-arrow">
-                    <a href="#">Kontakt</a>
+                    <a href="./contact.php">Kontakt</a>
                 </li>
             </ul>
         </div>
