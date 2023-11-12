@@ -3788,6 +3788,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: 382px;
   height: 382px;
   border-radius: 100%;
+  margin-top: 80px;
 }
 .send_request_page aside .envelope-img img {
   -o-object-fit: contain;
@@ -3809,6 +3810,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
   .send_request_page .row__container aside {
     margin-bottom: 64px;
+  }
+  .send_request_page .row__container aside .envelope-img {
+    margin-top: 0;
   }
 }
 @media (max-width: 760px) {

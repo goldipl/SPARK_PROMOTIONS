@@ -212,6 +212,7 @@
             width: 382px;
             height: 382px;
             border-radius: 100%;
+            margin-top: 80px;
             img {
                 object-fit: contain;
                 border-radius: 100%;
@@ -243,6 +244,9 @@
             }
             aside {
                 margin-bottom: 64px;
+                .envelope-img {
+                    margin-top: 0;
+                }
             }
         }
     }
