@@ -226,7 +226,11 @@
                 border-radius: 10px;
                 border: 1px solid $grey_light5;
                 box-sizing: border-box;
-                p {
+                button {
+                    font-family: 'Poppins', sans-serif; 
+                    border: 0;
+                    cursor: pointer;
+                    background-color: $white;
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 35px;
@@ -234,9 +238,10 @@
                     text-align: center;
                 }
                 &:hover {
-                    border-color: $white;
                     background-color: $main_color;
-                    p {
+                    button {
+                        border-color: $white;
+                        background-color: $main_color;
                         color: $white;
                     }
                 }

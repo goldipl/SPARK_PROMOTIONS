@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="set-prices">
-                <p>Zastosuj zakres cen</p>
+                <button>Zastosuj zakres cen</button>
             </div>
         </div>
     </div>

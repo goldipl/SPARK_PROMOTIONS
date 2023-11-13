@@ -3247,7 +3247,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 1px solid #E6E6E6;
   box-sizing: border-box;
 }
-.category_filters-slot .price_filters_box .set-prices p {
+.category_filters-slot .price_filters_box .set-prices button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  background-color: #FFFFFF;
   font-size: 12px;
   font-weight: 400;
   line-height: 35px;
@@ -3255,10 +3259,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-align: center;
 }
 .category_filters-slot .price_filters_box .set-prices:hover {
-  border-color: #FFFFFF;
   background-color: #68B236;
 }
-.category_filters-slot .price_filters_box .set-prices:hover p {
+.category_filters-slot .price_filters_box .set-prices:hover button {
+  border-color: #FFFFFF;
+  background-color: #68B236;
   color: #FFFFFF;
 }
 
