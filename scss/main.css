@@ -3743,7 +3743,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   box-sizing: border-box;
   border-radius: 10px;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn span {
+.send_request_page .send_request_box .send_request_form_bottom__btn button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   position: relative;
   font-size: 18px;
   font-style: normal;
@@ -3751,8 +3754,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   line-height: normal;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #90D065;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn span::after {
+.send_request_page .send_request_box .send_request_form_bottom__btn button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
@@ -3767,10 +3771,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 1px solid #90D065;
   background-color: #FFFFFF;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn:hover span {
+.send_request_page .send_request_box .send_request_form_bottom__btn:hover button {
   color: #90D065;
+  background-color: #FFFFFF;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn:hover span::after {
+.send_request_page .send_request_box .send_request_form_bottom__btn:hover button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
@@ -4069,7 +4074,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   box-sizing: border-box;
   border-radius: 10px;
 }
-.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn span {
+.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   position: relative;
   font-size: 18px;
   font-style: normal;
@@ -4077,8 +4085,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   line-height: normal;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #90D065;
 }
-.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn span::after {
+.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
@@ -4093,10 +4102,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 1px solid #90D065;
   background-color: #FFFFFF;
 }
-.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn:hover span {
+.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn:hover button {
   color: #90D065;
+  background-color: #FFFFFF;
 }
-.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn:hover span::after {
+.contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn:hover button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;

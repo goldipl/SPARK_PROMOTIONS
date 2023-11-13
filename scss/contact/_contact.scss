@@ -165,7 +165,10 @@
                 padding: 10px 73px 10px 33px;
                 box-sizing: border-box;
                 border-radius: 10px;
-                span {
+                button {
+                    font-family: 'Poppins', sans-serif; 
+                    border: 0;
+                    cursor: pointer;
                     position: relative;
                     font-size: 18px;
                     font-style: normal;
@@ -173,6 +176,7 @@
                     line-height: normal;
                     text-transform: uppercase;
                     color: $white;
+                    background-color: $light_green;
                     &::after {
                         position: absolute;
                         content: "";
@@ -188,8 +192,9 @@
                 &:hover {
                     border: 1px solid $light_green;
                     background-color: $white;
-                    span {
+                    button {
                         color: $light_green;
+                        background-color: $white;
                         &::after {
                             position: absolute;
                             content: "";

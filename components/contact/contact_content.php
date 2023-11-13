@@ -42,7 +42,7 @@
         </div>
         <div class="bottom-container">
             <div class="send_request_form_bottom__btn">
-                <span>Wyślij</span>
+                <button>Wyślij</button>
             </div>
         </div>
     </form>
