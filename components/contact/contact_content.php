@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="contact_form_box__left_bottom">
-                    <textarea name="msg" id="msg_box" placeholder="Wiadomość"></textarea>
+                    <textarea name="msg" id="msg_box" placeholder="Wiadomość *" required></textarea>
                 </div>
             </div>
             <div class="contact_form_box__right">

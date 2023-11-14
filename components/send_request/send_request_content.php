@@ -15,7 +15,7 @@
                         <input type="text" name="telephone" placeholder="Nr Telefonu">
                     </div>
                     <div class="send_request_form_top__left--textarea">
-                        <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
+                        <textarea name="message" id="message" placeholder="Wiadomość *" required></textarea>
                     </div>
                 </div>
                 <div class="send_request_form_top__right">
