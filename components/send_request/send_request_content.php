@@ -12,7 +12,7 @@
                         <input type="text" name="company_name" placeholder="Nazwa Firmy *" required>
                     </div>
                     <div class="send_request_form_top__left--input">
-                        <input type="text" name="telephone" placeholder="Nr Telefonu">
+                        <input type="number" name="telephone" placeholder="Nr Telefonu">
                     </div>
                     <div class="send_request_form_top__left--textarea">
                         <textarea name="message" id="message" placeholder="Wiadomość *" required></textarea>
@@ -23,7 +23,7 @@
                         <input type="text" name="surname" placeholder="Nazwisko *" required>
                     </div>
                     <div class="send_request_form_top__right--input">
-                        <input type="text" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
                     <div class="add-files">
                         <p class="add-files-title">Dodaj pliki</p>

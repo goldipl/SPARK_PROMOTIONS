@@ -13,7 +13,7 @@
                             <input type="text" name="company_name" placeholder="Nazwa Firmy *" required>
                         </div>
                         <div class="contact_form_box__left_top__col--input">
-                            <input type="text" name="nip_code" placeholder="NIP *" required>
+                            <input type="number" name="nip_code" placeholder="NIP *" required>
                         </div>
                     </div>
                     <div class="contact_form_box__left_top__col second">
@@ -21,7 +21,7 @@
                             <input type="text" name="surname" placeholder="Nazwisko *" required>
                         </div>
                         <div class="contact_form_box__left_top__col--input">
-                            <input type="text" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                            <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                         </div>
                         <div class="contact_form_box__left_top__col--input">
                             <input type="number" name="tel" placeholder="Nr Telefonu">
