@@ -3743,7 +3743,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #90D065;
   width: -moz-max-content;
   width: max-content;
-  padding: 10px 73px 10px 33px;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -3759,6 +3758,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #90D065;
+  padding: 10px 73px 10px 33px;
+  border-radius: 10px;
 }
 .send_request_page .send_request_box .send_request_form_bottom__btn button::after {
   position: absolute;
@@ -3768,8 +3769,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   width: 32px;
   height: 17px;
-  top: 5px;
-  right: -39px;
+  top: 15px;
+  right: 28px;
 }
 .send_request_page .send_request_box .send_request_form_bottom__btn:hover {
   border: 1px solid #90D065;
@@ -3787,8 +3788,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   width: 32px;
   height: 17px;
-  top: 5px;
-  right: -39px;
+  top: 15px;
+  right: 28px;
 }
 .send_request_page aside .envelope-img {
   display: flex;
@@ -4074,7 +4075,6 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #90D065;
   width: -moz-max-content;
   width: max-content;
-  padding: 10px 73px 10px 33px;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -4090,6 +4090,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #90D065;
+  padding: 10px 73px 10px 33px;
+  border-radius: 10px;
 }
 .contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn button::after {
   position: absolute;
@@ -4099,8 +4101,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   width: 32px;
   height: 17px;
-  top: 5px;
-  right: -39px;
+  top: 15px;
+  right: 28px;
 }
 .contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn:hover {
   border: 1px solid #90D065;
@@ -4118,8 +4120,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   width: 32px;
   height: 17px;
-  top: 5px;
-  right: -39px;
+  top: 15px;
+  right: 28px;
 }
 .contact_container .contact_box {
   display: flex;

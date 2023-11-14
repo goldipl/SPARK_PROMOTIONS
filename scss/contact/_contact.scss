@@ -162,7 +162,6 @@
                 border: 1px solid $white;
                 background-color: $light_green;
                 width: max-content;
-                padding: 10px 73px 10px 33px;
                 box-sizing: border-box;
                 border-radius: 10px;
                 button {
@@ -177,6 +176,8 @@
                     text-transform: uppercase;
                     color: $white;
                     background-color: $light_green;
+                    padding: 10px 73px 10px 33px;
+                    border-radius: 10px;
                     &::after {
                         position: absolute;
                         content: "";
@@ -185,8 +186,8 @@
                         background-size: contain;
                         width: 32px;
                         height: 17px;
-                        top: 5px;
-                        right: -39px;
+                        top: 15px;
+                        right: 28px;
                     }
                 }
                 &:hover {
@@ -203,8 +204,8 @@
                             background-size: contain;
                             width: 32px;
                             height: 17px;
-                            top: 5px;
-                            right: -39px;
+                            top: 15px;
+                            right: 28px;
                         }
                     }
                 }
