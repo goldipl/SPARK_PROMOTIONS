@@ -126,11 +126,8 @@
                 justify-content: center;
                 width: 112px;
                 height: 44px;
-                border: 1px solid $grey_middle;
-                background: $white;
                 border-radius: 20px;
-                cursor: pointer;
-                a {
+                button {
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
@@ -141,14 +138,18 @@
                     font-size: 14px;
                     font-weight: 400;
                     color: $light_black;
+                    border: 1px solid $grey_middle;
+                    background: $white;
+                    border-radius: 20px;
+                    cursor: pointer;
                 }
                 img {
                     margin-left: 4px;
                 }
                 &:hover {
-                    background-color: $main_color;
-                    border-color: $main_color;
-                    a {
+                    button {
+                        background-color: $main_color;
+                        border-color: $main_color;
                         color: $white;
                         text-decoration: none;
                     }

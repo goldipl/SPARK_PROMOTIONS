@@ -2126,12 +2126,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   justify-content: center;
   width: 112px;
   height: 44px;
-  border: 1px solid #8A8A8A;
-  background: #FFFFFF;
   border-radius: 20px;
-  cursor: pointer;
 }
-#leave_message .leave_message_container__button .button a {
+#leave_message .leave_message_container__button .button button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2142,15 +2139,17 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   font-size: 14px;
   font-weight: 400;
   color: #333333;
+  border: 1px solid #8A8A8A;
+  background: #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
 }
 #leave_message .leave_message_container__button .button img {
   margin-left: 4px;
 }
-#leave_message .leave_message_container__button .button:hover {
+#leave_message .leave_message_container__button .button:hover button {
   background-color: #68B236;
   border-color: #68B236;
-}
-#leave_message .leave_message_container__button .button:hover a {
   color: #FFFFFF;
   text-decoration: none;
 }
