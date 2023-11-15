@@ -142,10 +142,10 @@ h1.mainpage-title::before {
     margin-left: 0;
     margin-right: 0;
   }
-  .products_card_page aside {
+  .reverse-order aside {
     order: 1;
   }
-  .products_card_page .col_10__container {
+  .reverse-order .col_10__container {
     order: 0;
     margin-top: 9px;
   }
@@ -2806,7 +2806,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 35px;
+  white-space: pre;
 }
 .footer_top-col .newsletter_footer_container #newsletter_btn:hover {
   filter: brightness(1.1);

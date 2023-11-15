@@ -151,7 +151,8 @@
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: normal;
+                    line-height: 35px;
+                    white-space: pre;
                     &:hover {
                         filter: brightness(1.1);
                     }

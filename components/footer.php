@@ -50,10 +50,10 @@
             <div class="footer_top-col--title">
                 <p>Newsletter</p>
             </div>
-            <div class="newsletter_footer_container">
-                <input type="text" name="newsletter" id="newsletter_input" placeholder="Wpisz adres e-mail">
-                <input type="button" id="newsletter_btn" value="Zapisz się">
-            </div>
+            <form class="newsletter_footer_container">
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="newsletter" id="newsletter_input" placeholder="Wpisz adres e-mail" required>
+                <button id="newsletter_btn">Zapisz się</button>
+            </form>
             <div class="footer_top-col--text">
                 <p class="small-text">Zapisz się do NEWSLETTERA i otrzymuj <br>na bieżąco informacje o naszych <br>promocjach i wyprzedażach.</p>
             </div>
