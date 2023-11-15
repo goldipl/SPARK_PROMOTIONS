@@ -1,183 +1,201 @@
-.send_request_page {
-    .send_request {
-        &_title {
-            font-size: 22px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            text-transform: uppercase;
-            color: $light_black;
-            margin: 0 0 16px 0;
-            span {
-                color: $main_color;
-            }
+
+.send_request {
+    &_title {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $light_black;
+        margin: 0 0 16px 0;
+        span {
+            color: $main_color;
         }
-        &_desc {
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            margin: 0 0 30px 0;
-        }
-        &_box {
-            .send_request_form {
+    }
+    &_desc {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 0 30px 0;
+    }
+    &_box {
+        .send_request_form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            &_top {
                 display: flex;
-                flex-direction: column;
-                width: 100%;
-                &_top {
-                    display: flex;
-                    flex-direction: row;
-                    &__left {
-                        width: 42%;
-                        margin-right: 1%;
-                        &--input {
-                            input {
-                                font-family: 'Poppins', sans-serif;
-                                width: 100%;
-                                height: 40px;
-                                box-sizing: border-box;
-                                border-radius: 10px;
-                                border: 1px solid $grey_light;
-                                background: $grey_light3;
-                                font-size: 16px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
+                flex-direction: row;
+                &__left {
+                    width: 42%;
+                    margin-right: 1%;
+                    &--input {
+                        input {
+                            font-family: 'Poppins', sans-serif;
+                            width: 100%;
+                            height: 40px;
+                            box-sizing: border-box;
+                            border-radius: 10px;
+                            border: 1px solid $grey_light;
+                            background: $grey_light3;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            padding: 0 20px;
+                            margin: 0 0 16px 0;
+                            &::placeholder {
                                 color: $light_black;
-                                padding: 0 20px;
-                                margin: 0 0 16px 0;
-                                &::placeholder {
-                                    color: $light_black;
-                                }
-                                &:hover,
-                                &:focus {
-                                    border: 1px solid $main_color;
-                                    outline: 0;
-                                }
                             }
-                        }
-                        &--textarea {
-                            textarea {
-                                font-family: 'Poppins', sans-serif;
-                                width: 100%;
-                                height: 40px;
-                                box-sizing: border-box;
-                                border-radius: 10px;
-                                border: 1px solid $grey_light;
-                                background: $grey_light3;
-                                font-size: 16px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
-                                color: $light_black;
-                                padding: 20px;
-                                margin: 0 0 16px 0;
-                                min-height: 115px;
-                                max-width: 100%;
-                                &::placeholder {
-                                    color: $light_black;
-                                }
-                                &:hover,
-                                &:focus {
-                                    border: 1px solid $main_color;
-                                    outline: 0;
-                                }
+                            &:hover,
+                            &:focus {
+                                border: 1px solid $main_color;
+                                outline: 0;
                             }
                         }
                     }
-                    &__right {
-                        width: 42%;
-                        margin-left: 1%;
-                        &--input {
-                            input {
-                                font-family: 'Poppins', sans-serif;
-                                width: 100%;
-                                height: 40px;
-                                box-sizing: border-box;
-                                border-radius: 10px;
-                                border: 1px solid $grey_light;
-                                background: $grey_light3;
-                                font-size: 16px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
-                                color: $light_black;
-                                padding: 0 20px;
-                                margin: 0 0 16px 0;
-                                &::placeholder {
-                                    color: $light_black;
-                                }
-                                &:hover,
-                                &:focus {
-                                    border: 1px solid $main_color;
-                                    outline: 0;
-                                }
-                            }
-                        }
-                        .add-files {
-                            border-radius: 10px;
-                            border: 1px dashed $main_color;
-                            background: $white;
-                            padding: 10px 20px;
+                    &--textarea {
+                        textarea {
+                            font-family: 'Poppins', sans-serif;
+                            width: 100%;
+                            height: 40px;
                             box-sizing: border-box;
-                            margin: 0;
-                            min-height: 169px;
-                            cursor: pointer;
-                            &-title {
-                                font-size: 16px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
+                            border-radius: 10px;
+                            border: 1px solid $grey_light;
+                            background: $grey_light3;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            padding: 20px;
+                            margin: 0 0 16px 0;
+                            min-height: 115px;
+                            max-width: 100%;
+                            &::placeholder {
                                 color: $light_black;
                             }
-                            &-img {
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                margin: 8px auto;
-                            }
-                            &-text {
-                                font-size: 10px;
-                                font-style: normal;
-                                font-weight: 400;
-                                line-height: normal;
-                                color: $light_black;
-                                text-align: center;
-                                margin: 0;
+                            &:hover,
+                            &:focus {
+                                border: 1px solid $main_color;
+                                outline: 0;
                             }
                         }
                     }
                 }
-                &_bottom {
-                    &__btn {
-                        display: flex;
-                        justify-content: flex-start;
-                        align-items: center;
-                        margin: 41px 0 84px 0;
-                        cursor: pointer;
-                        border: 1px solid $white;
-                        background-color: $light_green;
-                        width: max-content;
-                        box-sizing: border-box;
-                        border-radius: 10px;
-                        button {
-                            font-family: 'Poppins', sans-serif; 
-                            border: 0;
-                            cursor: pointer;
-                            position: relative;
-                            font-size: 18px;
-                            font-style: normal;
-                            font-weight: 600;
-                            line-height: normal;
-                            text-transform: uppercase;
-                            color: $white;
-                            background-color: $light_green;
-                            padding: 10px 73px 10px 33px;
+                &__right {
+                    width: 42%;
+                    margin-left: 1%;
+                    &--input {
+                        input {
+                            font-family: 'Poppins', sans-serif;
+                            width: 100%;
+                            height: 40px;
+                            box-sizing: border-box;
                             border-radius: 10px;
+                            border: 1px solid $grey_light;
+                            background: $grey_light3;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            padding: 0 20px;
+                            margin: 0 0 16px 0;
+                            &::placeholder {
+                                color: $light_black;
+                            }
+                            &:hover,
+                            &:focus {
+                                border: 1px solid $main_color;
+                                outline: 0;
+                            }
+                        }
+                    }
+                    .add-files {
+                        border-radius: 10px;
+                        border: 1px dashed $main_color;
+                        background: $white;
+                        padding: 10px 20px;
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-height: 169px;
+                        cursor: pointer;
+                        &-title {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                        }
+                        &-img {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 8px auto;
+                        }
+                        &-text {
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            text-align: center;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            &_bottom {
+                &__btn {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 41px 0 84px 0;
+                    cursor: pointer;
+                    border: 1px solid $white;
+                    background-color: $light_green;
+                    width: max-content;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    button {
+                        font-family: 'Poppins', sans-serif; 
+                        border: 0;
+                        cursor: pointer;
+                        position: relative;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        color: $white;
+                        background-color: $light_green;
+                        padding: 10px 73px 10px 33px;
+                        border-radius: 10px;
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                            width: 32px;
+                            height: 17px;
+                            top: 15px;
+                            right: 28px;
+                        }
+                    }
+                    &:hover {
+                        border: 1px solid $light_green;
+                        background-color: $white;
+                        button {
+                            color: $light_green;
+                            background-color: $white;
                             &::after {
                                 position: absolute;
                                 content: "";
-                                background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
+                                background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
                                 background-position: center;
                                 background-size: contain;
                                 width: 32px;
@@ -186,131 +204,130 @@
                                 right: 28px;
                             }
                         }
-                        &:hover {
-                            border: 1px solid $light_green;
-                            background-color: $white;
-                            button {
-                                color: $light_green;
-                                background-color: $white;
-                                &::after {
-                                    position: absolute;
-                                    content: "";
-                                    background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
-                                    background-position: center;
-                                    background-size: contain;
-                                    width: 32px;
-                                    height: 17px;
-                                    top: 15px;
-                                    right: 28px;
-                                }
-                            }
-                        }
                     }
                 }
             }
         }
     }
-    aside {
-        .envelope-img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: $grey_light3;
-            width: 382px;
-            height: 382px;
+}
+aside {
+    .envelope-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $grey_light3;
+        width: 382px;
+        height: 382px;
+        border-radius: 100%;
+        margin-top: 80px;
+        img {
+            object-fit: contain;
             border-radius: 100%;
-            margin-top: 80px;
-            img {
-                object-fit: contain;
-                border-radius: 100%;
-                box-shadow: 0px 22px 22px 1px rgba(0, 0, 0, 0.25);
-            }
+            box-shadow: 0px 22px 22px 1px rgba(0, 0, 0, 0.25);
         }
     }
 }
+
 
 @media (max-width: 1320px) {
-    .send_request_page {
-        .row__container {
-            display: flex;
-            flex-direction: column;
-            .col_10__container {
-                width: 100%;
-                .send_request {
-                    &_box {
-                        .send_request_form {
-                            &_top {
-                                &__left,
-                                &__right {
-                                    width: 48%;
-                                }
+
+    .row__container {
+        display: flex;
+        flex-direction: column;
+        .col_10__container {
+            width: 100%;
+            .send_request {
+                &_box {
+                    .send_request_form {
+                        &_top {
+                            &__left,
+                            &__right {
+                                width: 48%;
                             }
                         }
                     }
                 }
             }
-            aside {
-                margin-bottom: 64px;
-                .envelope-img {
-                    margin-top: 0;
-                }
+        }
+        aside {
+            margin-bottom: 64px;
+            .envelope-img {
+                margin-top: 0;
             }
         }
     }
 }
 
+
 @media (max-width: 760px) {
-    .send_request_page {
-        .send_request {
-            &_title {
-                margin: 16px 0 16px 0;
-            }
-            &_desc {
-                font-size: 14px;
-                line-height: 160%;
-            }
+
+    .send_request {
+        &_title {
+            margin: 16px 0 16px 0;
         }
-        .row__container {
-            display: flex;
-            flex-direction: column;
-            .col_10__container {
-                width: 100%;
-                .send_request {
-                    &_box {
-                        .send_request_form {
-                            &_top {
-                                flex-direction: column;
-                                &__left,
-                                &__right {
-                                    width: 100%;
-                                    margin: 0;
-                                    input,
-                                    textarea {
+        &_desc {
+            font-size: 14px;
+            line-height: 160%;
+        }
+    }
+    .row__container {
+        display: flex;
+        flex-direction: column;
+        .col_10__container {
+            width: 100%;
+            .send_request {
+                &_box {
+                    .send_request_form {
+                        &_top {
+                            flex-direction: column;
+                            &__left,
+                            &__right {
+                                width: 100%;
+                                margin: 0;
+                                input,
+                                textarea {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                    &::placeholder {
                                         font-size: 14px;
                                         line-height: 160%;
-                                        &::placeholder {
-                                            font-size: 14px;
-                                            line-height: 160%;
-                                        }
                                     }
-                                    .add-files {
-                                        &-title {
-                                            font-size: 14px;
-                                            line-height: 160%;
-                                        }
+                                }
+                                .add-files {
+                                    &-title {
+                                        font-size: 14px;
+                                        line-height: 160%;
                                     }
                                 }
                             }
-                            &_bottom {
-                                &__btn {
-                                    padding: 10px 64px 10px 33px;
+                        }
+                        &_bottom {
+                            &__btn {
+                                padding: 10px 64px 10px 33px;
+                                span {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                    &::after {
+                                        position: absolute;
+                                        content: "";
+                                        background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
+                                        background-position: center;
+                                        background-size: contain;
+                                        width: 24px;
+                                        height: 14px;
+                                        top: 4px;
+                                        right: -30px;
+                                    }
+                                }
+                                &:hover {
+                                    border: 1px solid $light_green;
+                                    background-color: $white;
                                     span {
-                                        font-size: 14px;
-                                        line-height: 160%;
+                                        color: $light_green;
                                         &::after {
                                             position: absolute;
                                             content: "";
-                                            background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
+                                            background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
                                             background-position: center;
                                             background-size: contain;
                                             width: 24px;
@@ -319,34 +336,16 @@
                                             right: -30px;
                                         }
                                     }
-                                    &:hover {
-                                        border: 1px solid $light_green;
-                                        background-color: $white;
-                                        span {
-                                            color: $light_green;
-                                            &::after {
-                                                position: absolute;
-                                                content: "";
-                                                background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
-                                                background-position: center;
-                                                background-size: contain;
-                                                width: 24px;
-                                                height: 14px;
-                                                top: 4px;
-                                                right: -30px;
-                                            }
-                                        }
-                                    }
                                 }
                             }
                         }
                     }
                 }
             }
-            aside {
-                margin-bottom: 64px;
-                margin-left: -12px;
-            }
+        }
+        aside {
+            margin-bottom: 64px;
+            margin-left: -12px;
         }
     }
 }

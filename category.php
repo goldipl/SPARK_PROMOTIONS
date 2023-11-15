@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./scss/main.css">
     </head>
-    <body class="category">
+    <body>
         <header> 
             <?php include "./components/nav.php"; ?> 
         </header>

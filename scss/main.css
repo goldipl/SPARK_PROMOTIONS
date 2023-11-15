@@ -3585,7 +3585,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     width: 100%;
   }
 }
-.send_request_page .send_request_title {
+.send_request_title {
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -3594,30 +3594,30 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   margin: 0 0 16px 0;
 }
-.send_request_page .send_request_title span {
+.send_request_title span {
   color: #68B236;
 }
-.send_request_page .send_request_desc {
+.send_request_desc {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin: 0 0 30px 0;
 }
-.send_request_page .send_request_box .send_request_form {
+.send_request_box .send_request_form {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.send_request_page .send_request_box .send_request_form_top {
+.send_request_box .send_request_form_top {
   display: flex;
   flex-direction: row;
 }
-.send_request_page .send_request_box .send_request_form_top__left {
+.send_request_box .send_request_form_top__left {
   width: 42%;
   margin-right: 1%;
 }
-.send_request_page .send_request_box .send_request_form_top__left--input input {
+.send_request_box .send_request_form_top__left--input input {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -3633,17 +3633,17 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding: 0 20px;
   margin: 0 0 16px 0;
 }
-.send_request_page .send_request_box .send_request_form_top__left--input input::-moz-placeholder {
+.send_request_box .send_request_form_top__left--input input::-moz-placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__left--input input::placeholder {
+.send_request_box .send_request_form_top__left--input input::placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__left--input input:hover, .send_request_page .send_request_box .send_request_form_top__left--input input:focus {
+.send_request_box .send_request_form_top__left--input input:hover, .send_request_box .send_request_form_top__left--input input:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.send_request_page .send_request_box .send_request_form_top__left--textarea textarea {
+.send_request_box .send_request_form_top__left--textarea textarea {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -3661,21 +3661,21 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   min-height: 115px;
   max-width: 100%;
 }
-.send_request_page .send_request_box .send_request_form_top__left--textarea textarea::-moz-placeholder {
+.send_request_box .send_request_form_top__left--textarea textarea::-moz-placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__left--textarea textarea::placeholder {
+.send_request_box .send_request_form_top__left--textarea textarea::placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__left--textarea textarea:hover, .send_request_page .send_request_box .send_request_form_top__left--textarea textarea:focus {
+.send_request_box .send_request_form_top__left--textarea textarea:hover, .send_request_box .send_request_form_top__left--textarea textarea:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.send_request_page .send_request_box .send_request_form_top__right {
+.send_request_box .send_request_form_top__right {
   width: 42%;
   margin-left: 1%;
 }
-.send_request_page .send_request_box .send_request_form_top__right--input input {
+.send_request_box .send_request_form_top__right--input input {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -3691,17 +3691,17 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding: 0 20px;
   margin: 0 0 16px 0;
 }
-.send_request_page .send_request_box .send_request_form_top__right--input input::-moz-placeholder {
+.send_request_box .send_request_form_top__right--input input::-moz-placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__right--input input::placeholder {
+.send_request_box .send_request_form_top__right--input input::placeholder {
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__right--input input:hover, .send_request_page .send_request_box .send_request_form_top__right--input input:focus {
+.send_request_box .send_request_form_top__right--input input:hover, .send_request_box .send_request_form_top__right--input input:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.send_request_page .send_request_box .send_request_form_top__right .add-files {
+.send_request_box .send_request_form_top__right .add-files {
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -3711,20 +3711,20 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   min-height: 169px;
   cursor: pointer;
 }
-.send_request_page .send_request_box .send_request_form_top__right .add-files-title {
+.send_request_box .send_request_form_top__right .add-files-title {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #333333;
 }
-.send_request_page .send_request_box .send_request_form_top__right .add-files-img {
+.send_request_box .send_request_form_top__right .add-files-img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 8px auto;
 }
-.send_request_page .send_request_box .send_request_form_top__right .add-files-text {
+.send_request_box .send_request_form_top__right .add-files-text {
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -3733,7 +3733,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-align: center;
   margin: 0;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn {
+.send_request_box .send_request_form_bottom__btn {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -3746,7 +3746,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   box-sizing: border-box;
   border-radius: 10px;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn button {
+.send_request_box .send_request_form_bottom__btn button {
   font-family: "Poppins", sans-serif;
   border: 0;
   cursor: pointer;
@@ -3761,7 +3761,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding: 10px 73px 10px 33px;
   border-radius: 10px;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn button::after {
+.send_request_box .send_request_form_bottom__btn button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
@@ -3772,15 +3772,15 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   top: 15px;
   right: 28px;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn:hover {
+.send_request_box .send_request_form_bottom__btn:hover {
   border: 1px solid #90D065;
   background-color: #FFFFFF;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn:hover button {
+.send_request_box .send_request_form_bottom__btn:hover button {
   color: #90D065;
   background-color: #FFFFFF;
 }
-.send_request_page .send_request_box .send_request_form_bottom__btn:hover button::after {
+.send_request_box .send_request_form_bottom__btn:hover button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
@@ -3791,7 +3791,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   top: 15px;
   right: 28px;
 }
-.send_request_page aside .envelope-img {
+
+aside .envelope-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3801,7 +3802,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border-radius: 100%;
   margin-top: 80px;
 }
-.send_request_page aside .envelope-img img {
+aside .envelope-img img {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 100%;
@@ -3809,73 +3810,73 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 
 @media (max-width: 1320px) {
-  .send_request_page .row__container {
+  .row__container {
     display: flex;
     flex-direction: column;
   }
-  .send_request_page .row__container .col_10__container {
+  .row__container .col_10__container {
     width: 100%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left, .row__container .col_10__container .send_request_box .send_request_form_top__right {
     width: 48%;
   }
-  .send_request_page .row__container aside {
+  .row__container aside {
     margin-bottom: 64px;
   }
-  .send_request_page .row__container aside .envelope-img {
+  .row__container aside .envelope-img {
     margin-top: 0;
   }
 }
 @media (max-width: 760px) {
-  .send_request_page .send_request_title {
+  .send_request_title {
     margin: 16px 0 16px 0;
   }
-  .send_request_page .send_request_desc {
+  .send_request_desc {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container {
+  .row__container {
     display: flex;
     flex-direction: column;
   }
-  .send_request_page .row__container .col_10__container {
+  .row__container .col_10__container {
     width: 100%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top {
+  .row__container .col_10__container .send_request_box .send_request_form_top {
     flex-direction: column;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left, .row__container .col_10__container .send_request_box .send_request_form_top__right {
     width: 100%;
     margin: 0;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left input,
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left textarea, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right input,
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right textarea {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left input,
+  .row__container .col_10__container .send_request_box .send_request_form_top__left textarea, .row__container .col_10__container .send_request_box .send_request_form_top__right input,
+  .row__container .col_10__container .send_request_box .send_request_form_top__right textarea {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left input::-moz-placeholder, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left textarea::-moz-placeholder, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right input::-moz-placeholder, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right textarea::-moz-placeholder {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left input::-moz-placeholder, .row__container .col_10__container .send_request_box .send_request_form_top__left textarea::-moz-placeholder, .row__container .col_10__container .send_request_box .send_request_form_top__right input::-moz-placeholder, .row__container .col_10__container .send_request_box .send_request_form_top__right textarea::-moz-placeholder {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left input::placeholder,
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left textarea::placeholder, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right input::placeholder,
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right textarea::placeholder {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left input::placeholder,
+  .row__container .col_10__container .send_request_box .send_request_form_top__left textarea::placeholder, .row__container .col_10__container .send_request_box .send_request_form_top__right input::placeholder,
+  .row__container .col_10__container .send_request_box .send_request_form_top__right textarea::placeholder {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__left .add-files-title, .send_request_page .row__container .col_10__container .send_request_box .send_request_form_top__right .add-files-title {
+  .row__container .col_10__container .send_request_box .send_request_form_top__left .add-files-title, .row__container .col_10__container .send_request_box .send_request_form_top__right .add-files-title {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn {
     padding: 10px 64px 10px 33px;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span {
     font-size: 14px;
     line-height: 160%;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span::after {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span::after {
     position: absolute;
     content: "";
     background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
@@ -3886,14 +3887,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     top: 4px;
     right: -30px;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover {
     border: 1px solid #90D065;
     background-color: #FFFFFF;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover span {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover span {
     color: #90D065;
   }
-  .send_request_page .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover span::after {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover span::after {
     position: absolute;
     content: "";
     background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
@@ -3904,7 +3905,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     top: 4px;
     right: -30px;
   }
-  .send_request_page .row__container aside {
+  .row__container aside {
     margin-bottom: 64px;
     margin-left: -12px;
   }

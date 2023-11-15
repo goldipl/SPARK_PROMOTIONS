@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./scss/main.css">
     </head>
-    <body class="main">
+    <body>
         <header> 
             <?php include "./components/nav.php"; ?> 
         </header>
