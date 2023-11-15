@@ -3345,10 +3345,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #FFFFFF;
   margin: 0 auto;
   padding: 10px 10px 10px 0;
-  width: 572px;
+  width: 538px;
   height: auto;
   box-sizing: border-box;
-  margin-right: 38px;
+  margin-right: 24px;
 }
 .gallery-container-small {
   display: flex;
@@ -3357,12 +3357,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: auto;
 }
 .gallery-container-small .gallery-item {
-  border: 1px solid #E2E2E2;
+  border-radius: 10px;
+  border: 1px solid #E6E6E6;
   margin-bottom: 6px;
   cursor: pointer;
-  width: 81px;
-  height: 67px;
-  margin-right: 9px;
+  width: 106px;
+  height: 106px;
+  margin-right: 16px;
   box-sizing: border-box;
 }
 .gallery-container-small .gallery-item img {
@@ -3385,12 +3386,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   flex-direction: row;
 }
 .gallery-container-big .gallery-item {
-  border: 1px solid #E2E2E2;
   position: relative;
   margin-bottom: 9px;
   cursor: pointer;
-  width: 572px;
-  height: 390px;
+  width: 538px;
+  height: 600px;
   box-sizing: border-box;
 }
 .gallery-container-big .gallery-item img {
@@ -3453,7 +3453,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   overflow: auto;
   top: 0;
   left: 0;
-  z-index: 9;
+  z-index: 99999;
 }
 
 .lightbox-content {

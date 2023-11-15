@@ -6,22 +6,23 @@
     background-color: $white;
     margin: 0 auto;
     padding: 10px 10px 10px 0;
-    width: 572px;
+    width: 538px;
     height: auto;
     box-sizing: border-box;
-    margin-right: 38px;
+    margin-right: 24px;
     &-small {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         width: auto;
         .gallery-item {
-            border: 1px solid $grey_light;
+            border-radius: 10px;
+            border: 1px solid $grey_light5;
             margin-bottom: 6px;
             cursor: pointer;
-            width: 81px;
-            height: 67px;
-            margin-right: 9px;
+            width: 106px;
+            height: 106px;
+            margin-right: 16px;
             box-sizing: border-box;
             img {
                 width: 100%;
@@ -41,12 +42,11 @@
         justify-content: flex-start;
         flex-direction: row;
         .gallery-item {
-            border: 1px solid $grey_light;
             position: relative;
             margin-bottom: 9px;
             cursor: pointer;
-            width: 572px;
-            height: 390px;
+            width: 538px;
+            height: 600px;
             box-sizing: border-box;
             img {
                 width: 100%;
@@ -108,7 +108,7 @@
     overflow: auto;
     top: 0;
     left: 0;
-    z-index: 9;
+    z-index: 99999;
 }
 .lightbox-content {
     position: relative;
