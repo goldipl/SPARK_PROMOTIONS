@@ -26,7 +26,7 @@
         padding: 0 31px;
         &:hover {
             p {
-                font-weight: 600;
+                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
             }
         }
 
@@ -93,7 +93,7 @@
     background-color: $grey_light3;
     z-index: 1;
     p {
-        font-weight: 600;
+        text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
     }
 }
 

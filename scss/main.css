@@ -3682,7 +3682,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   padding: 0 31px;
 }
 .products_tabs label:hover p {
-  font-weight: 600;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
 .products_tabs label img {
   width: 40px;
@@ -3748,7 +3748,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   z-index: 1;
 }
 .products_tabs input[type=radio]:checked + .products_tab-text p {
-  font-weight: 600;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
 
 @media (max-width: 1320px) {
