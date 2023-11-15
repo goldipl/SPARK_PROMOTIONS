@@ -345,7 +345,9 @@ aside {
         }
         aside {
             margin-bottom: 64px;
-            margin-left: -12px;
+            .envelope-img {
+                margin-left: -12px;
+            }
         }
     }
 }

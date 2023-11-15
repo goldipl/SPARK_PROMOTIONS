@@ -4073,6 +4073,8 @@ aside .envelope-img img {
   }
   .row__container aside {
     margin-bottom: 64px;
+  }
+  .row__container aside .envelope-img {
     margin-left: -12px;
   }
 }
