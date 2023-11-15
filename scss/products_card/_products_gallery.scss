@@ -61,19 +61,6 @@
             }
             &.big {
                 position: relative;
-                &::after {
-                    position: absolute;
-                    display: block;
-                    top: 21px;
-                    right: 24px;
-                    content: '';
-                    background: url('./../assets/icons/products_card/heart.svg');
-                    width: 24px;
-                    height: 24px;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    z-index: 9;
-                }
                 .left-bottom-size {
                     position: absolute;
                     left: 0;
