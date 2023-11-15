@@ -3638,6 +3638,22 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_details__top .products-variants--slot.active, .products_details__top .products-variants--slot:hover {
   border: 2px solid #68B236;
 }
+.products_mostly_view .title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 0 35px 0;
+}
+
+@media (max-width: 760px) {
+  .products_mostly_view .title {
+    font-size: 20px;
+    margin: 0 0 24px 0;
+  }
+}
 .send_request_title {
   font-size: 22px;
   font-style: normal;
