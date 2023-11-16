@@ -3349,6 +3349,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   height: auto;
   box-sizing: border-box;
   margin-right: 24px;
+  margin-top: 10px;
 }
 .gallery-container-small {
   display: flex;
@@ -3584,6 +3585,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin-bottom: 74px;
   padding: 19px 28px;
   box-sizing: border-box;
+  margin-top: 10px;
 }
 .products_details__top .name {
   font-size: 25px;
