@@ -189,6 +189,64 @@
             }
         }
     }
+    .free_pricing_visualisation_box {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 16px 0;
+        border-top: 1px solid $grey_light2;
+        border-bottom: 1px solid $grey_light2;
+        .title {
+            display: inline-flex;
+            align-items: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $light_black;
+            margin: 0 0 16px 0;
+            span {
+                color: $main_color;
+                margin-left: 4px;
+            }
+        }
+        .desc {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            margin: 0;
+        }
+    }
+    .free_summary_visualisation_box {
+        .summary {
+            display: inline-flex;
+            align-items: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: $light_black;
+            margin: 0 0 8px 0;
+            .price {
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin: 0 0 0 15px;
+                &.green {
+                    color: $main_color;
+                }
+                &.big {
+                    font-size: 35px;
+                }
+            }
+        }
+        .desc {
+            margin: 0 0 0 306px;
+        }
+    }
     &__btn {
         display: flex;
         justify-content: center;
@@ -198,7 +256,7 @@
         width: 168px;
         box-sizing: border-box;
         border-radius: 10px;
-        margin: 0 auto 32px;
+        margin: 32px auto 32px;
         button {
             font-family: 'Poppins', sans-serif; 
             border: 0;
