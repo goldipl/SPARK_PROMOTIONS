@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spark Promotions | Karta produktu</title>
+        <title>Spark Promotions | Karta produktu z znakowaniem</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./scss/main.css">
     </head>
@@ -34,7 +34,7 @@
                     <?php include "./components/products_card/products_gallery.php"; ?> 
                 </div> 
                 <div class="col__product_details">
-                    <?php include "./components/products_card/products_details.php"; ?> 
+                    <?php include "./components/products_card/products_details_with_branding.php"; ?> 
                 </div> 
             </div>
             <?php include "./components/products_card/products_tabs.php"; ?> 
@@ -43,8 +43,8 @@
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>
-        <!-- Pricing and visualisation modal -->
-        <form class="visualisation_modal pricing-visualisation">
+         <!-- Pricing and visualisation modal -->
+         <form class="visualisation_modal pricing-visualisation">
             <span class="visualisation_modal--close-icon"></span>
             <p class="visualisation_modal--title">Wycena i wizualizacja na email</p>
             <p class="visualisation_modal--desc">Wykonamy bezpłatnie wycenę i wizualizację produktu, w tym celu prosimy o uzupełnienie formularza.</p>

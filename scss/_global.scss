@@ -16,8 +16,8 @@ body {
             content: '';
             width: 100vw;
             height: 100vh;
-            background-color: #505050b7;
-            z-index: 10;
+            background-color: $modal_background_black;
+            z-index: 40;
         }
     }
 }
