@@ -343,3 +343,91 @@
         }
     }
 }
+
+@media (max-width: 960px) {
+    .products_card_modal {
+        top: 40px;
+        left: 3vw;
+        transform: translate(0);
+        width: 94vw;
+        height: 82vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        &.added-to-cart {
+            width: 94vw;
+        }
+        &--title {
+            font-size: 20px;
+        }
+        &--desc {
+            font-size: 14px;
+            line-height: 160%;
+        }
+        &__inputs {
+            flex-direction: column;
+            &__left {
+                margin-right: 0;
+                width: 100%;
+                &--input {
+                    input {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                }
+            }
+            &__right {
+                margin-left: 0;
+                width: 100%;
+                &--input {
+                    input {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                }
+                &--textarea {
+                    textarea {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                }
+                .add-files {
+                    min-height: 140px;
+                    &-title {
+                        margin-top: 0;
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                }
+            }
+        }
+        .free_summary_visualisation_box {
+            .desc {
+                font-size: 14px;
+                line-height: 160%;
+            }
+            .summary {
+                margin-top: 16px;
+                .netto {
+                    font-size: 14px;
+                    line-height: 160%;
+                }
+                .price {
+                    &.big {
+                        font-size: 28px;
+                    }
+                }
+            }
+            .brutto {
+                margin-left: 0;
+                text-align: right;
+            }
+        }
+        .products_card_modal_buttons {
+            flex-direction: column;
+            justify-content: center;
+            .go-to-cart {
+                margin-top: 24px;
+            }
+        }
+    }
+}

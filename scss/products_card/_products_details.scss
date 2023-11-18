@@ -471,3 +471,29 @@
         }
     }
 }
+
+@media (max-width: 380px) {
+    .col__product_details {
+        .products_details {
+            &__top {
+                .pricing_availability_container {
+                    &__btn {
+                        width: 100%;
+                    }
+                }
+            }
+            &__bottom {
+                &_right {
+                    &.with-branding {
+                        .full-green--btn,
+                        .green-white--btn {
+                            button {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
