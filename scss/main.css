@@ -4964,6 +4964,13 @@ aside .envelope-img img {
 .products_card_modal.show {
   display: flex;
 }
+.products_card_modal.added-to-cart {
+  width: 640px;
+}
+.products_card_modal.added-to-cart .free_pricing_visualisation_box {
+  border-top: 0;
+  padding-top: 0;
+}
 .products_card_modal--close-icon {
   position: relative;
   cursor: pointer;
@@ -5232,21 +5239,44 @@ aside .envelope-img img {
   top: 15px;
   right: 28px;
 }
-.products_card_modal__btn:hover {
-  background-color: #FFFFFF;
-}
 .products_card_modal__btn:hover button {
-  color: #90D065;
-  background-color: #FFFFFF;
+  border: 1px solid #68B236;
+  background-color: #68B236;
 }
-.products_card_modal__btn:hover button::after {
+.products_card_modal .products_card_modal_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 34px 0;
+}
+.products_card_modal .products_card_modal_buttons .continue-shopping button {
+  padding: 10px 33px;
+  box-sizing: border-box;
+  height: 47px;
+}
+.products_card_modal .products_card_modal_buttons .continue-shopping:hover {
+  border: 1px solid #68B236;
+  background-color: #68B236;
+}
+.products_card_modal .products_card_modal_buttons .go-to-cart button {
+  padding: 10px 63px 10px 33px;
+  box-sizing: border-box;
+  height: 47px;
+  color: #FFFFFF;
+}
+.products_card_modal .products_card_modal_buttons .go-to-cart button::after {
   position: absolute;
   content: "";
-  background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
+  background: url("./../assets/icons/modal/cart_white.svg") no-repeat;
   background-position: center;
   background-size: contain;
   width: 32px;
   height: 17px;
   top: 15px;
   right: 28px;
+}
+.products_card_modal .products_card_modal_buttons .go-to-cart:hover button {
+  border: 1px solid #68B236;
+  background-color: #68B236;
 }/*# sourceMappingURL=main.css.map */

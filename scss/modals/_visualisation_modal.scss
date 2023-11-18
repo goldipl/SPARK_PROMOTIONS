@@ -16,6 +16,13 @@
     &.show {
         display: flex;
     }
+    &.added-to-cart {
+        width: 640px;
+        .free_pricing_visualisation_box {
+            border-top: 0;
+            padding-top: 0;
+        }
+    }
     &--close-icon {
         position: relative;
         cursor: pointer;
@@ -286,20 +293,51 @@
             }
         }
         &:hover {
-            background-color: $white;
             button {
-                color: $light_green;
-                background-color: $white;
+                border: 1px solid $main_color;
+                background-color: $main_color;
+            }
+        }
+    }
+    .products_card_modal_buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 34px 0;
+        .continue-shopping {
+            button {
+                padding: 10px 33px;
+                box-sizing: border-box;
+                height: 47px;
+            }
+            &:hover {
+                border: 1px solid $main_color;
+                background-color: $main_color;
+            }
+        }
+        .go-to-cart {
+            button {
+                padding: 10px 63px 10px 33px;
+                box-sizing: border-box;
+                height: 47px;
+                color: $white;
                 &::after {
                     position: absolute;
                     content: "";
-                    background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
+                    background: url("./../assets/icons/modal/cart_white.svg") no-repeat;
                     background-position: center;
                     background-size: contain;
                     width: 32px;
                     height: 17px;
                     top: 15px;
                     right: 28px;
+                }
+            }
+            &:hover {
+                button {
+                    border: 1px solid $main_color;
+                    background-color: $main_color;
                 }
             }
         }
