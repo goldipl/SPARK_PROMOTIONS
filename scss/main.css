@@ -4945,7 +4945,7 @@ aside .envelope-img img {
     left: -26px;
   }
 }
-.visualisation_modal {
+.products_card_modal {
   display: none;
   position: absolute;
   top: 600px;
@@ -4961,14 +4961,14 @@ aside .envelope-img img {
   z-index: 999;
   background-color: #FFFFFF;
 }
-.visualisation_modal.show {
+.products_card_modal.show {
   display: flex;
 }
-.visualisation_modal--close-icon {
+.products_card_modal--close-icon {
   position: relative;
   cursor: pointer;
 }
-.visualisation_modal--close-icon::before {
+.products_card_modal--close-icon::before {
   position: absolute;
   display: block;
   content: "";
@@ -4980,7 +4980,7 @@ aside .envelope-img img {
   top: -8px;
   right: 0;
 }
-.visualisation_modal--title {
+.products_card_modal--title {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -4988,7 +4988,7 @@ aside .envelope-img img {
   color: #333333;
   margin: 8px 0 16px 0;
 }
-.visualisation_modal--desc {
+.products_card_modal--desc {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -4996,12 +4996,12 @@ aside .envelope-img img {
   color: #333333;
   margin: 0 0 32px 0;
 }
-.visualisation_modal--desc.green {
+.products_card_modal--desc.green {
   color: #68B236;
   margin: 16px 0 35px 28px;
   position: relative;
 }
-.visualisation_modal--desc.green::before {
+.products_card_modal--desc.green::before {
   position: absolute;
   display: block;
   content: "";
@@ -5013,15 +5013,15 @@ aside .envelope-img img {
   top: 2px;
   left: -27px;
 }
-.visualisation_modal__inputs {
+.products_card_modal__inputs {
   display: flex;
   flex-direction: row;
 }
-.visualisation_modal__inputs__left {
+.products_card_modal__inputs__left {
   width: 48%;
   margin-right: 1%;
 }
-.visualisation_modal__inputs__left--input input {
+.products_card_modal__inputs__left--input input {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -5037,17 +5037,17 @@ aside .envelope-img img {
   padding: 0 20px;
   margin: 0 0 16px 0;
 }
-.visualisation_modal__inputs__left--input input::-moz-placeholder {
+.products_card_modal__inputs__left--input input::-moz-placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__left--input input::placeholder {
+.products_card_modal__inputs__left--input input::placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__left--input input:hover, .visualisation_modal__inputs__left--input input:focus {
+.products_card_modal__inputs__left--input input:hover, .products_card_modal__inputs__left--input input:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.visualisation_modal__inputs__left--textarea textarea {
+.products_card_modal__inputs__left--textarea textarea {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -5065,21 +5065,21 @@ aside .envelope-img img {
   min-height: 115px;
   max-width: 100%;
 }
-.visualisation_modal__inputs__left--textarea textarea::-moz-placeholder {
+.products_card_modal__inputs__left--textarea textarea::-moz-placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__left--textarea textarea::placeholder {
+.products_card_modal__inputs__left--textarea textarea::placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__left--textarea textarea:hover, .visualisation_modal__inputs__left--textarea textarea:focus {
+.products_card_modal__inputs__left--textarea textarea:hover, .products_card_modal__inputs__left--textarea textarea:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.visualisation_modal__inputs__right {
+.products_card_modal__inputs__right {
   width: 48%;
   margin-left: 1%;
 }
-.visualisation_modal__inputs__right--input input {
+.products_card_modal__inputs__right--input input {
   font-family: "Poppins", sans-serif;
   width: 100%;
   height: 40px;
@@ -5095,17 +5095,17 @@ aside .envelope-img img {
   padding: 0 20px;
   margin: 0 0 16px 0;
 }
-.visualisation_modal__inputs__right--input input::-moz-placeholder {
+.products_card_modal__inputs__right--input input::-moz-placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__right--input input::placeholder {
+.products_card_modal__inputs__right--input input::placeholder {
   color: #333333;
 }
-.visualisation_modal__inputs__right--input input:hover, .visualisation_modal__inputs__right--input input:focus {
+.products_card_modal__inputs__right--input input:hover, .products_card_modal__inputs__right--input input:focus {
   border: 1px solid #68B236;
   outline: 0;
 }
-.visualisation_modal__inputs__right .add-files {
+.products_card_modal__inputs__right .add-files {
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -5115,20 +5115,20 @@ aside .envelope-img img {
   min-height: 169px;
   cursor: pointer;
 }
-.visualisation_modal__inputs__right .add-files-title {
+.products_card_modal__inputs__right .add-files-title {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #333333;
 }
-.visualisation_modal__inputs__right .add-files-img {
+.products_card_modal__inputs__right .add-files-img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 8px auto;
 }
-.visualisation_modal__inputs__right .add-files-text {
+.products_card_modal__inputs__right .add-files-text {
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -5137,7 +5137,7 @@ aside .envelope-img img {
   text-align: center;
   margin: 0;
 }
-.visualisation_modal .free_pricing_visualisation_box {
+.products_card_modal .free_pricing_visualisation_box {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -5145,7 +5145,7 @@ aside .envelope-img img {
   border-top: 1px solid #A4A4A4;
   border-bottom: 1px solid #A4A4A4;
 }
-.visualisation_modal .free_pricing_visualisation_box .title {
+.products_card_modal .free_pricing_visualisation_box .title {
   display: inline-flex;
   align-items: center;
   font-size: 18px;
@@ -5155,11 +5155,11 @@ aside .envelope-img img {
   color: #333333;
   margin: 0 0 16px 0;
 }
-.visualisation_modal .free_pricing_visualisation_box .title span {
+.products_card_modal .free_pricing_visualisation_box .title span {
   color: #68B236;
   margin-left: 4px;
 }
-.visualisation_modal .free_pricing_visualisation_box .desc {
+.products_card_modal .free_pricing_visualisation_box .desc {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -5167,7 +5167,7 @@ aside .envelope-img img {
   color: #333333;
   margin: 0;
 }
-.visualisation_modal .free_summary_visualisation_box .summary {
+.products_card_modal .free_summary_visualisation_box .summary {
   display: inline-flex;
   align-items: center;
   font-size: 15px;
@@ -5177,23 +5177,23 @@ aside .envelope-img img {
   color: #333333;
   margin: 0 0 8px 0;
 }
-.visualisation_modal .free_summary_visualisation_box .summary .price {
+.products_card_modal .free_summary_visualisation_box .summary .price {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin: 0 0 0 15px;
 }
-.visualisation_modal .free_summary_visualisation_box .summary .price.green {
+.products_card_modal .free_summary_visualisation_box .summary .price.green {
   color: #68B236;
 }
-.visualisation_modal .free_summary_visualisation_box .summary .price.big {
+.products_card_modal .free_summary_visualisation_box .summary .price.big {
   font-size: 35px;
 }
-.visualisation_modal .free_summary_visualisation_box .desc {
+.products_card_modal .free_summary_visualisation_box .desc {
   margin: 0 0 0 306px;
 }
-.visualisation_modal__btn {
+.products_card_modal__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5204,7 +5204,7 @@ aside .envelope-img img {
   border-radius: 10px;
   margin: 32px auto 32px;
 }
-.visualisation_modal__btn button {
+.products_card_modal__btn button {
   font-family: "Poppins", sans-serif;
   border: 0;
   cursor: pointer;
@@ -5221,7 +5221,7 @@ aside .envelope-img img {
   border-radius: 10px;
   width: 168px;
 }
-.visualisation_modal__btn button::after {
+.products_card_modal__btn button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
@@ -5232,14 +5232,14 @@ aside .envelope-img img {
   top: 15px;
   right: 28px;
 }
-.visualisation_modal__btn:hover {
+.products_card_modal__btn:hover {
   background-color: #FFFFFF;
 }
-.visualisation_modal__btn:hover button {
+.products_card_modal__btn:hover button {
   color: #90D065;
   background-color: #FFFFFF;
 }
-.visualisation_modal__btn:hover button::after {
+.products_card_modal__btn:hover button::after {
   position: absolute;
   content: "";
   background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
