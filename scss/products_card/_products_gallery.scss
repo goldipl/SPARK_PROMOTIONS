@@ -171,6 +171,15 @@
     }
 }
 
+@media (max-width: 1600px) {
+    .gallery-container {
+        margin-left: 0;
+        &-small {
+            justify-content: center;
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .gallery-container-big {
         .big {
@@ -188,7 +197,7 @@
 
 @media (max-width: 760px) {
     .gallery-container {
-        width: calc(100vw - 32px);
+        width: 100%;
         box-sizing: border-box;
         padding: 0;
         &-small {

@@ -10,11 +10,26 @@
     }
 }
 
+@media (max-width: 1600px) {
+    .products_mostly_view {
+        .products_blocks_wrapper {
+            &__slot {
+                margin: 1%;
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .products_mostly_view {
         .title {
             font-size: 20px;
             margin: 0 0 24px 0;
+        }
+        .products_blocks_wrapper {
+            &__slot {
+                margin: 0 0 24px 0;
+            }
         }
     }
 }

@@ -147,3 +147,39 @@
         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
     }
 }
+
+@media (max-width: 760px) {
+    .products_tabs {
+        label {
+            padding: 0 16px;
+            p {
+                font-size: 16px;
+            }
+        }
+        .products_tab_box {
+            p {
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+        .products_tab {
+            table {
+                width: 100%;
+                tr {
+                    td {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .availability_status_container {
+                &__slot {
+                    &--text {
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

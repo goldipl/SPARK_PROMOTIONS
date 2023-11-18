@@ -29,7 +29,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="row__container">
+            <div class="row__container products-page-row">
                 <div class="col__product_images">
                     <?php include "./components/products_card/products_gallery.php"; ?> 
                 </div> 

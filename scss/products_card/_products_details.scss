@@ -139,6 +139,7 @@
                         font-weight: 400;
                         line-height: normal;
                         color: $grey_light2;
+                        white-space: pre;
                     }
                 }
             }
@@ -183,6 +184,7 @@
                         color: $white;
                         display: flex;
                         width: 36px;
+                        min-width: 36px;
                         height: 36px;
                         flex-direction: column;
                         justify-content: center;
@@ -387,6 +389,84 @@
                 line-height: normal;
                 color: $light_black;
                 margin: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .col__product_details {
+        width: 100%;
+        .products_details {
+            width: 100%;
+            &__top {
+                display: flex;
+                flex-direction: column;
+                h1 {
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                .code {
+                    font-size: 14px;
+                    line-height: 160%;
+                }
+                .products-variants {
+                    flex-wrap: wrap;
+                }
+                .pricing_availability_container {
+                    flex-direction: column;
+                    &__availability {
+                        margin: 15px 0 0 0;
+                        p,
+                        span {
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                    }
+                    &__btn {
+                        button {
+                            font-size: 14px;
+                            line-height: 160%;
+                            &::after {
+                                width: 25px;
+                                height: 14px;
+                                top: 13px;
+                                right: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+            &__bottom {
+                flex-direction: column;
+                &_left {
+                    width: 100%;
+                    .input-slot {
+                        input,
+                        select {
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                        label {
+                            width: 100%;
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                    }
+                    .text-slot {
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                &_right {
+                    margin-top: 24px;
+                    width: 100%;
+                    .desc {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                }
             }
         }
     }
