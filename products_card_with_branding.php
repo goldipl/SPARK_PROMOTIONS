@@ -159,5 +159,6 @@
         <script src="./js/products_page/pricing_visualisation_modal.js"></script>
         <script src="./js/products_page/free_visualisation_modal.js"></script>
         <script src="./js/products_page/added_to_cart_modal.js"></script>
+        <script src="./js/products_page/product_colors.js"></script>
     </body>
 </html>
