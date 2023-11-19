@@ -10,7 +10,6 @@
     </head>
     <body>
         <header> 
-            <?php include "./components/topbar.php"; ?> 
             <?php include "./components/nav.php"; ?> 
         </header>
         <div id="main-wrapper">
@@ -32,7 +31,7 @@
                                 <p>1</p>
                             </div>
                             <div class="item--text">
-                                <p>Koszyk</p>
+                                <p>Twój Koszyk</p>
                             </div>
                         </a>
                     </li>

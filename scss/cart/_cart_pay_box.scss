@@ -1,0 +1,130 @@
+.cart_pay_box {
+    width: 100%;
+    height: auto;
+    border: 1px solid $grey_light6;
+    background-color: $grey_light3;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    &__content {
+        .desc {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 168.5%;
+            color: $light_black;
+            text-align: center;
+            white-space: pre;
+            margin: 0;
+            span {
+                font-weight: 600;
+            }
+            &.branding-price,
+            &.vat,
+            &.delivery,
+            &.brutto-price {
+                margin: 0 0 25px 0;
+                span {
+                    margin: 0 10px 0 0;
+                }
+            }
+            &.netto-price {
+                span {
+                    margin: 0 10px 0 0;
+                }
+            }
+            &.brutto {
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin: 0 0 4px 0;
+            }
+            &.brutto-price {
+                margin: 0;
+                .big {
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-left: 4px;
+                }
+                .large {
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-left: 0;
+                }
+                .green {
+                    color: $main_color;
+                }
+            }
+        }
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(100% - 64px);
+        background-color: $light_green;
+        border: 1px solid $light_green;
+        height: 47px;
+        box-sizing: border-box;
+        margin: 0 32px 0 32px; 
+        border-radius: 10px;
+        padding-right: 12px;
+        .next-btn {
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            color: $white;
+            text-decoration: none;
+            border: 0;
+            cursor: pointer;
+            background-color: $light_green;
+            border-radius: 10px;
+            padding-right: 12px;
+            &::after {
+                position: absolute;
+                content: "";
+                background: url("./../assets/icons/modal/cart_white.svg") no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: 32px;
+                height: 17px;
+                top: 13px;
+                right: 10px;
+            }
+        }
+        &:hover {
+            background-color: $main_color;
+            border: 1px solid $main_color;
+            .next-btn {
+                background-color: $main_color;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .cart_pay_box {
+        width: 100%;
+        margin-top: 24px;
+        &__content {
+            .desc {
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+    }
+}
