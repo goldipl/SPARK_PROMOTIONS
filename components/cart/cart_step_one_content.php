@@ -124,7 +124,7 @@
                 <p class="info-text">Przed realizacją nadruku wyślemy do Ciebie projekt do akceptacji.</p>
             </div>
         </div>
-        <div class="continue_shopping_button_container">
+        <div class="cart_bottom_button_container">
             <a class="continue-btn" href="">Kontynuuj zakupy</a>
         </div>
     </div>
