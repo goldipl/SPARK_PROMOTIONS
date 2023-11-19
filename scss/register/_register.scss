@@ -1,3 +1,128 @@
 .register_container {
-    
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid $main_color;
+    padding: 28px 60px;
+    margin-bottom: 160px;
+    &__top {
+        background-color: $light_green;
+        border-radius: 8px 8px 0 0;
+        width: calc(100% + 120px);
+        margin: -28px -60px 0 -60px;
+        .info-text {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            padding: 10px 0;
+            text-align: center;
+            margin: 0 auto;
+            width: max-content;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 14px;
+                left: -24px;
+                content: '';
+                background: url('./../assets/icons/cart/info-circle-fill.svg');
+                width: 14px;
+                height: 14px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    &__bottom {
+        position: relative;
+        .title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin: 28px 0 40px 0;
+        }
+        &__middle {
+            display: flex;
+            flex-direction: row;
+            .register-checkbox-slot {
+                position: absolute;
+                left: 0;
+                bottom: 130px;
+                .input-slot.checkbox-slot {
+                    display: flex;
+                    align-items: center;
+                    label {
+                        cursor: pointer;
+                        user-select: none;
+                    }
+                    input[type="checkbox"] {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 16px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .register-slot {
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                width: 33%;
+                margin-right: 3%;
+                &:nth-of-type(3) {
+                    margin-right: 0;
+                }
+                .input-slot {
+                    width: 100%;
+                    input {
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                        height: 40px;
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding-left: 12px;
+                        margin: 0 0 25px 0;
+                        border-radius: 10px;
+                        border: 1px solid $grey_light;
+                        background: $grey_light3;
+                        &:focus,
+                        &:hover {
+                            border: 1px solid $main_color;
+                            outline: 0;
+                        }
+                        &::placeholder {
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                        }
+                    }
+                }
+            }
+        }
+        .full-green--btn.register-btn-container {
+            button {
+                padding: 0 33px;
+            }
+            &:hover {
+                button {
+                    background-color: $main_color;
+                    border-color: $main_color;
+                    color: $white;
+                }
+            }
+        }
+    }
 }
