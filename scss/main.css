@@ -5812,6 +5812,7 @@ aside .envelope-img img {
   #cart_steps_container .cart_steps {
     flex-wrap: wrap;
     padding-left: 24px;
+    margin: 8px 0 24px 0;
   }
   #cart_steps_container .cart_steps--item {
     margin-right: 12px;
