@@ -5832,8 +5832,9 @@ aside .envelope-img img {
     margin-right: 16px;
   }
   #cart_steps_container .cart_steps--item a .item--number::before {
-    top: 5px;
+    top: 4px;
     left: -24px;
+    height: 14px;
   }
   #cart_steps_container .cart_steps--item a .item--number p {
     font-size: 16px;
