@@ -6,7 +6,8 @@
     background-color: $white;
     margin: 0 auto;
     padding: 10px 10px 10px 0;
-    width: 538px;
+    width: 100%;
+    min-width: 480px;
     height: auto;
     box-sizing: border-box;
     margin-right: 24px;
@@ -46,7 +47,7 @@
             position: relative;
             margin-bottom: 9px;
             cursor: pointer;
-            width: 538px;
+            width: 100%;
             height: 600px;
             box-sizing: border-box;
             img {
@@ -200,6 +201,7 @@
         width: 100%;
         box-sizing: border-box;
         padding: 0;
+        min-width: unset;
         &-small {
             .gallery-item {
                 width: calc(97%/4);

@@ -25,11 +25,6 @@
 
 @media (max-width: 1600px) {
     .row__container {
-        &.products-page-row {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
         .col_10__container {
             .products_blocks_wrapper {
                 &__slot {
@@ -46,8 +41,14 @@
 }
 
 
+
 @media (max-width: 1123px) {
     .row__container {
+        &.products-page-row {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .col_10__container {
             .products_blocks_wrapper {
                 &__slot {
