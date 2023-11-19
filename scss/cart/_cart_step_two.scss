@@ -1,4 +1,7 @@
 .cart_step_two_container {
+    &.login {
+        margin-bottom: 40px;
+    }
     &__box {
         display: flex;
         flex-direction: row;

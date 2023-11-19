@@ -5729,6 +5729,9 @@ aside .envelope-img img {
     margin-bottom: 0;
   }
 }
+.cart_step_two_container.login {
+  margin-bottom: 40px;
+}
 .cart_step_two_container__box {
   display: flex;
   flex-direction: row;
