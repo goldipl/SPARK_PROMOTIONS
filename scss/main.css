@@ -3018,6 +3018,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: -moz-max-content;
   width: max-content;
   margin-top: 6px;
+  margin-bottom: 40px;
 }
 .cart_bottom_button_container a {
   font-family: "Poppins", sans-serif;
