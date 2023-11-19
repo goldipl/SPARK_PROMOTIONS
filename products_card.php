@@ -44,30 +44,30 @@
             <?php include "./components/footer.php"; ?> 
         </footer>
         <!-- Pricing and visualisation modal -->
-        <form class="visualisation_modal pricing-visualisation">
-            <span class="visualisation_modal--close-icon"></span>
-            <p class="visualisation_modal--title">Wycena i wizualizacja na email</p>
-            <p class="visualisation_modal--desc">Wykonamy bezpłatnie wycenę i wizualizację produktu, w tym celu prosimy o uzupełnienie formularza.</p>
-            <div class="visualisation_modal__inputs">
-                <div class="visualisation_modal__inputs__left">
-                    <div class="visualisation_modal__inputs__left--input">
+        <form class="products_card_modal pricing-visualisation">
+            <span class="products_card_modal--close-icon"></span>
+            <p class="products_card_modal--title">Wycena i wizualizacja na email</p>
+            <p class="products_card_modal--desc">Wykonamy bezpłatnie wycenę i wizualizację produktu, w tym celu prosimy o uzupełnienie formularza.</p>
+            <div class="products_card_modal__inputs">
+                <div class="products_card_modal__inputs__left">
+                    <div class="products_card_modal__inputs__left--input">
                         <input type="text" name="name" placeholder="Imię *" required>
                     </div>
-                    <div class="visualisation_modal__inputs__left--input">
+                    <div class="products_card_modal__inputs__left--input">
                         <input type="text" name="company_name" placeholder="Nazwa Firmy *" required>
                     </div>
-                    <div class="visualisation_modal__inputs__left--input">
+                    <div class="products_card_modal__inputs__left--input">
                         <input type="number" name="telephone" placeholder="Nr Telefonu">
                     </div>
-                    <div class="visualisation_modal__inputs__left--textarea">
+                    <div class="products_card_modal__inputs__left--textarea">
                         <textarea name="message" id="message" placeholder="Wiadomość *" required></textarea>
                     </div>
                 </div>
-                <div class="visualisation_modal__inputs__right">
-                    <div class="visualisation_modal__inputs__right--input">
+                <div class="products_card_modal__inputs__right">
+                    <div class="products_card_modal__inputs__right--input">
                         <input type="text" name="surname" placeholder="Nazwisko *" required>
                     </div>
-                    <div class="visualisation_modal__inputs__right--input">
+                    <div class="products_card_modal__inputs__right--input">
                         <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
                     <div class="add-files">
@@ -77,8 +77,8 @@
                     </div>
                 </div>
             </div>
-            <p class="visualisation_modal--desc green">Jeśli nie masz plików nic nie szkodzi, nasz grafik pomoże Ci w tym.</p>
-            <div class="visualisation_modal__btn">
+            <p class="products_card_modal--desc green">Jeśli nie masz plików nic nie szkodzi, nasz grafik pomoże Ci w tym.</p>
+            <div class="products_card_modal__btn">
                 <button>Wyślij</button>
             </div>
         </form>
