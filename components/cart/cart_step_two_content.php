@@ -1,4 +1,4 @@
-<div class="cart_step_two_container inputs">
+<form class="cart_step_two_container inputs">
     <div class="cart_step_two_container__left">
         <div class="cart_step_two_container__box">
             <div class="cart_step_two_container__box__left">
@@ -81,8 +81,8 @@
                 <p class="desc brutto-price"><span class="big green">100,66</span><span class="large green">PLN</span</p>
             </div>
             <div class="cart_pay_box__button">
-                <a class="next-btn" href="">Dalej</a>
+                <button class="next-btn">Dalej</button>
             </div>
         </div>
     </div>
-</div>
+</form>
