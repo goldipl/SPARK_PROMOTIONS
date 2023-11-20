@@ -1,0 +1,171 @@
+.cart_step_one_container {
+    &.step_three {
+        .cart_step_one_container__left {
+            .cart_products_box {
+                .cart_product_container {
+                    &--input {
+                        label {
+                            pointer-events: none;
+                        }
+                        input {
+                            pointer-events: none;
+                            cursor: not-allowed;
+                            &::-webkit-inner-spin-button, 
+                            &::-webkit-outer-spin-button {
+                                opacity: 0;
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .delivery_invoice_box {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 24px;
+                border: 1px solid $main_color;
+                border-radius: 10px;
+                padding: 45px 36px;
+                box-sizing: border-box;
+                &__right {
+                    border-left: 1px solid $main_color;
+                    padding: 45px 0 45px 36px;
+                    margin: -45px 0 -45px 0;
+                }
+                &__left,
+                &__right {
+                    width: 50%;
+                    .title {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        color: $light_black;
+                        margin: 0 0 20px 0;
+                    }
+                    .desc {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                        margin: 0 0 2px 0;
+                    }
+                }
+            }
+            .payment_method_box {
+                margin-bottom: 66px;
+                &__title {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    color: $light_black;
+                    margin: 16px 0 29px 33px;
+                }
+                &__slots {
+                    display: flex;
+                    flex-direction: column;
+                    &--slot {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        border-radius: 10px;
+                        border: 1px solid $grey_light6;
+                        width: 100%;
+                        height: 50px;
+                        box-sizing: border-box;
+                        margin: 0 0 12px 0;
+                        cursor: pointer;
+                        &.transfer {
+                            &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: calc(50% - 12px);
+                                right: 28px;
+                                background: url("./../assets/icons/cart/wallet.svg");
+                                height: 24px;
+                                width: 24px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                        &.credit-card {
+                            &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: calc(50% - 20px);
+                                right: 28px;
+                                background: url("./../assets/img/cart/mastercard.jpg");
+                                height: 40px;
+                                width: 33px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                            &::before {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: calc(50% - 21px);
+                                right: 72px;
+                                background: url("./../assets/img/cart/visa.jpg");
+                                height: 42px;
+                                width: 42px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                        &.online-pay {
+                            &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: calc(50% - 15px);
+                                right: 28px;
+                                background: url("./../assets/img/cart/payu.jpg");
+                                height: 30px;
+                                width: 60px;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                        &:hover,
+                        &.active {
+                            background-color: $grey_light3;
+                        }
+                        input {
+                            width: 21px;
+                            height: 21px;
+                            margin: 0 19px 0 35px;
+                            box-sizing: border-box;
+                        }
+                        label {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            margin: 0;
+                            width: 100%;
+                            padding: 15px 100% 15px 75px;
+                            margin-left: -75px;
+                            white-space: pre;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .cart_step_one_container {
+        &.step_three {
+        
+        }
+    }
+}
