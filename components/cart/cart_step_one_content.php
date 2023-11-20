@@ -1,4 +1,4 @@
-<div class="cart_step_one_container">
+<div class="cart_step_one_container step_one">
     <div class="cart_step_one_container__left">
         <div class="cart_products_box">
             <div class="cart_product_container">
