@@ -86,5 +86,6 @@
         <script src="./js/script.js"></script>
         <script src="./js/products_page/products_gallery.js"></script>
         <script src="./js/products_page/pricing_visualisation_modal.js"></script>
+        <script src="./js/products_page/product_colors.js"></script>
     </body>
 </html>
