@@ -6215,6 +6215,7 @@ aside .envelope-img img {
 }
 #cart_steps_container .cart_steps--item a .item--number {
   display: flex;
+  min-width: 36px;
   width: 36px;
   height: 36px;
   align-items: center;
