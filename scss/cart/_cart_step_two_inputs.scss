@@ -102,3 +102,49 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .cart_step_two_container {
+        &.inputs {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .cart_step_two_container {
+        &.inputs {
+            .cart_step_two_container__left {
+                .cart_step_two_container__box {
+                    &__left {
+                        padding-bottom: 0;
+                        margin-bottom: -32px;
+                    }
+                    &__right {
+                        .input-slot.radio-btns {
+                            label {
+                                font-size: 12px;
+                                line-height: 140%;
+                            }
+                        }
+                        .input-slot.checkbox-slot {
+                            label {
+                                font-size: 12px;
+                                line-height: 140%; 
+                            }
+                        }
+                        .input-slot:not(.radio-btns, .checkbox-slot) {
+                            input {
+                                font-size: 14px;
+                                line-height: 160%;
+                                &::placeholder {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

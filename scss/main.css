@@ -5993,6 +5993,37 @@ aside .envelope-img img {
   color: #333333;
 }
 
+@media (max-width: 1200px) {
+  .cart_step_two_container.inputs {
+    flex-direction: column;
+  }
+}
+@media (max-width: 960px) {
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__left {
+    padding-bottom: 0;
+    margin-bottom: -32px;
+  }
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns label {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.checkbox-slot label {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input::-moz-placeholder {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input::placeholder {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
 #cart_steps_container .cart_steps {
   display: flex;
   flex-direction: row;
