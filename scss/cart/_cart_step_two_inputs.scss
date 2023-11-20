@@ -1,0 +1,104 @@
+.cart_step_two_container {
+    &.inputs {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 228px;
+        .cart_step_two_container__left {
+            width: 100%;
+            margin-right: 25px;
+            .cart_step_two_container__box {
+                &__left {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 36px 72px 36px 36px;
+                    .title {
+                        p {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            margin: 0 0 40px 0;
+                        }
+                    }
+                    .input-slot {
+                        width: 100%;
+                    }
+                }
+                &__right {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 36px 72px 36px 36px;
+                    .input-slot.radio-btns {
+                        margin-bottom: 40px;
+                        display: flex;
+                        align-items: center;
+                        input {
+                            width: 21px;
+                            height: 21px;
+                            margin: 0 6px 0 0;
+                            cursor: pointer;
+                        }
+                        label {
+                            user-select: none;
+                            cursor: pointer;
+                            white-space: pre;
+                            margin: 0 10px 0 0;
+                        }
+                    }
+                    .input-slot.checkbox-slot {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        width: 100%;
+                        input {
+                            width: 24px;
+                            height: 24px;
+                            margin: 0 10px 0 0;
+                            cursor: pointer;
+                        }
+                        label {
+                            user-select: none;
+                            cursor: pointer;
+                        }
+                    }
+                    .input-slot:not(.radio-btns, .checkbox-slot) {
+                        width: 100%;
+                        input {
+                            font-family: 'Poppins', sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            height: 40px;
+                            width: 100%;
+                            box-sizing: border-box;
+                            padding-left: 12px;
+                            margin: 0 0 25px 0;
+                            border-radius: 10px;
+                            border: 1px solid $grey_light;
+                            background: $grey_light3;
+                            &:focus,
+                            &:hover {
+                                border: 1px solid $main_color;
+                                outline: 0;
+                            }
+                            &::placeholder {
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $light_black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

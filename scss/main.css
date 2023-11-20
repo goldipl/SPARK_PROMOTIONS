@@ -5884,6 +5884,115 @@ aside .envelope-img img {
     font-size: 14px;
   }
 }
+.cart_step_two_container.inputs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 228px;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left {
+  width: 100%;
+  margin-right: 25px;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px 72px 36px 36px;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__left .title p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 40px 0;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__left .input-slot {
+  width: 100%;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px 72px 36px 36px;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns input {
+  width: 21px;
+  height: 21px;
+  margin: 0 6px 0 0;
+  cursor: pointer;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  white-space: pre;
+  margin: 0 10px 0 0;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.checkbox-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.checkbox-slot input {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.checkbox-slot label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) {
+  width: 100%;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  margin: 0 0 25px 0;
+  border-radius: 10px;
+  border: 1px solid #E2E2E2;
+  background: #F8F8F8;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input:focus, .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input:hover {
+  border: 1px solid #68B236;
+  outline: 0;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+}
+
 #cart_steps_container .cart_steps {
   display: flex;
   flex-direction: row;
