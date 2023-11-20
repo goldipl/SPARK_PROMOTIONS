@@ -34,6 +34,7 @@
                         margin-bottom: 40px;
                         display: flex;
                         align-items: center;
+                        justify-content: flex-start;
                         input {
                             width: 21px;
                             height: 21px;
@@ -41,6 +42,10 @@
                             cursor: pointer;
                         }
                         label {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
                             user-select: none;
                             cursor: pointer;
                             white-space: pre;
@@ -53,6 +58,7 @@
                         align-items: center;
                         justify-content: flex-start;
                         width: 100%;
+                        margin-bottom: 24px;
                         input {
                             width: 24px;
                             height: 24px;
@@ -62,6 +68,15 @@
                         label {
                             user-select: none;
                             cursor: pointer;
+                        }
+                    }
+                    .input-slot.hide {
+                        display: none;
+                    }
+                    .input-slot.other-address {
+                        display: none;
+                        &.show {
+                            display: flex;
                         }
                     }
                     .input-slot:not(.radio-btns, .checkbox-slot) {

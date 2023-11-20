@@ -5919,6 +5919,7 @@ aside .envelope-img img {
   margin-bottom: 40px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns input {
   width: 21px;
@@ -5927,6 +5928,10 @@ aside .envelope-img img {
   cursor: pointer;
 }
 .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.radio-btns label {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -5940,6 +5945,7 @@ aside .envelope-img img {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  margin-bottom: 24px;
 }
 .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.checkbox-slot input {
   width: 24px;
@@ -5952,6 +5958,15 @@ aside .envelope-img img {
      -moz-user-select: none;
           user-select: none;
   cursor: pointer;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.hide {
+  display: none;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.other-address {
+  display: none;
+}
+.cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot.other-address.show {
+  display: flex;
 }
 .cart_step_two_container.inputs .cart_step_two_container__left .cart_step_two_container__box__right .input-slot:not(.radio-btns, .checkbox-slot) {
   width: 100%;

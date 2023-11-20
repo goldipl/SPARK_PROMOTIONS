@@ -20,13 +20,13 @@
             </div>
             <div class="cart_step_two_container__box__right">
                 <div class="input-slot radio-btns">
-                    <input type="radio" id="company" name="buyer-radiobtn" value="Dane do faktury">&nbsp;<label for="company">Dane do faktury</label>
+                    <input type="radio" id="company" name="buyer-radiobtn" value="Dane do faktury" checked>&nbsp;<label for="company">Dane do faktury</label>
                     <input type="radio" id="person" name="buyer-radiobtn" value="Osoba fizyczna">&nbsp;<label for="person">Osoba fizyczna</label>
                 </div>
-                <div class="input-slot">
+                <div class="input-slot company">
                     <input type="text" name="company" placeholder="Nazwa Firmy *" required>
                 </div>
-                <div class="input-slot">
+                <div class="input-slot nip">
                     <input type="number" name="nip" placeholder="NIP *" required>
                 </div>
                 <div class="input-slot">
@@ -41,6 +41,27 @@
                 <div class="input-slot checkbox-slot">
                     <input type="checkbox" name="address_checkbox" id="address_checkbox" required>
                     <label class="checkbox" for="address_checkbox">Adres wysyłki inny niż na fakturze</label>
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="company" placeholder="Nazwa Firmy">
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="name" placeholder="Imię">
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="surname" placeholder="Nazwisko">
+                </div>
+                <div class="input-slot other-address">
+                    <input type="number" name="nip" placeholder="NIP *" required>
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="street" placeholder="Ulica *" required>
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="zipcode" placeholder="Kod pocztowy *" required>
+                </div>
+                <div class="input-slot other-address">
+                    <input type="text" name="city" placeholder="Miasto *" required>
                 </div>
             </div>
         </div>
