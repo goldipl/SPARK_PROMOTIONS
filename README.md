@@ -41,3 +41,5 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![screenshot](./screenshots/spark_promotions_05.jpg)   
 
 ![screenshot](./screenshots/spark_promotions_06.jpg)   
+
+![screenshot](./screenshots/spark_promotions_07.jpg)   
