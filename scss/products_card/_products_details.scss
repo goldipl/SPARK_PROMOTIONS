@@ -477,12 +477,13 @@
                     &__btn {
                         button {
                             font-size: 14px;
-                            line-height: 160%;
+                            padding-right: 56px;
+                            margin-left: -8px;
                             &::after {
                                 width: 25px;
                                 height: 14px;
                                 top: 13px;
-                                right: 36px;
+                                right: 24px;
                             }
                         }
                     }
@@ -516,6 +517,12 @@
                     .desc {
                         font-size: 14px;
                         line-height: 160%;
+                    }
+                    .full-green--btn,
+                    .green-white--btn {
+                        button {
+                            font-size: 14px;
+                        }
                     }
                 }
             }

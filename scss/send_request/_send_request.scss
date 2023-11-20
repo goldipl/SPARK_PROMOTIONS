@@ -230,7 +230,6 @@ aside {
 
 
 @media (max-width: 1320px) {
-
     .row__container {
         display: flex;
         flex-direction: column;
@@ -260,7 +259,6 @@ aside {
 
 
 @media (max-width: 760px) {
-
     .send_request {
         &_title {
             margin: 16px 0 16px 0;
@@ -303,20 +301,18 @@ aside {
                         }
                         &_bottom {
                             &__btn {
-                                padding: 10px 64px 10px 33px;
-                                span {
+                                margin: 24px auto;
+                                button {
+                                    position: relative;
                                     font-size: 14px;
-                                    line-height: 160%;
                                     &::after {
                                         position: absolute;
                                         content: "";
                                         background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        width: 24px;
-                                        height: 14px;
-                                        top: 4px;
-                                        right: -30px;
+                                        top: 12px;
+                                        height: 16px;
                                     }
                                 }
                                 &:hover {
@@ -330,10 +326,8 @@ aside {
                                             background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
                                             background-position: center;
                                             background-size: contain;
-                                            width: 24px;
-                                            height: 14px;
-                                            top: 4px;
-                                            right: -30px;
+                                            top: 12px;
+                                            height: 16px;
                                         }
                                     }
                                 }

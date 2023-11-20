@@ -389,7 +389,8 @@
             }
             .bottom-container {
                 .send_request_form_bottom__btn {
-                    span {
+                    margin: 27px auto 0;
+                    button {
                         font-size: 14px;
                         line-height: 200%;
                     }

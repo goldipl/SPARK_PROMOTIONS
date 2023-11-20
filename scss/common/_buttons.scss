@@ -164,5 +164,8 @@
 @media (max-width: 760px) {
     .cart_bottom_button_container {
         margin: 0 auto;
+        a {
+            font-size: 14px;
+        }
     }
 }

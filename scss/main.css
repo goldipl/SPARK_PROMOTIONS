@@ -1198,6 +1198,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 @media (max-width: 760px) {
   .breadcrumbs {
     margin-top: 0;
+    margin-bottom: 8px;
   }
   .breadcrumbs ul {
     padding-left: 16px;
@@ -3050,6 +3051,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .cart_bottom_button_container {
     margin: 0 auto;
   }
+  .cart_bottom_button_container a {
+    font-size: 14px;
+  }
 }
 .category_filters .accordion_box_title {
   display: flex;
@@ -4164,13 +4168,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
   .col__product_details .products_details__top .pricing_availability_container__btn button {
     font-size: 14px;
-    line-height: 160%;
+    padding-right: 56px;
+    margin-left: -8px;
   }
   .col__product_details .products_details__top .pricing_availability_container__btn button::after {
     width: 25px;
     height: 14px;
     top: 13px;
-    right: 36px;
+    right: 24px;
   }
   .col__product_details .products_details__bottom {
     flex-direction: column;
@@ -4198,6 +4203,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .col__product_details .products_details__bottom_right .desc {
     font-size: 14px;
     line-height: 160%;
+  }
+  .col__product_details .products_details__bottom_right .full-green--btn button,
+  .col__product_details .products_details__bottom_right .green-white--btn button {
+    font-size: 14px;
   }
 }
 @media (max-width: 380px) {
@@ -4685,22 +4694,20 @@ aside .envelope-img img {
     line-height: 160%;
   }
   .row__container .col_10__container .send_request_box .send_request_form_bottom__btn {
-    padding: 10px 64px 10px 33px;
+    margin: 24px auto;
   }
-  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn button {
+    position: relative;
     font-size: 14px;
-    line-height: 160%;
   }
-  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn span::after {
+  .row__container .col_10__container .send_request_box .send_request_form_bottom__btn button::after {
     position: absolute;
     content: "";
     background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
     background-position: center;
     background-size: contain;
-    width: 24px;
-    height: 14px;
-    top: 4px;
-    right: -30px;
+    top: 12px;
+    height: 16px;
   }
   .row__container .col_10__container .send_request_box .send_request_form_bottom__btn:hover {
     border: 1px solid #90D065;
@@ -4715,10 +4722,8 @@ aside .envelope-img img {
     background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
     background-position: center;
     background-size: contain;
-    width: 24px;
-    height: 14px;
-    top: 4px;
-    right: -30px;
+    top: 12px;
+    height: 16px;
   }
   .row__container aside {
     margin-bottom: 64px;
@@ -5109,7 +5114,10 @@ aside .envelope-img img {
     font-size: 14px;
     line-height: 160%;
   }
-  .contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn span {
+  .contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn {
+    margin: 27px auto 0;
+  }
+  .contact_container .contact_form_box .bottom-container .send_request_form_bottom__btn button {
     font-size: 14px;
     line-height: 200%;
   }
@@ -5688,6 +5696,9 @@ aside .envelope-img img {
     font-size: 14px;
     line-height: 160%;
   }
+  .cart_pay_box__button .next-btn {
+    font-size: 14px;
+  }
 }
 .cart_step_one_container {
   display: flex;
@@ -5833,8 +5844,6 @@ aside .envelope-img img {
     width: 100%;
   }
   .cart_step_two_container__box__left .title p {
-    font-size: 14px;
-    line-height: 160%;
     margin: 0 0 24px 0;
   }
   .cart_step_two_container__box__left .input-slot {
@@ -5862,8 +5871,6 @@ aside .envelope-img img {
     border-left: 0;
   }
   .cart_step_two_container__box__right .title p {
-    font-size: 14px;
-    line-height: 160%;
     margin: 0 0 24px 0;
   }
   .cart_step_two_container__box__right .full-green--btn button {
@@ -6271,10 +6278,12 @@ aside .envelope-img img {
     width: 100%;
   }
   .cart_product_container_info .info-text {
-    font-size: 8px;
+    font-size: 11px;
+    white-space: wrap;
+    width: 80%;
   }
   .cart_product_container_info .info-text::before {
-    top: 10px;
+    top: 14px;
     left: -14px;
     width: 10px;
     height: 10px;
@@ -6413,4 +6422,63 @@ aside .envelope-img img {
   background-color: #68B236;
   border-color: #68B236;
   color: #FFFFFF;
+}
+
+@media (max-width: 1030px) {
+  .register_container {
+    padding: 28px 24px;
+  }
+  .register_container__top {
+    width: calc(100% + 48px);
+    margin: -28px -24px 0 -24px;
+  }
+  .register_container__top .info-text {
+    font-size: 11px;
+    white-space: wrap;
+    width: 80%;
+  }
+  .register_container__top .info-text::before {
+    top: 14px;
+    left: -14px;
+    width: 10px;
+    height: 10px;
+  }
+  .register_container__bottom .title {
+    margin: 28px 0 24px 0;
+  }
+  .register_container__bottom__middle {
+    flex-direction: column;
+  }
+  .register_container__bottom__middle .register-checkbox-slot {
+    bottom: 64px;
+  }
+  .register_container__bottom__middle .register-slot {
+    width: 100%;
+    margin-right: 0;
+  }
+  .register_container__bottom__middle .register-slot .input-slot {
+    width: 100%;
+  }
+  .register_container__bottom__middle .register-slot .input-slot input {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__bottom__middle .register-slot .input-slot input::-moz-placeholder {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__bottom__middle .register-slot .input-slot input::placeholder {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__bottom__middle .register-checkbox-slot .input-slot label {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__bottom .full-green--btn.register-btn-container {
+    margin: 64px auto 0;
+  }
+  .register_container__bottom .full-green--btn.register-btn-container button {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */

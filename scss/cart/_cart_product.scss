@@ -287,9 +287,11 @@
             border-radius: 0 0 8px 8px;
             width: 100%;
             .info-text {
-                font-size: 8px;
+                font-size: 11px;
+                white-space: wrap;
+                width: 80%;
                 &::before {
-                    top: 10px;
+                    top: 14px;
                     left: -14px;
                     width: 10px;
                     height: 10px;
