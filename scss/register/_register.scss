@@ -126,3 +126,64 @@
         }
     }
 }
+
+@media (max-width: 1030px) {
+    .register_container {
+        padding: 28px 24px;
+        &__top {
+            width: calc(100% + 48px);
+            margin: -28px -24px 0 -24px;
+            .info-text {
+                font-size: 11px;
+                white-space: wrap;
+                width: 80%;
+                &::before {
+                    top: 14px;
+                    left: -14px;
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+        &__bottom {
+            .title {
+                margin: 28px 0 24px 0;
+            }
+            &__middle {
+                flex-direction: column;
+                .register-checkbox-slot {
+                    bottom: 64px;
+                }
+                .register-slot {
+                    width: 100%;
+                    margin-right: 0;
+                    .input-slot {
+                        width: 100%;
+                        input {
+                            font-size: 14px;
+                            line-height: 160%;
+                            &::placeholder {
+                                font-size: 14px;
+                                line-height: 160%;
+                            }
+                        }
+                    }
+                }
+                .register-checkbox-slot {
+                    .input-slot {
+                        label {
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                    }
+                }
+            }
+            .full-green--btn.register-btn-container {
+                margin: 64px auto 0;
+                button {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
