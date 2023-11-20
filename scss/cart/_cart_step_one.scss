@@ -34,6 +34,24 @@
     }
 }
 
+@media (max-width: 960px) {
+    .cart_step_one_container {
+        &.step_one,
+        &.step_three {
+            .cart_product_container {
+                flex-direction: column;
+                padding: 15px;
+                &--input {
+                    margin: 0;
+                }
+                &--files {
+                    margin-top: 24px
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .cart_step_one_container {
         &__left {

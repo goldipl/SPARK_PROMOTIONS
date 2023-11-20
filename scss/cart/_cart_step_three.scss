@@ -162,10 +162,29 @@
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 760px) {
     .cart_step_one_container {
         &.step_three {
-        
+            .cart_step_one_container__left {
+                .delivery_invoice_box {
+                    flex-direction: column;
+                    &__left {
+                        width: 100%;
+                    }
+                    &__right {
+                        border-left: 0;
+                        padding: 0;
+                        margin: 24px 0 0 0;
+                        width: 100%;
+                    }
+                }
+                .payment_method_box {
+                    margin: 0 0 12px 0;
+                    &__title {
+                        margin-top: 0;
+                    }
+                }
+            }
         }
     }
 }
