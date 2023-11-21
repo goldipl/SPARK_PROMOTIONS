@@ -982,6 +982,21 @@ header {
     header #nav .bottom-nav .bottom-nav-sublist.brands ul {
         margin-left: 0 !important;
     }
+    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist:not(.brands, .special-orders) ul li {
+        position: relative;
+    }
+    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist:not(.brands, .special-orders) ul li::after {
+        position: absolute;
+        content: "";
+        background: url("./../assets/icons/chevron-down.svg") no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 16px;
+        height: 7.5px;
+        top: 14px;
+        right: 70px;
+        display: block;
+    }
 }
 
 @media (max-width: 600px) {
