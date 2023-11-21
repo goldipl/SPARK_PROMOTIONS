@@ -1,0 +1,75 @@
+.clients_panel_row {
+    display: flex;
+    flex-direction: row;
+    .input-slot {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-right: 3%;
+        label {
+            display: block;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            margin: 0 0 10px 0;
+        }
+        input {
+            font-family: 'Poppins', sans-serif;
+            width: 100%;
+            height: 40px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: 1px solid $grey_light;
+            background: $grey_light3;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            padding: 0 20px;
+            margin: 0 0 16px 0;
+            &::placeholder {
+                color: $light_black;
+            }
+            &:hover,
+            &:focus {
+                border: 1px solid $main_color;
+                outline: 0;
+            }
+        }
+        .full-green--btn {
+            margin-top: 35px;
+            margin-bottom: 80px;
+            button {
+                padding: 10px 33px;
+                height: 47px;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .clients_panel_row {
+        flex-direction: column;
+        .input-slot {
+            width: 100%;
+            margin-right: 0;
+            label {
+                font-size: 14px;
+                line-height: 160%;
+            }
+            input {
+                font-size: 14px;
+                line-height: 160%;
+            }
+            .full-green--btn {
+                margin-top: 15px;
+                button {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

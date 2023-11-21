@@ -1,0 +1,358 @@
+.clients_panel_orders_details_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    &__left {
+        display: flex;
+    }
+    &__right {
+        margin-top: 57px;
+        width: 100%;
+        h1.title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: $light_black;
+            margin: 30px 0 30px 0;
+        }
+        .orders_details_box {
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+            width: 100%;
+            &__slot {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 36px;
+                box-sizing: border-box;
+                border: 1px solid $main_color;
+                margin-bottom: 35px;
+                border-radius: 10px;
+                height: auto;
+                width: 100%;
+                &.send {
+                    .orders_details_box__slot__bottom {
+                        background-color: $light_green;
+                        .info::before {
+                            position: absolute;
+                            display: block;
+                            top: 4px;
+                            left: -32px;
+                            content: '';
+                            background: url('./../assets/icons/clients_panel/car.svg');
+                            width: 27px;
+                            height: 18px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+                &.accepted {
+                    .orders_details_box__slot__bottom {
+                        background-color: $orange;
+                        .info::before {
+                            position: absolute;
+                            display: block;
+                            top: 4px;
+                            left: -24px;
+                            content: '';
+                            background: url('./../assets/icons/clients_panel/box.svg');
+                            width: 18px;
+                            height: 18px;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+                &__top {
+                    width: 100%;
+                    .slot-text {
+                        display: flex;
+                        flex-direction: row;
+                        border-bottom: 1px solid $main_color;
+                        margin-left: -36px;
+                        margin-right: -36px;
+                        padding: 0 0 32px 36px;
+                        p {
+                            display: inline-flex;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $grey_middle;
+                            margin: 0;
+                            &:nth-of-type(2) {
+                                margin-left: 60px;
+                            }
+                            strong {
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                color: $light_black;
+                                margin-right: 4px;
+                                white-space: pre;
+                                &.green {
+                                    color: $main_color;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+                &__middle {
+                    position: relative;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 35px 0 35px 50px;
+                    width: calc(100% + 24px);
+                    margin: 0 -12px 0 -12px;
+                    border-bottom: 1px solid $main_color;
+                    .slot-img {
+                        display: flex;
+                        flex-direction: column;
+                        width: 115px;
+                        height: 115px;
+                        margin-right: 24px;
+                        img {
+                            width: auto;
+                            height: 115px;
+                            object-fit: contain;
+                        }
+                    }
+                    .slot-text {
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 40px;
+                        .title {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            color: $light_black;
+                            margin: 0 0 25px 0;
+                        }
+                        .desc {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $grey_light2;
+                            margin: 0 0 4px 0;
+                            white-space: pre;
+                        }
+                        &.second {
+                            margin: 52px 40px 0 0;
+                        }
+                        .price {
+                            position: absolute;
+                            bottom: 16px;
+                            right: 20px;
+                            text-align: center;
+                            margin: 0 0 45px 0;
+                            .big {
+                                font-size: 35px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-left: 4px;
+                            }
+                            .large {
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-left: 4px;
+                            }
+                            .green {
+                                color: $main_color;
+                            }
+                        }
+                        .details {
+                            position: absolute;
+                            top: 16px;
+                            right: 20px;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-decoration: none;
+                            color: $light_black;
+                            &:hover {
+                                color: $main_color;
+                            }
+                        }
+                    }
+                }
+                &__middle--delivery {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    padding: 35px 35px 0 50px;
+                    .slot-text {
+                        display: flex;
+                        flex-direction: column;
+                        width: 30%;
+                        .title {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            color: $light_black;
+                            margin: 0 0 13px 0;
+                        }
+                        .desc {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            margin: 0 0 4px 0;
+                        }
+                    }
+                }
+                .orders_details_box__slot__bottom {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    height: 47px;
+                    width: calc(100% + 72px);
+                    margin: 35px -36px -36px -36px;
+                    border-radius: 0 0 8px 8px;
+                    .info {
+                        position: relative;
+                        margin: 0 34px 0 0;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: normal;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media (max-width: 1180px) {
+    .clients_panel_orders_details_content {
+        flex-direction: column;
+        &__right {
+            margin-top: 0;
+            h1.title {
+                margin: 0;
+            }
+        } 
+    }
+}
+
+@media (max-width: 960px) {
+    .clients_panel_orders_details_content {
+        &__right {
+            .orders_details_box {
+                &__slot {
+                    padding: 15px;
+                    &__top {
+                        .slot-text {
+                            padding: 0 0 15px 15px;
+                            margin-left: -15px;
+                            margin-right: -15px;
+                            p {
+                                font-size: 14px;
+                                line-height: 160%;
+                                margin-left: 15px;
+                                &:nth-of-type(2) {
+                                    margin-left: 15px;
+                                }
+                                strong {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                }
+                            }
+                        }
+                    }
+                    &__middle {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row;
+                        padding: 15px;
+                        width: 100%;
+                        margin: 0 -15px;
+                        .slot-text {
+                            .price {
+                                text-align: center;
+                                margin: 0;
+                                .big {
+                                    font-size: 28px;
+                                }
+                                .large {
+                                    font-size: 18px;
+                                }
+                            }
+                            .details {
+                                position: absolute;
+                                top: 16px;
+                                right: 20px;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                text-decoration: none;
+                                color: $light_black;
+                                &:hover {
+                                    color: $main_color;
+                                }
+                            }
+                        }
+                    }
+                    &__middle--delivery {
+                        .slot-text {
+                            width: 50%;
+                            .desc {
+                                font-size: 14px;
+                                line-height: 140%;
+                            }
+                        }
+                    }
+                    .orders_details_box__slot__bottom {
+                        width: calc(100% + 30px);
+                        margin: 35px -15px -15px -15px;
+                        height: 40px;
+                        .info {
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+@media (max-width: 600px) {
+    .clients_panel_orders_details_content {
+        &__right {
+            .orders_details_box {
+                &__slot {
+                    &__top {
+                        .slot-text {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                    &__middle {
+                        padding-bottom: 72px;
+                    }
+                    &__middle--delivery {
+                        flex-direction: column;
+                        .slot-text {
+                            width: 100%;
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}

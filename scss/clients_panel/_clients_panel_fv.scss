@@ -1,0 +1,33 @@
+.clients_panel_fv_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    &__left {
+        display: flex;
+    }
+    &__right {
+        margin-top: 57px;
+        width: 100%;
+        h1.title {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: $light_black;
+            margin: 30px 0 30px 0;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .clients_panel_fv_content {
+        flex-direction: column;
+        margin-bottom: 120px;
+        &__right {
+            margin-top: 0;
+            h1.title {
+                margin: 15px 0 30px 0;
+            }
+        }
+    }
+}

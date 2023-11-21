@@ -1,0 +1,158 @@
+.clients_panel_aside {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: auto;
+    margin-right: 30px;
+    padding: 0 42px;
+    box-sizing: border-box;
+    margin-bottom: 444px;
+    border-right: 1px solid $main_color;
+    margin-top: 80px;
+    margin-right: 85px !important;
+    &--title {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 168.5%;
+        color: $light_black;
+        margin: 0 0 24px -40px;
+        span {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    &--slot {
+        display: block;
+        height: 40px;
+        box-sizing: border-box;
+        margin-left: -42px;
+        padding-left: 42px;
+        margin-right: -42px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+        &.active p,
+        &:hover p {
+            color: $main_color;
+            text-decoration: none;
+        }
+        p {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 168.5%;
+            color: $light_black;
+            margin: 0;
+            padding-left: 40px;
+            margin-left: -40px;
+        }
+        &.data {
+            position: relative;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 4px;
+                left: 4px;
+                content: '';
+                background: url('./../assets/icons/clients_panel/data.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &:hover::before,
+            &.active::before {
+                background: url('./../assets/icons/clients_panel/data-green.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &.orders {
+            position: relative;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 4px;
+                left: 4px;
+                content: '';
+                background: url('./../assets/icons/clients_panel/orders.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &:hover::before,
+            &.active::before {
+                background: url('./../assets/icons/clients_panel/orders-green.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &.addresses {
+            position: relative;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 4px;
+                left: 4px;
+                content: '';
+                background: url('./../assets/icons/clients_panel/addresses.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &:hover::before,
+            &.active::before {
+                background: url('./../assets/icons/clients_panel/addresses-green.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &.fv {
+            position: relative;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 4px;
+                left: 4px;
+                content: '';
+                background: url('./../assets/icons/clients_panel/fv.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &:hover::before,
+            &.active::before {
+                background: url('./../assets/icons/clients_panel/fv-green.svg');
+                width: 18px;
+                height: 18px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .clients_panel_aside {
+        width: 100%;
+        height: auto;
+        margin: 24px 0 !important;
+        &--slot {
+            p {
+                font-size: 16px;
+                margin-top: 2px;
+            }
+        }
+    }
+}
