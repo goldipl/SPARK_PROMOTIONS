@@ -1,0 +1,109 @@
+.thank_you_page_box {
+    border-radius: 10px;
+    border: 1px solid $grey_light6;
+    background-color: $grey_light3;
+    width: 90%;
+    margin: 52px auto 180px;
+    &__top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $grey_light6;
+        .star-img {
+            margin: 57px auto 28px;
+            width: 57px;
+            height: 54px;
+            object-fit: contain;
+        }
+        .title {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $light_black;
+            margin: 0 0 21px 0;
+            text-align: center;
+        }
+        .desc {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            margin: 0 0 44px 0;
+            text-align: center;
+            span {
+                font-weight: 700;
+                color: $main_color;
+            }
+        }
+    }
+    &__bottom {
+        .back-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-radius: 10px;
+            height: 47px;
+            width: max-content;
+            margin-top: 6px;
+            margin-bottom: 40px;
+            margin: 40px auto;
+            a {
+                font-family: 'Poppins', sans-serif; 
+                border: 0;
+                cursor: pointer;
+                position: relative;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 47px;
+                color: $light_green;
+                background-color: $white;
+                border-radius: 10px;
+                height: 47px;
+                width: 100%;
+                box-sizing: border-box;
+                border: 1px solid $light_green;
+                text-decoration: none;
+                padding: 0 33px;
+                text-transform: uppercase;
+            }
+            &:hover {
+                a {
+                    color: $white;
+                    background-color: $light_green;
+                    border: 1px solid $light_green;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .thank_you_page_box {
+        margin: 24px auto 80px;
+        &__top {
+            .star-img {
+                margin: 40px auto 28px;
+            }
+            .title {
+                font-size: 20px;
+            }
+            .desc {
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+        &__bottom {
+            .back-button {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

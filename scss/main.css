@@ -6620,6 +6620,107 @@ aside .envelope-img img {
     height: 10px;
   }
 }
+.thank_you_page_box {
+  border-radius: 10px;
+  border: 1px solid #D3D3D3;
+  background-color: #F8F8F8;
+  width: 90%;
+  margin: 52px auto 180px;
+}
+.thank_you_page_box__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #D3D3D3;
+}
+.thank_you_page_box__top .star-img {
+  margin: 57px auto 28px;
+  width: 57px;
+  height: 54px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.thank_you_page_box__top .title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+  margin: 0 0 21px 0;
+  text-align: center;
+}
+.thank_you_page_box__top .desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin: 0 0 44px 0;
+  text-align: center;
+}
+.thank_you_page_box__top .desc span {
+  font-weight: 700;
+  color: #68B236;
+}
+.thank_you_page_box__bottom .back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 47px;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 6px;
+  margin-bottom: 40px;
+  margin: 40px auto;
+}
+.thank_you_page_box__bottom .back-button a {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+  color: #90D065;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  height: 47px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #90D065;
+  text-decoration: none;
+  padding: 0 33px;
+  text-transform: uppercase;
+}
+.thank_you_page_box__bottom .back-button:hover a {
+  color: #FFFFFF;
+  background-color: #90D065;
+  border: 1px solid #90D065;
+}
+
+@media (max-width: 760px) {
+  .thank_you_page_box {
+    margin: 24px auto 80px;
+  }
+  .thank_you_page_box__top .star-img {
+    margin: 40px auto 28px;
+  }
+  .thank_you_page_box__top .title {
+    font-size: 20px;
+  }
+  .thank_you_page_box__top .desc {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .thank_you_page_box__bottom .back-button a {
+    font-size: 14px;
+  }
+}
 .register_container {
   border-radius: 10px;
   box-sizing: border-box;
