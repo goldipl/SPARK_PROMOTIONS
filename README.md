@@ -3,13 +3,15 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [License](#license)
-* [Screenshots](#screenshots)
+* [E-commerce website screenshots](#e-commerce-website-screenshots)
+* [E-mail confirmations screenshots](#e-mail-confirmations-screenshots)
 
 ## Gif website presentation
 
 
 ## General info
 Spark Promotions website ➡️ E-commerce dynamic website written using PHP, SCSS, Vanilla JavaScript, HTML5 with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
+Project contains also confirmations templates for mailboxes.
 
 ## Technologies   
 Used technologies:
@@ -27,7 +29,7 @@ License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mi
 
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
-## Screenshots
+## E-commerce website screenshots
 * Desktop & mobile version :desktop_computer: :iphone: 
 
 ![screenshot](./screenshots/spark_promotions_01.jpg)   
@@ -59,3 +61,10 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![screenshot](./screenshots/spark_promotions_13.jpg)   
 
 ![screenshot](./screenshots/spark_promotions_14.jpg)   
+
+## E-mail confirmations screenshots
+* E-mail confirmations templates :email:
+
+![screenshot](./screenshots/spark_promotions_email_01.jpg)   
+
+![screenshot](./screenshots/spark_promotions_email_02.jpg)  
