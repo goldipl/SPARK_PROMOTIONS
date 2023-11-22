@@ -11,7 +11,7 @@
                 <input type="password" name="password" placeholder="Hasło" required>
             </div>
             <div class="full-green--btn login">
-                <button>Idź do koszyka</button>
+                <button>Zaloguj się</button>
             </div>
         </div>
         <div class="cart_step_two_container__box__right">
