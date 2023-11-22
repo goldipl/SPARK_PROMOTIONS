@@ -56,6 +56,12 @@
         .input-slot {
             width: 100%;
             margin-right: 0;
+            &.pass-btn{
+                order: 1;
+            }
+            &.confirm-new-pass {
+                order: 0;
+            }
             label {
                 font-size: 14px;
                 line-height: 160%;

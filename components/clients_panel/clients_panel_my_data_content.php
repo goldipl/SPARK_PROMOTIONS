@@ -49,12 +49,12 @@
                 </div>
             </div>
             <div class="clients_panel_row">
-                <div class="input-slot">
+                <div class="input-slot pass-btn">
                     <div class="full-green--btn">
                         <button>Zapisz zmiany</button>
                     </div>
                 </div>
-                <div class="input-slot">
+                <div class="input-slot confirm-new-pass">
                     <label class="label-slot" for="confirm_new_password">Potwierdź nowe hasło</label>
                     <input type="password" name="confirm_new_password" id="confirm_new_password">
                 </div>

@@ -8015,6 +8015,12 @@ aside .envelope-img img {
     width: 100%;
     margin-right: 0;
   }
+  .clients_panel_row .input-slot.pass-btn {
+    order: 1;
+  }
+  .clients_panel_row .input-slot.confirm-new-pass {
+    order: 0;
+  }
   .clients_panel_row .input-slot label {
     font-size: 14px;
     line-height: 160%;
