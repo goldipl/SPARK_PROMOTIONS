@@ -1,13 +1,11 @@
 ## Table of contents
-* [Gif website presentation](#gif-website-presentation)
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Gif desktop website presentation](#gif-desktop-website-presentation)
+* [Gif mobile website presentation](#gif-mobile-website-presentation)
 * [License](#license)
 * [E-commerce website screenshots](#e-commerce-website-screenshots)
 * [E-mail confirmations screenshots](#e-mail-confirmations-screenshots)
-
-## Gif website presentation
-
 
 ## General info
 Spark Promotions website ➡️ E-commerce dynamic website written using PHP, SCSS, Vanilla JavaScript, HTML5 with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
@@ -23,6 +21,16 @@ Used technologies:
 Used also:
 * Swiper.js
 * Lightbox.js
+
+## Gif desktop website presentation
+#### wait until the gif file loads (42,6mb)
+
+![gif](./gif/spark-promotions-desktop.gif) 
+
+## Gif mobile website presentation
+#### wait until the gif file loads (47,7mb)
+
+![gif](./gif/spark-promotions-mobile.gif) 
 
 ## License
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
