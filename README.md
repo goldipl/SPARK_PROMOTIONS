@@ -30,7 +30,7 @@ Used also:
 ## Gif mobile website presentation
 #### wait until the gif file loads (47,7mb)
 
-![gif](./gif/spark-promotions-mobile.gif) 
+<img src="./gif/spark-promotions-mobile.gif" width="300">
 
 ## License
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
