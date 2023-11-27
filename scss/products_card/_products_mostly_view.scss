@@ -8,6 +8,13 @@
         color: $light_black;
         margin: 0 0 35px 0;
     }
+    .products_blocks_wrapper {
+        &__slot {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 1600px) {

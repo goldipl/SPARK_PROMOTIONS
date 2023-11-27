@@ -4317,6 +4317,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   margin: 0 0 35px 0;
 }
+.products_mostly_view .products_blocks_wrapper__slot a {
+  text-decoration: none;
+}
 
 @media (max-width: 1600px) {
   .products_mostly_view .products_blocks_wrapper__slot {
