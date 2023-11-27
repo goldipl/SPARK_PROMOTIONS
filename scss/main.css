@@ -1386,6 +1386,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 #popular_categories .products_blocks_wrapper .products_blocks_wrapper__slot {
   min-width: unset;
 }
+#popular_categories .products_blocks_wrapper .products_blocks_wrapper__slot a {
+  text-decoration: none;
+}
 
 @media (max-width: 1600px) {
   #popular_categories {
@@ -2516,6 +2519,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1;
+}
+.products_blocks_wrapper__slot .products_block_wrapper__slot a {
+  text-decoration: none;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--img {
   width: 180px;

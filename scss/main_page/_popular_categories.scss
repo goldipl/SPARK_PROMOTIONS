@@ -41,6 +41,9 @@
         justify-content: flex-start;
         .products_blocks_wrapper__slot {
             min-width: unset;
+            a {
+                text-decoration: none;
+            }
         }
     }
 }

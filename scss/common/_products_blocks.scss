@@ -71,6 +71,9 @@
             z-index: 1;
         }
         .products_block_wrapper__slot {
+            a {
+                text-decoration: none;
+            }
             &--img {
                 width: 180px;
                 height: 180px;
