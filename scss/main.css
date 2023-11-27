@@ -2876,7 +2876,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .footer_bottom {
   background-color: #333333;
   width: 100%;
-  height: 56px;
+  height: auto;
 }
 .footer_bottom p {
   font-size: 18px;
@@ -2885,6 +2885,19 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   line-height: 56px;
   color: #F0F5F9;
   text-align: center;
+  margin-bottom: 0;
+}
+.footer_bottom .contip {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+.footer_bottom .contip img {
+  filter: drop-shadow(0 0 3px #FFFFFF);
+  margin-left: 15px;
 }
 
 @media (max-width: 1600px) {
@@ -2926,15 +2939,35 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .footer_bottom p {
     font-size: 12px;
   }
+  .footer_bottom .contip {
+    margin-top: -16px;
+    font-size: 12px;
+  }
+  .footer_bottom .contip img {
+    height: 20px;
+    margin-left: 15px;
+  }
 }
 @media (max-width: 400px) {
   .footer_bottom p {
     font-size: 10px;
   }
+  .footer_bottom .contip {
+    font-size: 10px;
+  }
+  .footer_bottom .contip img {
+    margin-left: 15px;
+  }
 }
 @media (max-width: 370px) {
   .footer_bottom p {
     font-size: 9px;
+  }
+  .footer_bottom .contip {
+    font-size: 9px;
+  }
+  .footer_bottom .contip img {
+    margin-left: 15px;
   }
 }
 .button01 {

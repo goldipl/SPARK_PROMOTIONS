@@ -169,7 +169,7 @@
     &_bottom {
         background-color: $light_black;
         width: 100%;
-        height: 56px;
+        height: auto;
         p {
             font-size: 18px;
             font-style: normal;
@@ -177,6 +177,19 @@
             line-height: 56px;
             color: $grey_light4;
             text-align: center;
+            margin-bottom: 0;
+        }
+        .contip {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            img {
+                filter: drop-shadow(0 0 3px $white);
+                margin-left: 15px;
+            }
         }
     }
 }
@@ -233,6 +246,14 @@
             p {
                 font-size: 12px;
             }
+            .contip {
+                margin-top: -16px;
+                font-size: 12px;
+                img {
+                    height: 20px;
+                    margin-left: 15px;
+                }
+            }
         }
     }  
 }
@@ -243,6 +264,12 @@
             p {
                 font-size: 10px;
             }
+            .contip {
+                font-size: 10px;
+                img {
+                    margin-left: 15px;
+                }
+            }
         }
     }  
 }
@@ -252,6 +279,12 @@
         &_bottom {
             p {
                 font-size: 9px;
+            }
+            .contip {
+                font-size: 9px;
+                img {
+                    margin-left: 15px;
+                }
             }
         }
     }  
