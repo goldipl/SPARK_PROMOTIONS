@@ -1871,7 +1871,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     font-size: 20px;
   }
 }
-#our_team .title {
+#our_team h1 {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -1880,11 +1880,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   margin: 0 0 26px 0;
 }
-#our_team .title span {
+#our_team h1 span {
   color: #68B236;
   text-decoration: underline;
 }
-#our_team .desc {
+#our_team p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2001,10 +2001,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
 }
 @media (max-width: 1320px) {
-  #our_team .title {
+  #our_team h1 {
     font-size: 24px;
   }
-  #our_team .desc {
+  #our_team p {
     font-size: 16px;
     margin: 0 0 36px 0;
   }

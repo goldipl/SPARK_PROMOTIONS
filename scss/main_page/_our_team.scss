@@ -1,5 +1,5 @@
 #our_team {
-    .title {
+    h1 {
         font-size: 28px;
         font-style: normal;
         font-weight: 700;
@@ -12,7 +12,7 @@
             text-decoration: underline;
         }
     }
-    .desc {
+    p {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -138,10 +138,10 @@
 
 @media (max-width: 1320px) {
     #our_team {
-        .title {
+        h1 {
             font-size: 24px;
         }
-        .desc {
+        p {
             font-size: 16px;
             margin: 0 0 36px 0;
         }
