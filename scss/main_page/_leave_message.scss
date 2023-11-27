@@ -1,6 +1,6 @@
 #leave_message {
     margin-bottom: 100px;
-    .title {
+    h1 {
         font-size: 28px;
         font-style: normal;
         font-weight: 700;
@@ -13,7 +13,7 @@
             text-decoration: underline;
         }
     }
-    .desc {
+    p {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -165,7 +165,7 @@
 @media (max-width: 1320px) {
     #leave_message {
         margin-bottom: 64px;
-        .title {
+        h1 {
             font-size: 24px;
         }
     }
@@ -174,10 +174,10 @@
 @media (max-width: 760px) {
     #leave_message {
         margin-bottom: 40px;
-        .title {
+        h1 {
             font-size: 20px;
         }
-        .desc {
+        p{
             font-size: 14px;
             line-height: 160%;
             margin: 0 0 24px 0;

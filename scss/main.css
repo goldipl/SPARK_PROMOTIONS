@@ -2052,7 +2052,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 #leave_message {
   margin-bottom: 100px;
 }
-#leave_message .title {
+#leave_message h1 {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -2061,11 +2061,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   margin: 0 0 19px 0;
 }
-#leave_message .title span {
+#leave_message h1 span {
   color: #68B236;
   text-decoration: underline;
 }
-#leave_message .desc {
+#leave_message p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2218,7 +2218,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #leave_message {
     margin-bottom: 64px;
   }
-  #leave_message .title {
+  #leave_message h1 {
     font-size: 24px;
   }
 }
@@ -2226,10 +2226,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #leave_message {
     margin-bottom: 40px;
   }
-  #leave_message .title {
+  #leave_message h1 {
     font-size: 20px;
   }
-  #leave_message .desc {
+  #leave_message p {
     font-size: 14px;
     line-height: 160%;
     margin: 0 0 24px 0;
