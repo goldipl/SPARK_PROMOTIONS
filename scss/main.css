@@ -1358,7 +1358,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   height: 100%;
   z-index: 0;
 }
-#popular_categories .title {
+#popular_categories h1 {
   position: relative;
   font-size: 28px;
   font-style: normal;
@@ -1369,7 +1369,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin: 0 0 44px 0;
   z-index: 1;
 }
-#popular_categories .title span {
+#popular_categories h1 span {
   color: #68B236;
   text-decoration: underline;
 }
@@ -1408,7 +1408,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     left: -52px;
     width: calc(100vw + 52px);
   }
-  #popular_categories .title {
+  #popular_categories h1 {
     font-size: 24px;
     margin: 0 0 32px 0;
   }
@@ -1418,7 +1418,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     left: -16px;
     width: calc(100vw + 16px);
   }
-  #popular_categories .title {
+  #popular_categories h1 {
     font-size: 20px;
     margin: 0 0 24px 0;
   }

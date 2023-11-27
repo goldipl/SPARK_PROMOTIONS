@@ -15,7 +15,7 @@
         height: 100%;
         z-index: 0;
     }
-    .title {
+    h1 {
         position: relative;
         font-size: 28px;
         font-style: normal;
@@ -68,7 +68,7 @@
             left: -52px;
             width: calc(100vw + 52px);
         }
-        .title {
+        h1 {
             font-size: 24px;
             margin: 0 0 32px 0;
         }
@@ -81,7 +81,7 @@
             left: -16px;
             width: calc(100vw + 16px);
         }
-        .title {
+        h1 {
             font-size: 20px;
             margin: 0 0 24px 0;
         }
