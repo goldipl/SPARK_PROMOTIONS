@@ -12,6 +12,13 @@
         line-height: 160%;
         color: $grey_middle;
     }
+    .products_blocks_wrapper {
+        &__slot {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 760px) {
