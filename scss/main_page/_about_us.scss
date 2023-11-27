@@ -26,7 +26,7 @@
                 width: 50%;
                 margin-right: 0;
             }
-            .title {
+            h1 {
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
@@ -37,7 +37,7 @@
                     color: $main_color;
                 }
             }
-            .desc {
+            p {
                 font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
@@ -49,9 +49,6 @@
                     font-style: normal;
                     font-weight: 700;
                     color: $main_color;
-                }
-                &.first {
-                    margin-bottom: 0;
                 }
             }
             i {
@@ -97,7 +94,7 @@
                 &.second {
                     width: 100%;
                 }
-                .title {
+                h1 {
                     font-size: 20px;
                 }
             }

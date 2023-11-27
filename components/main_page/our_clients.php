@@ -1,6 +1,6 @@
 <section id="our_clients">
-    <h1 class="title"><span>Klienci</span>, którzy nam zaufali</h1>
-    <p class="desc">Duże marki polegają na naszych upominkach korporacyjnych w swoich kampaniach marketingowych i reklamowych.</p>
+    <h1><span>Klienci</span>, którzy nam zaufali</h1>
+    <p>Duże marki polegają na naszych upominkach korporacyjnych w swoich kampaniach marketingowych i reklamowych.</p>
     <div id="clients_swiper">
         <!-- Slider main container -->
         <div class="clients_swiper">

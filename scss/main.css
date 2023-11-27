@@ -1697,7 +1697,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     top: calc(50% - 5px);
   }
 }
-#our_clients .title {
+#our_clients h1 {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -1706,11 +1706,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   margin: 0 0 23px 0;
 }
-#our_clients .title span {
+#our_clients h1 span {
   color: #68B236;
   text-decoration: underline;
 }
-#our_clients .desc {
+#our_clients p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1760,18 +1760,18 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 
 @media (max-width: 1320px) {
-  #our_clients .title {
+  #our_clients h1 {
     font-size: 24px;
   }
-  #our_clients .desc {
+  #our_clients p {
     margin: 0 0 48px 0;
   }
 }
 @media (max-width: 760px) {
-  #our_clients .title {
+  #our_clients h1 {
     font-size: 20px;
   }
-  #our_clients .desc {
+  #our_clients p {
     font-size: 14px;
     line-height: 160%;
   }
@@ -1807,7 +1807,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: 50%;
   margin-right: 0;
 }
-#about_us .about_us_container__column .title {
+#about_us .about_us_container__column h1 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -1815,10 +1815,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   text-transform: uppercase;
   color: #333333;
 }
-#about_us .about_us_container__column .title span {
+#about_us .about_us_container__column h1 span {
   color: #68B236;
 }
-#about_us .about_us_container__column .desc {
+#about_us .about_us_container__column p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1826,14 +1826,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #8C8B8D;
   margin: 0 0 24px 0;
 }
-#about_us .about_us_container__column .desc a {
+#about_us .about_us_container__column p a {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   color: #68B236;
-}
-#about_us .about_us_container__column .desc.first {
-  margin-bottom: 0;
 }
 #about_us .about_us_container__column i {
   font-size: 14px;
@@ -1870,7 +1867,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #about_us .about_us_container__column.second {
     width: 100%;
   }
-  #about_us .about_us_container__column .title {
+  #about_us .about_us_container__column h1 {
     font-size: 20px;
   }
 }
