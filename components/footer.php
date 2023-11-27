@@ -72,6 +72,6 @@
     </div>
     <div class="footer_bottom">
         <p>© Spark Promotions Sp. z o.o. S.k. 2010 - <span></span>. All rights reserved.</p>
-        <p class="contip">Realizacja <img src="./assets/img/contip-logo.png" height="24" alt="Contip logo"></p>
+        <p class="contip">Realizacja <a href="https://www.contip.net/"><img src="./assets/img/contip-logo.png" height="24" alt="Contip logo"></a></p>
     </div>
 </div>
