@@ -1729,6 +1729,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: 100px;
   margin-right: 8px;
 }
+#our_clients #clients_swiper .clients_swiper .swiper-wrapper .swiper-slide img:hover {
+  filter: brightness(1.4);
+}
 #our_clients #clients_swiper .clients_swiper .swiper-button-next::after {
   display: block;
   width: 18px;

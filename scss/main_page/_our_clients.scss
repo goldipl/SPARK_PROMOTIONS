@@ -29,6 +29,11 @@
                 .swiper-slide {
                     width: 100px;
                     margin-right: 8px;
+                    img {
+                        &:hover {
+                            filter: brightness(1.4);
+                        }
+                    }
                 }
             }
             .swiper-button-next::after {
