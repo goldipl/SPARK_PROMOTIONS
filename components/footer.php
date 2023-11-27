@@ -34,10 +34,10 @@
                 <p>Kontakt</p>
             </div>
             <div class="footer_top-col--text telephone">
-                <a href="tel:+48 71 326 74 10">+48 71 326 74 10</a>
+                <a class="gtm-phone" href="tel:+48 71 326 74 10">+48 71 326 74 10</a>
             </div>
             <div class="footer_top-col--text mail">
-                <a href="mailto:wroclaw@sparkpromotions.pl">wroclaw@sparkpromotions.pl</a>
+                <a class="gtm-mail" href="mailto:wroclaw@sparkpromotions.pl">wroclaw@sparkpromotions.pl</a>
             </div>
             <div class="footer_top-col--text hours">
                 <p class="small-text">9:00 - 17:00</p>

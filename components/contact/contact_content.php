@@ -58,8 +58,8 @@
                 <div class="contact_box__slot_bottom--text">
                     <p class="desc location">ul. Św. Jerzego 1A</p>
                     <p class="desc">50-518 Wrocław</p>
-                    <p class="desc telephone">tel. <a href="tel:+48 71 326 74 10">+48 71 326 74 10</a></p>
-                    <p class="desc mail">e-mail: <a href="mailto:wroclaw@sparkpromotions.pl">wroclaw@sparkpromotions.pl</a></p>
+                    <p class="desc telephone gtm-phone">tel. <a href="tel:+48 71 326 74 10">+48 71 326 74 10</a></p>
+                    <p class="desc mail gtm-mail">e-mail: <a href="mailto:wroclaw@sparkpromotions.pl">wroclaw@sparkpromotions.pl</a></p>
                 </div>
             </div>
         </div>
