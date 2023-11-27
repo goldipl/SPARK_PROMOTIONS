@@ -78,15 +78,15 @@
     <div class="category_filters-slot">
         <div class="price_filters_box">
             <div class="range-slider">
-                <input value="2" min="0" max="500" step="1" type="range">
-                <input value="480" min="0" max="500" step="1" type="range">
+                <input id="range-input-from" value="120" min="1" max="1000" step="1" type="range" oninput="amount.value=rangeInput.value">
+                <input id="range-input-to" value="780" min="1" max="1000" step="1" type="range" onchange="updateTextToInput(this.value);">
             </div>
             <div class="price_filter_container">
                 <div class="price_filter_container--from">
-                    <input type="number" name="" id="" placeholder="od" min="0">
+                    <input type="number" name="price-zip-from" id="price-zip-from" placeholder="od" min="0">
                 </div>
                 <div class="price_filter_container--to">
-                    <input type="number" name="" id="" placeholder="do" min="0">
+                    <input type="number" name="price-zip-to" id="price-zip-to" placeholder="do" min="0">
                 </div>
             </div>
             <div class="set-prices">

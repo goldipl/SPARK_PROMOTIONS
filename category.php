@@ -44,5 +44,6 @@
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/accordion_title.js"></script>
+        <script src="./js/category/category-range-zip.js"></script>
     </body>
 </html>
