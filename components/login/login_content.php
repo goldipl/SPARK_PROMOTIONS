@@ -1,6 +1,6 @@
 <div class="cart_step_two_container login">
     <div class="cart_step_two_container__box">
-        <div class="cart_step_two_container__box__left">
+        <form class="cart_step_two_container__box__left">
             <div class="title">
                 <p>Zaloguj się</p>
             </div>
@@ -13,13 +13,13 @@
             <div class="full-green--btn login">
                 <button>Zaloguj się</button>
             </div>
-        </div>
+        </form>
         <div class="cart_step_two_container__box__right">
             <div class="title">
                 <p>Nie masz konta?</p>
             </div>
             <div class="full-green--btn register">
-                <button>Zarejestruj się</button>
+                <a href="">Zarejestruj się</a>
             </div>
         </div>
     </div>

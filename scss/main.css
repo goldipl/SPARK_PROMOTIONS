@@ -5814,8 +5814,11 @@ aside .envelope-img img {
     margin-bottom: 0;
   }
 }
+.cart_step_two_container {
+  margin-bottom: 120px;
+}
 .cart_step_two_container.login {
-  margin-bottom: 40px;
+  margin-bottom: 180px;
 }
 .cart_step_two_container__box {
   display: flex;
@@ -5905,11 +5908,38 @@ aside .envelope-img img {
 .cart_step_two_container__box__right .full-green--btn button {
   padding: 0 33px;
 }
+.cart_step_two_container__box__right .full-green--btn a {
+  padding: 0 33px;
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  color: #FFFFFF;
+  background-color: #90D065;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  text-decoration: none;
+}
+.cart_step_two_container__box__right .full-green--btn:hover a {
+  color: #90D065;
+  background-color: #FFFFFF;
+  border: 1px solid #90D065;
+}
 .cart_step_two_container .cart_bottom_button_container {
   margin-top: 30px;
 }
 
 @media (max-width: 960px) {
+  .cart_step_two_container.login {
+    margin-bottom: 40px;
+  }
   .cart_step_two_container__box {
     flex-direction: column;
   }

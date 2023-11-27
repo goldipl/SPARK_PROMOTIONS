@@ -1,6 +1,7 @@
 .cart_step_two_container {
+    margin-bottom: 120px;
     &.login {
-        margin-bottom: 40px;
+        margin-bottom: 180px;
     }
     &__box {
         display: flex;
@@ -90,6 +91,32 @@
                 button {
                     padding: 0 33px;
                 }
+                a {
+                    padding: 0 33px;
+                    font-family: 'Poppins', sans-serif; 
+                    border: 0;
+                    cursor: pointer;
+                    position: relative;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 40px;
+                    color: $white;
+                    background-color: $light_green;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    border: 1px solid $white;
+                    text-decoration: none;
+                }
+                &:hover {
+                    a {
+                        color: $light_green;
+                        background-color: $white;
+                        border: 1px solid $light_green;
+                    }
+                }
             }
         }
     }
@@ -100,6 +127,9 @@
 
 @media (max-width: 960px) {
     .cart_step_two_container {
+        &.login {
+            margin-bottom: 40px;
+        }
         &__box {
             flex-direction: column;
             &__left {

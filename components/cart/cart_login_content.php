@@ -1,6 +1,6 @@
 <div class="cart_step_two_container">
     <div class="cart_step_two_container__box">
-        <div class="cart_step_two_container__box__left">
+        <form class="cart_step_two_container__box__left">
             <div class="title">
                 <p>Zaloguj się</p>
             </div>
@@ -13,19 +13,19 @@
             <div class="full-green--btn login">
                 <button>Idź do koszyka</button>
             </div>
-        </div>
+        </form>
         <div class="cart_step_two_container__box__right">
             <div class="title">
                 <p>Nie masz konta?</p>
             </div>
             <div class="full-green--btn register">
-                <button>Zarejestruj się</button>
+                <a href="">Zarejestruj się</a>
             </div>
             <div class="title second-title">
                 <p>lub zamów anonimowo</p>
             </div>
             <div class="full-green--btn order-anonymously">
-                <button>Zamów anonimowo</button>
+                <a href="">Zamów anonimowo</a>
             </div>
         </div>
     </div>
