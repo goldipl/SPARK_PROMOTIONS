@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var inputFrom = document.getElementById('price-zip-from');
     var inputTo = document.getElementById('price-zip-to');
 
+    // Update range when input changes
+    inputFrom.addEventListener('input', function () {
+        updateRangeFromInput(this.value);
+    });
+
+    inputTo.addEventListener('input', function () {
+        updateRangeToInput(this.value);
+    });
+
+    // Update input when range changes
     rangeInputFrom.addEventListener('input', function () {
         updateTextFromInput(this.value);
     });
@@ -18,5 +28,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateTextToInput(val) {
         inputTo.value = val;
+    }
+
+    function updateRangeFromInput(val) {
+        rangeInputFrom.value = val;
+    }
+
+    function updateRangeToInput(val) {
+        rangeInputTo.value = val;
     }
 });
