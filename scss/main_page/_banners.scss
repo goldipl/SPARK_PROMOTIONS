@@ -10,11 +10,25 @@
         height: 368px;
         &__left,
         &__right {
+            position: relative;
             a {
                 img {
                     width: 660px;
                     height: 368px;
                     object-fit: contain;
+                }
+            }
+            .button01 {
+                position: absolute;
+                bottom: 44px;
+                left: 44px;
+                width: 94px;
+                height: 41px;
+                box-sizing: border-box;
+                a {
+                    &::after {
+                        right: 18px;
+                    }
                 }
             }
         }
@@ -38,7 +52,7 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 960px) {
     #banners {
         .banners_container {
             flex-direction: column;
@@ -48,6 +62,34 @@
                 margin-left: -16px;
                 margin-right: -16px;
                 width: calc(100% + 32px);
+                .button01 {
+                    bottom: 14%;
+                    left: 7%;
+                }
+            }   
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    #banners {
+        .banners_container {
+            flex-direction: column;
+            &__right,
+            &__left {
+                .button01 {
+                    bottom: 14%;
+                    left: 6%;
+                    width: 90px;
+                    a {
+                        font-size: 12px;
+                        &::after {
+                            height: 10px;
+                            width: 10px;
+                            top: calc(50% - 5px);
+                        }
+                    }
+                }
             }   
         }
     }
