@@ -6,6 +6,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        .dots {
+            margin-right: 13px;
+        }
         .element {
             display: flex;
             align-items: center;
@@ -22,6 +25,11 @@
                 font-weight: 400;
                 line-height: normal;
                 color: $light_black;
+            }
+            &.prev {
+                img {
+                    transform: rotate(180deg);
+                }
             }
             &.active {
                 background-color: $main_color;

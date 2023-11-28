@@ -2405,6 +2405,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   align-items: center;
   justify-content: center;
 }
+.pagination_container .dots {
+  margin-right: 13px;
+}
 .pagination_container .element {
   display: flex;
   align-items: center;
@@ -2422,6 +2425,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   font-weight: 400;
   line-height: normal;
   color: #333333;
+}
+.pagination_container .element.prev img {
+  transform: rotate(180deg);
 }
 .pagination_container .element.active {
   background-color: #68B236;
