@@ -209,7 +209,7 @@ header {
                                 width: 15px;
                                 height: 7.5px;
                                 top: 34px;
-                                right: -24px;
+                                right: -8px;
                             }
                             &:hover::after {
                                 transition: 0.6s;
@@ -224,6 +224,8 @@ header {
                         &.bottom-nav-links {
                             padding: 28px 0;
                             font-weight: 500;
+                            padding-right: 16px;
+                            margin-right: -16px;
                             &.category {
                                 position: relative;
                                 padding-left: 28px;
