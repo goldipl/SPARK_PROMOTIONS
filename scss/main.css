@@ -2401,6 +2401,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 .pagination_container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;

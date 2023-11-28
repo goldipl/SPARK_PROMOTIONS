@@ -12,9 +12,6 @@
         <div class="element">
             <p>3</p>
         </div>
-        <div class="element">
-            <p>4</p>
-        </div>
         <div class="dots">
             <p>...</p>
         </div>
