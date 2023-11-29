@@ -45,6 +45,40 @@
                         </p>
                     </div>
                 </div>
+                <div class="orders_details_box__slot__middle">
+                    <div class="slot-img">
+                        <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="115" height="115">
+                    </div>
+                    <div class="slot-text">
+                        <p class="title">Klip do dokumentów</p>
+                        <p class="desc">Metoda znakowania: Sitodruk</p>
+                        <p class="desc">Ilość kolorów nadruku: 1</p>
+                        <p class="desc">Pozycja nadruku: Front </p>
+                    </div>
+                    <div class="slot-text">
+                        <p class="price">
+                            <span class="big green">100,66</span>
+                            <span class="large green">PLN</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="orders_details_box__slot__middle">
+                    <div class="slot-img">
+                        <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="115" height="115">
+                    </div>
+                    <div class="slot-text">
+                        <p class="title">Klip do dokumentów</p>
+                        <p class="desc">Metoda znakowania: Sitodruk</p>
+                        <p class="desc">Ilość kolorów nadruku: 1</p>
+                        <p class="desc">Pozycja nadruku: Front </p>
+                    </div>
+                    <div class="slot-text">
+                        <p class="price">
+                            <span class="big green">100,66</span>
+                            <span class="large green">PLN</span>
+                        </p>
+                    </div>
+                </div>
                 <div class="orders_details_box__slot__middle--delivery">
                     <div class="slot-text">
                         <p class="title">Adres dostawy:</p>

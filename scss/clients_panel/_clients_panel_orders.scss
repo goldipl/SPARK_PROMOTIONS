@@ -68,8 +68,23 @@
                     }
                 }
                 &__top {
+                    position: relative;
                     display: flex;
                     flex-direction: row;
+                    margin: 36px -36px;
+                    padding: 0 36px;
+                    width: 100%;
+                    &:first-of-type {
+                        margin-top: 0;
+                    }
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                    &:nth-of-type(n+2) {
+                        border-top: 1px solid $main_color;
+                        margin-top: 18px;
+                        padding-top: 48px;
+                    }
                     .slot-img {
                         display: flex;
                         flex-direction: column;
@@ -108,10 +123,9 @@
                         }
                         .price {
                             position: absolute;
-                            bottom: 16px;
-                            right: 20px;
+                            bottom: -64px;
+                            right: 24px;
                             text-align: center;
-                            margin: 0 0 45px 0;
                             .big {
                                 font-size: 35px;
                                 font-style: normal;
@@ -132,8 +146,8 @@
                         }
                         .details {
                             position: absolute;
-                            top: 16px;
-                            right: 20px;
+                            top: 8px;
+                            right: 24px;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
@@ -189,8 +203,8 @@
             }
             .panel_orders_box {
                 &__slot {
-                    padding: 15px;
                     &__top {
+                        margin-bottom: 0;
                         flex-direction: column;
                         .slot-img {
                             margin-bottom: 24px;
@@ -201,7 +215,7 @@
                                 margin: 16px 0 24px 0;
                             }
                             .price {
-                                bottom: 42px;
+                                bottom: -16px;
                                 margin: 0;
                                 .big {
                                     font-size: 28px;
@@ -216,9 +230,6 @@
                         }
                     }
                     .panel_orders_box_slot__bottom {
-                        width: calc(100% + 30px);
-                        margin: 35px -15px -15px -15px;
-                        height: 40px;
                         .info {
                             font-size: 14px;
                             line-height: 160%;

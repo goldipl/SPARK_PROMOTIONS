@@ -7708,8 +7708,23 @@ aside .envelope-img img {
   background-repeat: no-repeat;
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top {
+  position: relative;
   display: flex;
   flex-direction: row;
+  margin: 36px -36px;
+  padding: 0 36px;
+  width: 100%;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot__top:first-of-type {
+  margin-top: 0;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot__top:last-of-type {
+  margin-bottom: 0;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot__top:nth-of-type(n+2) {
+  border-top: 1px solid #68B236;
+  margin-top: 18px;
+  padding-top: 48px;
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-img {
   display: flex;
@@ -7751,10 +7766,9 @@ aside .envelope-img img {
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .price {
   position: absolute;
-  bottom: 16px;
-  right: 20px;
+  bottom: -64px;
+  right: 24px;
   text-align: center;
-  margin: 0 0 45px 0;
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .price .big {
   font-size: 35px;
@@ -7775,8 +7789,8 @@ aside .envelope-img img {
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .details {
   position: absolute;
-  top: 16px;
-  right: 20px;
+  top: 8px;
+  right: 24px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7823,10 +7837,8 @@ aside .envelope-img img {
   .clients_panel_orders_content__right h1.title {
     margin: 0;
   }
-  .clients_panel_orders_content__right .panel_orders_box__slot {
-    padding: 15px;
-  }
   .clients_panel_orders_content__right .panel_orders_box__slot__top {
+    margin-bottom: 0;
     flex-direction: column;
   }
   .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-img {
@@ -7839,7 +7851,7 @@ aside .envelope-img img {
     margin: 16px 0 24px 0;
   }
   .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .price {
-    bottom: 42px;
+    bottom: -16px;
     margin: 0;
   }
   .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .price .big {
@@ -7850,11 +7862,6 @@ aside .envelope-img img {
   }
   .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .desc {
     white-space: unset;
-  }
-  .clients_panel_orders_content__right .panel_orders_box__slot .panel_orders_box_slot__bottom {
-    width: calc(100% + 30px);
-    margin: 35px -15px -15px -15px;
-    height: 40px;
   }
   .clients_panel_orders_content__right .panel_orders_box__slot .panel_orders_box_slot__bottom .info {
     font-size: 14px;
