@@ -76,7 +76,7 @@
         </div>
     </div>
     <div class="category_filters-slot">
-        <div class="price_filters_box">
+        <form class="price_filters_box">
             <div class="range-slider">
                 <input id="range-input-from" value="120" min="1" max="1000" step="1" type="range" oninput="amount.value=rangeInput.value">
                 <input id="range-input-to" value="780" min="1" max="1000" step="1" type="range" onchange="updateTextToInput(this.value);">
@@ -92,6 +92,6 @@
             <div class="set-prices">
                 <button>Zastosuj zakres cen</button>
             </div>
-        </div>
+        </form>
     </div>
 </div>
