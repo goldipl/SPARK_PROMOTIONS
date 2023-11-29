@@ -81,6 +81,70 @@
     </div>
     <div class="products_tab">
         <div class="availability_status_container">
+        <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-red.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-black.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-blue.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-yellow.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-green.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-white.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-orange.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
+            <div class="availability_status_container__slot">
+                <div class="availability_status_container__slot--img">
+                    <img src="./assets/img/products_card/small-klip-purple.jpg" alt="variant img" width="29" height="50">
+                </div>
+                <div class="availability_status_container__slot--text">
+                    <p>(1300 sztuk)</p>
+                </div>
+            </div>
             <div class="availability_status_container__slot">
                 <div class="availability_status_container__slot--img">
                     <img src="./assets/img/products_card/small-klip-red.jpg" alt="variant img" width="29" height="50">

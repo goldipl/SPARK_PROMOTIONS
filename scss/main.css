@@ -4468,19 +4468,23 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_tabs .products_tab .availability_status_container__slot {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  border-left: 1px solid #D3D3D3;
 }
 .products_tabs .products_tab .availability_status_container__slot:first-of-type--img {
   margin-left: 0;
 }
+.products_tabs .products_tab .availability_status_container__slot:last-of-type {
+  border-right: 1px solid #D3D3D3;
+}
 .products_tabs .products_tab .availability_status_container__slot--img {
   margin-right: 10px;
   padding-right: 10px;
-  margin-left: 7px;
+  margin-left: 10px;
+  padding-top: 10px;
 }
 .products_tabs .products_tab .availability_status_container__slot--text {
   padding: 10px;
-  border-left: 1px solid #D3D3D3;
 }
 .products_tabs .products_tab .availability_status_container__slot--text p {
   font-size: 15px;
