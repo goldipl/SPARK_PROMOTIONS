@@ -5519,6 +5519,7 @@ aside .envelope-img img {
   font-weight: 400;
   line-height: normal;
   color: #333333;
+  margin: 0;
 }
 .products_card_modal__inputs__right .add-files-img {
   display: flex;

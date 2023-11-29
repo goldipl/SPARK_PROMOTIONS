@@ -70,11 +70,11 @@
                     <div class="products_card_modal__inputs__right--input">
                         <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
-                    <label for="files" class="add-files" id="add-files">
+                    <label for="files2" class="add-files" id="add-files2">
                         <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                        <input class="file file-block" type="file" id="files">
+                        <input class="file file-block" type="file" id="files2">
                     </label>
                 </div>
             </div>
@@ -110,11 +110,11 @@
                     <div class="products_card_modal__inputs__right--input">
                         <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
-                    <label for="files" class="add-files" id="add-files">
+                    <label for="files3" class="add-files" id="add-files3">
                         <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                        <input class="file file-block" type="file" id="files">
+                        <input class="file file-block" type="file" id="files3">
                     </label>
                 </div>
             </div>
