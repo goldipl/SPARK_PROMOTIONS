@@ -29,11 +29,11 @@
                     </div>
                 </div>
                 <div class="orders_details_box__slot__middle">
-                    <div class="slot-img">
+                    <a href="#" class="slot-img">
                         <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="115" height="115">
-                    </div>
+                    </a>
                     <div class="slot-text">
-                        <p class="title">Klip do dokumentów</p>
+                        <a href="#" class="title">Klip do dokumentów</a>
                         <p class="desc">Metoda znakowania: Sitodruk</p>
                         <p class="desc">Ilość kolorów nadruku: 1</p>
                         <p class="desc">Pozycja nadruku: Front </p>
@@ -46,11 +46,11 @@
                     </div>
                 </div>
                 <div class="orders_details_box__slot__middle">
-                    <div class="slot-img">
+                    <a href="#" class="slot-img">
                         <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="115" height="115">
-                    </div>
+                    </a>
                     <div class="slot-text">
-                        <p class="title">Klip do dokumentów</p>
+                        <a href="#" class="title">Klip do dokumentów</a>
                         <p class="desc">Metoda znakowania: Sitodruk</p>
                         <p class="desc">Ilość kolorów nadruku: 1</p>
                         <p class="desc">Pozycja nadruku: Front </p>
@@ -63,11 +63,11 @@
                     </div>
                 </div>
                 <div class="orders_details_box__slot__middle">
-                    <div class="slot-img">
+                    <a href="#" class="slot-img">
                         <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="115" height="115">
-                    </div>
+                    </a>
                     <div class="slot-text">
-                        <p class="title">Klip do dokumentów</p>
+                        <a href="#" class="title">Klip do dokumentów</a>
                         <p class="desc">Metoda znakowania: Sitodruk</p>
                         <p class="desc">Ilość kolorów nadruku: 1</p>
                         <p class="desc">Pozycja nadruku: Front </p>

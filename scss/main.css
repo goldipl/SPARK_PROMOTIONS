@@ -6311,6 +6311,7 @@ aside .envelope-img img {
   line-height: normal;
   color: #333333;
   margin: 0 0 20px 0;
+  text-decoration: none;
 }
 .cart_step_one_container.step_three .cart_step_one_container__left .delivery_invoice_box__left .desc, .cart_step_one_container.step_three .cart_step_one_container__left .delivery_invoice_box__right .desc {
   font-size: 16px;
@@ -6580,6 +6581,9 @@ aside .envelope-img img {
 .cart_product_container--text {
   display: flex;
   flex-direction: column;
+}
+.cart_product_container--text .title {
+  text-decoration: none;
 }
 .cart_product_container--text .title p {
   font-size: 18px;
@@ -7751,6 +7755,7 @@ aside .envelope-img img {
   line-height: normal;
   color: #333333;
   margin: 0 0 25px 0;
+  text-decoration: none;
 }
 .clients_panel_orders_content__right .panel_orders_box__slot__top .slot-text .desc {
   font-size: 14px;
@@ -8006,6 +8011,7 @@ aside .envelope-img img {
   line-height: normal;
   color: #333333;
   margin: 0 0 25px 0;
+  text-decoration: none;
 }
 .clients_panel_orders_details_content__right .orders_details_box__slot__middle .slot-text .desc {
   font-size: 14px;

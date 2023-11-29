@@ -2,13 +2,13 @@
     <div class="cart_step_one_container__left">
         <div class="cart_products_box">
             <div class="cart_product_container">
-                <div class="cart_product_container--img">
+                <a href="#" class="cart_product_container--img">
                     <img src="./assets/img/products_card/large-klip1.jpg" alt="product img" width="140" height="140">
-                </div>
+                </a>
                 <div class="cart_product_container--text">
-                    <div class="title">
+                    <a href="#" class="title">
                         <p>Klip do dokumentów</p>
-                    </div>
+                    </a>
                     <div class="text-slot">
                         <div class="text-slot--left">
                             <p>Metoda znakowania:</p>
@@ -49,7 +49,6 @@
                 <div class="cart_product_container--files">
                     <p class="desc">Wgraj pliki:</p>
                     <label for="files" class="add-files" id="add-files">
-                        <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
                         <input class="file file-block" type="file" id="files">
@@ -60,13 +59,13 @@
         </div>
         <div class="cart_products_box">
             <div class="cart_product_container">
-                <div class="cart_product_container--img">
+                <a href="#" class="cart_product_container--img">
                     <img src="./assets/img/products_card/small-klip-black.jpg" alt="product img" width="140" height="140">
-                </div>
+                </a>
                 <div class="cart_product_container--text">
-                    <div class="title">
+                    <a href="#" class="title">
                         <p>Klip do dokumentów</p>
-                    </div>
+                    </a>
                     <div class="text-slot">
                         <div class="text-slot--left">
                             <p>Metoda znakowania:</p>
@@ -106,11 +105,10 @@
                 </div>
                 <div class="cart_product_container--files">
                     <p class="desc">Wgraj pliki:</p>
-                    <label for="files" class="add-files" id="add-files">
-                        <p class="add-files-title">Dodaj pliki</p>
+                    <label for="files2" class="add-files" id="add-files">
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                        <input class="file file-block" type="file" id="files">
+                        <input class="file file-block" type="file" id="files2">
                     </label>
                     <p class="info">Wymagamy plik w wektorach <br>format pliku pdf zapisany w krzywych (czcionka i kontury)</p>
                 </div>
