@@ -37,7 +37,7 @@
                     <p class="add-files-title">Dodaj pliki</p>
                     <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                     <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                    <input class="file file-block" type="file" id="files" required="">
+                    <input class="file file-block" type="file" id="files">
                 </label>
             </div>
         </div>
