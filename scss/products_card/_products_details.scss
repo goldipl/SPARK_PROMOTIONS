@@ -289,6 +289,8 @@
                 }
             }
             .add-files {
+                display: flex;
+                flex-direction: column;
                 border-radius: 10px;
                 border: 1px dashed $main_color;
                 background: $white;
@@ -300,6 +302,14 @@
                 width: 70%;
                 box-sizing: border-box;
                 margin: 0 0 25px 87px;
+                &-title {
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    margin: 10px 0 0 0;
+                }
                 &-img {
                     display: flex;
                     justify-content: center;
@@ -314,6 +324,19 @@
                     color: $light_black;
                     text-align: center;
                     margin: 0;
+                }
+                input[type=file] {
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    text-align: center;
+                    margin: 0;
+                    margin-left: auto;
+                }
+                input[type=file]::file-selector-button {
+                    visibility: hidden;
                 }
             }
         }

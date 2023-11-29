@@ -70,11 +70,12 @@
                     <div class="products_card_modal__inputs__right--input">
                         <input type="email" name="email" placeholder="Adres email *" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
-                    <div class="add-files">
+                    <label for="files" class="add-files" id="add-files">
                         <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                    </div>
+                        <input class="file file-block" type="file" id="files" required="">
+                    </label>
                 </div>
             </div>
             <p class="products_card_modal--desc green">Jeśli nie masz plików nic nie szkodzi, nasz grafik pomoże Ci w tym.</p>
@@ -87,5 +88,6 @@
         <script src="./js/products_page/products_gallery.js"></script>
         <script src="./js/products_page/pricing_visualisation_modal.js"></script>
         <script src="./js/products_page/product_colors.js"></script>
+        <script src="./js/file_upload.js"></script>
     </body>
 </html>

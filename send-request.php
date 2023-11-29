@@ -39,5 +39,6 @@
         </footer>
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/file_upload.js"></script>
     </body>
 </html>

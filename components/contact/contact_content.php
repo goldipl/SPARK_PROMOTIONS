@@ -33,11 +33,12 @@
                 </div>
             </div>
             <div class="contact_form_box__right">
-                <div class="add-files">
+                <label for="files" class="add-files" id="add-files">
                     <p class="add-files-title">Dodaj pliki</p>
                     <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                     <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                </div>
+                    <input class="file file-block" type="file" id="files" required="">
+                </label>
             </div>
         </div>
         <div class="bottom-container">

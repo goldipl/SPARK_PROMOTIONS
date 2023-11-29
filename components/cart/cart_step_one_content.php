@@ -51,10 +51,12 @@
                 </div>
                 <div class="cart_product_container--files">
                     <p class="desc">Wgraj pliki:</p>
-                    <div class="add-files">
+                    <label for="files" class="add-files" id="add-files">
+                        <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                    </div>
+                        <input class="file file-block" type="file" id="files" required="">
+                    </label>
                     <p class="info">Wymagamy plik w wektorach <br>format pliku pdf zapisany w krzywych (czcionka i kontury)</p>
                 </div>
             </div>
@@ -113,10 +115,12 @@
                 </div>
                 <div class="cart_product_container--files">
                     <p class="desc">Wgraj pliki:</p>
-                    <div class="add-files">
+                    <label for="files" class="add-files" id="add-files">
+                        <p class="add-files-title">Dodaj pliki</p>
                         <img class="add-files-img" src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                         <p class="add-files-text">Przeciągnij i upuść albo <br>Dodaj plik</p>
-                    </div>
+                        <input class="file file-block" type="file" id="files" required="">
+                    </label>
                     <p class="info">Wymagamy plik w wektorach <br>format pliku pdf zapisany w krzywych (czcionka i kontury)</p>
                 </div>
             </div>

@@ -4097,6 +4097,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin-bottom: 33px;
 }
 .products_details__bottom_left .add-files {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -4108,6 +4110,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   width: 70%;
   box-sizing: border-box;
   margin: 0 0 25px 87px;
+}
+.products_details__bottom_left .add-files-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin: 10px 0 0 0;
 }
 .products_details__bottom_left .add-files-img {
   display: flex;
@@ -4123,6 +4133,19 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   text-align: center;
   margin: 0;
+}
+.products_details__bottom_left .add-files input[type=file] {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+}
+.products_details__bottom_left .add-files input[type=file]::file-selector-button {
+  visibility: hidden;
 }
 .products_details__bottom_right {
   display: flex;
@@ -4631,6 +4654,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   outline: 0;
 }
 .send_request_box .send_request_form_top__right .add-files {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -4661,6 +4686,19 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   color: #333333;
   text-align: center;
   margin: 0;
+}
+.send_request_box .send_request_form_top__right .add-files input[type=file] {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  margin: 8px 0 0 0;
+  margin-left: auto;
+}
+.send_request_box .send_request_form_top__right .add-files input[type=file]::file-selector-button {
+  visibility: hidden;
 }
 .send_request_box .send_request_form_bottom {
   display: flex;
@@ -4966,6 +5004,8 @@ aside .envelope-img img {
   width: 33%;
 }
 .contact_container .contact_form_box .top_container .contact_form_box__right .add-files {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -4997,6 +5037,19 @@ aside .envelope-img img {
   color: #333333;
   text-align: center;
   margin: 0;
+}
+.contact_container .contact_form_box .top_container .contact_form_box__right .add-files input[type=file] {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  margin: 8px 0 0 0;
+  margin-left: auto;
+}
+.contact_container .contact_form_box .top_container .contact_form_box__right .add-files input[type=file]::file-selector-button {
+  visibility: hidden;
 }
 .contact_container .contact_form_box .bottom-container {
   display: flex;
@@ -5445,6 +5498,8 @@ aside .envelope-img img {
   outline: 0;
 }
 .products_card_modal__inputs__right .add-files {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -5475,6 +5530,19 @@ aside .envelope-img img {
   color: #333333;
   text-align: center;
   margin: 0;
+}
+.products_card_modal__inputs__right .add-files input[type=file] {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  margin: 8px 0 0 0;
+  margin-left: auto;
+}
+.products_card_modal__inputs__right .add-files input[type=file]::file-selector-button {
+  visibility: hidden;
 }
 .products_card_modal .free_pricing_visualisation_box {
   display: flex;
@@ -6624,6 +6692,8 @@ aside .envelope-img img {
   margin: 11px 0 0 0;
 }
 .cart_product_container--files .add-files {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border: 1px dashed #68B236;
   background: #FFFFFF;
@@ -6634,6 +6704,14 @@ aside .envelope-img img {
   cursor: pointer;
   width: 100%;
   box-sizing: border-box;
+}
+.cart_product_container--files .add-files-title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin: 10px 0 0 0;
 }
 .cart_product_container--files .add-files-img {
   display: flex;
@@ -6649,6 +6727,19 @@ aside .envelope-img img {
   color: #333333;
   text-align: center;
   margin: 0;
+}
+.cart_product_container--files .add-files input[type=file] {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  margin: 8px 0 0 0;
+  margin-left: auto;
+}
+.cart_product_container--files .add-files input[type=file]::file-selector-button {
+  visibility: hidden;
 }
 .cart_product_container--delete {
   position: absolute;

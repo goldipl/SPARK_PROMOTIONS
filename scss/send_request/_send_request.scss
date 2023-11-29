@@ -115,6 +115,8 @@
                         }
                     }
                     .add-files {
+                        display: flex;
+                        flex-direction: column;
                         border-radius: 10px;
                         border: 1px dashed $main_color;
                         background: $white;
@@ -144,6 +146,19 @@
                             color: $light_black;
                             text-align: center;
                             margin: 0;
+                        }
+                        input[type=file] {
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            text-align: center;
+                            margin: 8px 0 0 0;
+                            margin-left: auto;
+                        }
+                        input[type=file]::file-selector-button {
+                            visibility: hidden;
                         }
                     }
                 }
