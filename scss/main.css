@@ -4675,6 +4675,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   font-weight: 400;
   line-height: normal;
   color: #333333;
+  margin-top: 0;
 }
 .send_request_box .send_request_form_top__right .add-files-img {
   display: flex;
