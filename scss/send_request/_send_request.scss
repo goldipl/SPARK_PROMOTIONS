@@ -149,15 +149,15 @@
                 }
             }
             &_bottom {
+                display: flex;
+                justify-content: flex-end;
+                width: 86%;
                 &__btn {
                     display: flex;
-                    justify-content: flex-start;
                     align-items: center;
+                    justify-content: flex-end;
                     margin: 41px 0 84px 0;
                     cursor: pointer;
-                    border: 1px solid $white;
-                    background-color: $light_green;
-                    width: max-content;
                     box-sizing: border-box;
                     border-radius: 10px;
                     button {
@@ -171,6 +171,7 @@
                         line-height: normal;
                         text-transform: uppercase;
                         color: $white;
+                        border: 1px solid $white;
                         background-color: $light_green;
                         padding: 10px 73px 10px 33px;
                         border-radius: 10px;
@@ -187,10 +188,9 @@
                         }
                     }
                     &:hover {
-                        border: 1px solid $light_green;
-                        background-color: $white;
                         button {
                             color: $light_green;
+                            border: 1px solid $light_green;
                             background-color: $white;
                             &::after {
                                 position: absolute;
@@ -243,6 +243,9 @@ aside {
                             &__right {
                                 width: 48%;
                             }
+                        }
+                        &_bottom {
+                            width: 98%;
                         }
                     }
                 }
@@ -300,6 +303,7 @@ aside {
                             }
                         }
                         &_bottom {
+                            width: 100%;
                             &__btn {
                                 margin: 24px auto;
                                 button {

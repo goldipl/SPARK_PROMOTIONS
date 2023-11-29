@@ -113,8 +113,11 @@
             }
         }
         .full-green--btn.register-btn-container {
+            justify-content: flex-end;
+            width: 100%;
             button {
                 padding: 0 33px;
+                width: max-content;
             }
             &:hover {
                 button {

@@ -153,6 +153,8 @@
             }
         }
         .bottom-container {
+            display: flex;
+            justify-content: flex-end;
             .send_request_form_bottom__btn {
                 display: flex;
                 justify-content: flex-start;
