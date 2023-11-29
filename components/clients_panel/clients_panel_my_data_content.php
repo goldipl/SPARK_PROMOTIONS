@@ -29,19 +29,13 @@
                     <input type="text" name="surname" id="surname">
                 </div>
             </div>
+        </div>
+        <h1 class="title">Dane Logowania</h1>
+        <div class="clients_panel_input__container">
             <div class="clients_panel_row">
                 <div class="input-slot">
                     <label class="label-slot" for="email">Adres e-mail</label>
                     <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email">
-                </div>
-            </div>
-        </div>
-        <h1 class="title">Hasło</h1>
-        <div class="clients_panel_input__container">
-            <div class="clients_panel_row">
-                <div class="input-slot">
-                    <label class="label-slot" for="password">Aktualne Hasło</label>
-                    <input type="password" name="password" id="password">
                 </div>
                 <div class="input-slot">
                     <label class="label-slot" for="new_password">Nowe Hasło</label>
@@ -49,14 +43,20 @@
                 </div>
             </div>
             <div class="clients_panel_row">
-                <div class="input-slot pass-btn">
-                    <div class="full-green--btn">
-                        <button>Zapisz zmiany</button>
-                    </div>
+                <div class="input-slot">
+                    <label class="label-slot" for="password">Aktualne Hasło</label>
+                    <input type="password" name="password" id="password">
                 </div>
                 <div class="input-slot confirm-new-pass">
                     <label class="label-slot" for="confirm_new_password">Potwierdź nowe hasło</label>
                     <input type="password" name="confirm_new_password" id="confirm_new_password">
+                </div>
+            </div>
+            <div class="clients_panel_row">
+                <div class="input-slot pass-btn">
+                    <div class="full-green--btn">
+                        <button>Zapisz zmiany</button>
+                    </div>
                 </div>
             </div>
         </div>
