@@ -2911,8 +2911,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin: 0;
 }
 .footer_bottom .contip img {
-  filter: drop-shadow(0 0 3px #FFFFFF);
-  margin-left: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1600px) {
