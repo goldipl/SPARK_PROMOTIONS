@@ -12,9 +12,9 @@
         <a href="#" class="element">
             <p>3</p>
         </a>
-        <a href="#" class="dots">
+        <div class="dots">
             <p>...</p>
-        </a>
+        </div>
         <a href="#" class="element">
             <p>25</p>
         </a>
