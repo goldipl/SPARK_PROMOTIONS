@@ -1,8 +1,8 @@
 <div class="pagination">
     <div class="pagination_container">
-        <div class="element prev">
+        <a href="#" class="element prev">
             <img src="./assets/icons/pagination/pagination_right.svg" alt="prev" width="12" height="12">
-        </div>
+        </a>
         <a href="#" class="element active">
             <p>1</p>
         </a>
