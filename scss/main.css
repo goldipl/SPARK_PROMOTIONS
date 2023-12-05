@@ -5770,8 +5770,6 @@ aside .envelope-img img {
 }
 @media (max-width: 1400px) and (max-height: 880px) {
   .products_card_modal {
-    top: 40px;
-    transform: translate(-50%, 0);
     height: 85vh;
     overflow-y: scroll;
   }
