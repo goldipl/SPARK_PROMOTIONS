@@ -2422,12 +2422,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin-right: 13px;
   cursor: pointer;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .pagination_container .element p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   color: #333333;
+  text-decoration: none;
 }
 .pagination_container .element.prev img {
   transform: rotate(180deg);

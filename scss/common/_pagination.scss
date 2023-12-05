@@ -21,11 +21,13 @@
             margin-right: 13px;
             cursor: pointer;
             box-sizing: border-box;
+            text-decoration: none;
             p {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: normal;
                 color: $light_black;
+                text-decoration: none;
             }
             &.prev {
                 img {

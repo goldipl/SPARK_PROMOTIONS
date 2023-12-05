@@ -3,26 +3,26 @@
         <div class="element prev">
             <img src="./assets/icons/pagination/pagination_right.svg" alt="prev" width="12" height="12">
         </div>
-        <div class="element active">
+        <a href="#" class="element active">
             <p>1</p>
-        </div>
-        <div class="element">
+        </a>
+        <a href="#" class="element">
             <p>2</p>
-        </div>
-        <div class="element">
+        </a>
+        <a href="#" class="element">
             <p>3</p>
-        </div>
-        <div class="dots">
+        </a>
+        <a href="#" class="dots">
             <p>...</p>
-        </div>
-        <div class="element">
+        </a>
+        <a href="#" class="element">
             <p>25</p>
-        </div>
-        <div class="element">
+        </a>
+        <a href="#" class="element">
             <p>26</p>
-        </div>
-        <div class="element next">
+        </a>
+        <a href="#" class="element next">
             <img src="./assets/icons/pagination/pagination_right.svg" alt="next" width="12" height="12">
-        </div>
+        </a>
     </div>
 </div>
