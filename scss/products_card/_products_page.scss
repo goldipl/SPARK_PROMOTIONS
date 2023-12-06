@@ -1,0 +1,19 @@
+.row__container.products-page-row {
+    .col__product_images {
+        width: 50%;
+    }
+    .col__product_details {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1140px) {
+    .row__container.products-page-row {
+        .col__product_images {
+            width: 100%;
+        }
+        .col__product_details {
+            width: 100%;
+        }
+    }
+}
