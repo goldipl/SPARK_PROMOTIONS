@@ -26,7 +26,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="row__container">
+            <div class="row__container category">
                 <aside>
                     <?php include "./components/common/aside_menu.php"; ?> 
                     <?php include "./components/category/category_filters.php"; ?> 
