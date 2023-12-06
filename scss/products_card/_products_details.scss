@@ -442,6 +442,14 @@
                     select {
                         font-size: 16px;
                     }
+                    input,
+                    select {
+                        width: 64%;
+                    }
+                }
+                .upload-files,
+                .add-files {
+                    width: 64%;
                 }
             }
             &_right {

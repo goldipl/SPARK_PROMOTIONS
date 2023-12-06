@@ -4273,6 +4273,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .products_details__bottom_left .input-slot select {
     font-size: 16px;
   }
+  .products_details__bottom_left .input-slot input,
+  .products_details__bottom_left .input-slot select {
+    width: 64%;
+  }
+  .products_details__bottom_left .upload-files,
+  .products_details__bottom_left .add-files {
+    width: 64%;
+  }
   .products_details__bottom_right {
     width: 45%;
   }
