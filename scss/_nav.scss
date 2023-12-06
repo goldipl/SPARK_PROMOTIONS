@@ -311,6 +311,9 @@ header {
                                         a {
                                             border-radius: 10px;
                                             .order-nav-img {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
                                                 box-sizing: border-box;
                                                 padding: 15px;
                                                 border: 1px solid rgba(255, 255, 255, 0);
@@ -623,6 +626,28 @@ header {
 @media (max-width: 1320px) {
     header {
         #nav {
+            .bottom-nav {
+                width: 88vw;
+                .bottom-nav-sublist {
+                    &.brands {
+                        ul {
+                            margin-left: -15vw !important;
+                        }
+                    }
+                    &.special-orders {
+                        ul {
+                            margin-left: -25vw !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    header {
+        #nav {
             .top-nav {
                 width: 100%;
                 margin-right: 16px;
@@ -671,7 +696,7 @@ header {
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1260px) {
     .cart-container {
         .cart-total {
             display: none;
@@ -819,7 +844,7 @@ header {
 }
 
 /* mobile menu */
-@media (max-width: 1280px) {
+@media (max-width: 1260px) {
     header #nav .bottom-nav.active {
         display: flex;
         flex-direction: column;
@@ -1001,8 +1026,23 @@ header {
     }
 }
 
-@media (max-width: 600px) {
-    header #nav .bottom-nav .bottom-nav-sublist.brands ul {
-        margin-left: -24px !important;
+@media (min-width: 1260px) and (max-width: 1320px) {
+    header {
+        #nav {
+            .top-nav {
+                width: 90vw;
+                margin: 10px auto 0;
+            }
+        }
     }
+}
+
+@media (max-width: 1259px) {
+    header {
+        #nav {
+            .top-nav {
+                margin: 0 auto 0;
+            }
+        }
+    } 
 }

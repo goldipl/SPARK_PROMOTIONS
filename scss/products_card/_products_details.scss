@@ -27,6 +27,7 @@
         }
         .products-variants {
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
             align-items: center;
             justify-content: flex-start;
@@ -432,15 +433,25 @@
                 margin: 16px 0 0 0;
             }
         }
-        &__top {
-             width: 50%;
-        }
         &__bottom {
             &_left {
                 width: 55%;
+                .input-slot {
+                    label,
+                    input,
+                    select {
+                        font-size: 16px;
+                    }
+                }
             }
             &_right {
                 width: 45%;
+                .full-green--btn,
+                .green-white--btn {
+                    button {
+                        font-size: 14px !important;
+                    }
+                }
             }
         }
     }

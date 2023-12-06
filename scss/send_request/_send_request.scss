@@ -246,7 +246,7 @@ aside {
 
 
 @media (max-width: 1320px) {
-    .row__container {
+    .row__container:not(.category, .products-page-row) {
         display: flex;
         flex-direction: column;
         .col_10__container {

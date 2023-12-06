@@ -21,6 +21,17 @@
     .products_mostly_view {
         .products_blocks_wrapper {
             &__slot {
+                min-width: unset;
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .products_mostly_view {
+        .products_blocks_wrapper {
+            &__slot {
+                min-width: 249px;
                 margin: 1%;
             }
         }
@@ -33,6 +44,11 @@
             font-size: 20px;
             margin: 0 0 24px 0;
         }
+    }
+}
+
+@media (max-width: 500px) {
+    .products_mostly_view {
         .products_blocks_wrapper {
             &__slot {
                 margin: 0 0 24px 0;
