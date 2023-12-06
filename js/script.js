@@ -22,11 +22,25 @@ menu_li.forEach(e => e.addEventListener('click', () => {
 
 footer_year.innerHTML = new Date().getFullYear();
 
-bottom_nav_links.forEach(e => e.addEventListener('mouseenter', () => {
-    main_wrapper.classList.toggle('dark-background');
-}));
+let isMouseOverNavLinks = false;
+
+bottom_nav_links.forEach((link) => {
+    link.addEventListener('mouseenter', () => {
+        isMouseOverNavLinks = true;
+        main_wrapper.classList.add('dark-background');
+    });
+    link.addEventListener('mouseleave', () => {
+        isMouseOverNavLinks = false;
+        if (!main_wrapper.classList.contains('dark-background')) {
+            main_wrapper.classList.remove('dark-background');
+        }
+    });
+});
 
 main_wrapper.addEventListener('mouseenter', () => {
     main_wrapper.classList.remove('dark-background');
-    top_nav.classList.remove('dark-background');
+});
+
+top_nav.addEventListener('mouseenter', () => {
+    main_wrapper.classList.remove('dark-background');
 });
