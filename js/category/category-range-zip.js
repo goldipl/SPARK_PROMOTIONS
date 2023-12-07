@@ -7,19 +7,23 @@ document.addEventListener('DOMContentLoaded', function () {
     // Update range when input changes
     inputFrom.addEventListener('input', function () {
         updateRangeFromInput(this.value);
+        ensureToInputGreaterThanFromInput();
     });
 
     inputTo.addEventListener('input', function () {
         updateRangeToInput(this.value);
+        ensureToInputGreaterThanFromInput();
     });
 
     // Update input when range changes
     rangeInputFrom.addEventListener('input', function () {
         updateTextFromInput(this.value);
+        ensureToInputGreaterThanFromInput();
     });
 
     rangeInputTo.addEventListener('input', function () {
         updateTextToInput(this.value);
+        ensureToInputGreaterThanFromInput();
     });
 
     function updateTextFromInput(val) {
@@ -36,5 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function updateRangeToInput(val) {
         rangeInputTo.value = val;
+    }
+
+    function ensureToInputGreaterThanFromInput() {
+        // Ensure ToInput value is not smaller than FromInput value
+        if (parseFloat(inputTo.value) < parseFloat(inputFrom.value)) {
+            inputTo.value = inputFrom.value;
+            rangeInputTo.value = inputFrom.value;
+        }
     }
 });
