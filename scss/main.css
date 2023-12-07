@@ -2056,19 +2056,47 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   #our_team .our_team_container__slot {
     display: flex;
     flex-direction: row;
-    width: 32%;
+    width: 24%;
     margin-bottom: 36px;
   }
+  #our_team .our_team_container__slot--text .name {
+    font-size: 14px;
+  }
+  #our_team .our_team_container__slot--text .mail a {
+    font-size: 9px;
+  }
   #our_team .our_team_container__slot--image {
-    width: 123px;
-    height: 176px;
-    margin-right: 16px;
+    width: 110px;
+    height: 160px;
+    margin-right: 8px;
   }
   #our_team .our_team_container__slot--image img {
-    width: 123px;
-    height: 176px;
+    width: 110px;
+    height: 160px;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+}
+@media (max-width: 1260px) {
+  #our_team .our_team_container {
+    margin-bottom: 64px;
+  }
+  #our_team .our_team_container__slot {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+  }
+  #our_team .our_team_container__slot--text .position {
+    font-size: 12px;
+  }
+  #our_team .our_team_container__slot--text .tel {
+    font-size: 12px;
+  }
+  #our_team .our_team_container__slot--text .tel a {
+    font-size: 12px;
+  }
+  #our_team .our_team_container__slot--text .mail a {
+    font-size: 11px;
   }
 }
 @media (max-width: 1080px) {
