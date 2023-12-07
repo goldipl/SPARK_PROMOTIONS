@@ -457,3 +457,13 @@
         }
     }
 }
+
+@media (max-height: 900px) {
+    .products_card_modal {
+        height: 90vh;
+        overflow-y: scroll;
+        &.added-to-cart {
+            height: auto;
+        }
+    }
+}
