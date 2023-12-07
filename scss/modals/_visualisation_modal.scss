@@ -452,5 +452,8 @@
     .products_card_modal {
         height: 90vh;
         overflow-y: scroll;
+        &.added-to-cart {
+            height: auto;
+        }
     }
 }

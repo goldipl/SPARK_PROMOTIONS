@@ -6025,6 +6025,9 @@ aside .envelope-img img {
     height: 90vh;
     overflow-y: scroll;
   }
+  .products_card_modal.added-to-cart {
+    height: auto;
+  }
 }
 .cart_pay_box {
   width: 100%;
