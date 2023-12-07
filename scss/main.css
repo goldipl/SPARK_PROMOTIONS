@@ -3985,8 +3985,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 .products_details__top .products-variants--slot {
   display: flex;
-  width: 61px;
-  min-width: 61px;
+  width: 52px;
+  min-width: 52px;
   height: 61px;
   border-radius: 5px;
   margin-right: 2px;
@@ -3999,6 +3999,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
      object-fit: contain;
   box-sizing: content-box;
   margin: 0 auto;
+  width: auto;
+  height: auto;
 }
 .products_details__top .products-variants--slot.active, .products_details__top .products-variants--slot:hover {
   border: 2px solid #68B236;
@@ -4027,7 +4029,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 0;
   cursor: pointer;
   position: relative;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -4035,6 +4037,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #90D065;
   padding: 10px 73px 10px 33px;
   border-radius: 10px;
+  white-space: pre;
 }
 .products_details__top .pricing_availability_container__btn button::after {
   position: absolute;
@@ -4044,7 +4047,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-size: contain;
   width: 32px;
   height: 17px;
-  top: 15px;
+  top: 14px;
   right: 28px;
 }
 .products_details__top .pricing_availability_container__btn:hover {
@@ -4072,10 +4075,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_details__top .pricing_availability_container__availability p {
   display: inline-flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 15px;
   color: #333333;
   margin: 0;
 }
@@ -4090,12 +4093,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #68B236;
 }
 .products_details__top .pricing_availability_container__availability p .grey {
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 14px;
   color: #A4A4A4;
   white-space: pre;
+  margin-top: 2px;
 }
 .products_details__bottom {
   display: flex;
@@ -4116,11 +4120,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin-bottom: -18px;
   background-color: #F8F8F8;
   border-radius: 0 0 0 10px;
+  padding: 16px 16px 16px 0;
+  box-sizing: border-box;
 }
 .products_details__bottom_left .input-slot label {
   position: relative;
   display: inline-flex;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -4160,7 +4166,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_details__bottom_left .input-slot label::after {
   position: absolute;
   top: 50%;
-  left: 18px;
+  left: 17px;
   display: block;
   content: "";
   width: 1px;
@@ -4171,7 +4177,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_details__bottom_left .input-slot input,
 .products_details__bottom_left .input-slot select {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -4296,6 +4302,8 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   align-items: center;
   width: 327px;
   height: 100%;
+  padding: 0 10px 10px 10px;
+  box-sizing: border-box;
 }
 .products_details__bottom_right.with-branding .title {
   margin: 18px 0 0 0;
@@ -4366,7 +4374,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   margin: 0;
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1600px) {
   .products_details {
     width: 100%;
   }
@@ -4389,6 +4397,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .products_details__bottom_left .input-slot select {
     width: 64%;
   }
+  .products_details__bottom_left .text-slot .desc {
+    width: 80%;
+  }
   .products_details__bottom_left .upload-files,
   .products_details__bottom_left .add-files {
     width: 64%;
@@ -4408,6 +4419,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
   .products_details__bottom_left .add-files {
     width: 60%;
+  }
+  .products_details__bottom_left .add-files input[type=file] {
+    margin-left: -30px;
   }
   .products_details__bottom_left .desc {
     width: 90%;

@@ -34,8 +34,8 @@
             margin: 0 0 35px 0;
             &--slot {
                 display: flex;
-                width: 61px;
-                min-width: 61px;
+                width: 52px;
+                min-width: 52px;
                 height: 61px;
                 border-radius: 5px;
                 margin-right: 2px;
@@ -46,6 +46,8 @@
                     object-fit: contain;
                     box-sizing: content-box;
                     margin: 0 auto;
+                    width: auto;
+                    height: auto;
                 }
                 &.active,
                 &:hover {
@@ -74,7 +76,7 @@
                     border: 0;
                     cursor: pointer;
                     position: relative;
-                    font-size: 18px;
+                    font-size: 15px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: normal;
@@ -82,6 +84,7 @@
                     background-color: $light_green;
                     padding: 10px 73px 10px 33px;
                     border-radius: 10px;
+                    white-space: pre;
                     &::after {
                         position: absolute;
                         content: "";
@@ -90,7 +93,7 @@
                         background-size: contain;
                         width: 32px;
                         height: 17px;
-                        top: 15px;
+                        top: 14px;
                         right: 28px;
                     }
                 }
@@ -119,10 +122,10 @@
                 p {
                     display: inline-flex;
                     align-items: center;
-                    font-size: 18px;
+                    font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: normal;
+                    line-height: 15px;
                     color: $light_black;
                     margin: 0;
                     .circle {
@@ -136,12 +139,13 @@
                         }
                     }
                     .grey {
-                        font-size: 15px;
+                        font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: normal;
+                        line-height: 14px;
                         color: $grey_light2;
                         white-space: pre;
+                        margin-top: 2px;
                     }
                 }
             }
@@ -165,11 +169,13 @@
             margin-bottom: -18px;
             background-color: $grey_light3;
             border-radius: 0 0 0 10px;
+            padding: 16px 16px 16px 0;
+            box-sizing: border-box;
             .input-slot {
                 label {
                     position: relative;
                     display: inline-flex;
-                    font-size: 18px;
+                    font-size: 17px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -211,7 +217,7 @@
                     &::after {
                         position: absolute;
                         top: 50%;
-                        left: 18px;
+                        left: 17px;
                         display: block;
                         content: '';
                         width: 1px;
@@ -223,7 +229,7 @@
                 input,
                 select {
                     font-family: 'Poppins', sans-serif;
-                    font-size: 18px;
+                    font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -348,6 +354,8 @@
             align-items: center;
             width: 327px;
             height: 100%;
+            padding: 0 10px 10px 10px;
+            box-sizing: border-box;
             &.with-branding {
                 .title {
                     margin: 18px 0 0 0;
@@ -423,7 +431,7 @@
     }
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1600px) {
     .products_details {
         width: 100%;
         .pricing_availability_container {
@@ -445,6 +453,11 @@
                     input,
                     select {
                         width: 64%;
+                    }
+                }
+                .text-slot {
+                    .desc {
+                        width: 80%;
                     }
                 }
                 .upload-files,
@@ -477,6 +490,9 @@
                 }
                 .add-files {
                     width: 60%;
+                    input[type=file] {
+                        margin-left: -30px;
+                    }
                 }
                 .desc {
                     width: 90%;
