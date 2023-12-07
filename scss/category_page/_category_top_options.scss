@@ -41,6 +41,7 @@
         }
     }
     &__right {
+        margin-right: 1%;
         &--element {
             p {
                 margin-left: 10px;
@@ -54,6 +55,9 @@
         margin-bottom: 24px;
         flex-direction: column;
         align-items: flex-start;
+        &__right {
+            margin-right: 0;
+        }
         p {
             margin-left: 0;
         }

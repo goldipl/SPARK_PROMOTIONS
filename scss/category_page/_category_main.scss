@@ -26,5 +26,12 @@
         p.description {
             font-size: 14px;
         }
+        .products_blocks_wrapper {
+            &__slot {
+                > a {
+                    width: 100%;
+                }
+            }
+        }
     }   
 }

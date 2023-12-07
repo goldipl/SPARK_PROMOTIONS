@@ -12,11 +12,10 @@
         flex-direction: column;
         width: 1240px;
         .products_blocks_wrapper {
-            justify-content: space-between;
             &__slot {
-                width: 19%;
-                margin-right: 14px;
-                margin-bottom: 14px;
+                width: 24%;
+                margin-right: 1%;
+                margin-bottom: 1%;
             }
         }
     }
@@ -26,28 +25,44 @@
     .row__container {
         .col_10__container {
             .products_blocks_wrapper {
-                justify-content: center;
                 &__slot {
-                    width: 31%;
+                    min-width: unset;
                 }
             }
         }
     }
 }
+
+@media (max-width: 1500px) {
+    .row__container {
+        aside {
+            width: 200px;
+            margin-right: 24px;
+        }
+        .col_10__container {
+            .products_blocks_wrapper {
+                &__slot {
+                    min-width: unset;
+                    width: 24%;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1260px) {
     .row__container {
         .col_10__container {
             .products_blocks_wrapper {
-                justify-content: center;
                 &__slot {
-                    width: 19%;
+                    > a {
+                        width: 96%;
+                    }
                 }
             }
         }
     }
 }
-
-
 
 @media (max-width: 1140px) {
     .row__container {
@@ -66,20 +81,21 @@
     }
 }
 
-
-@media (max-width: 855px) {
+@media (max-width: 760px) {
     .row__container {
         .col_10__container {
             .products_blocks_wrapper {
                 &__slot {
+                    width: 100%;
+                    margin-bottom: 16px;
                     &:nth-child(4n) {
-                        margin-right: 19px;
+                        margin-right: 0;
                     }
                     &:nth-child(3n) {
-                        margin-right: 19px;
+                        margin-right: 0;
                     }
                     &:nth-child(2n) {
-                        margin-right: 19px;
+                        margin-right: 0;
                     }
                 }
             }

@@ -70,6 +70,7 @@
                     p {
                         display: block;
                         margin-left: 4px;
+                        white-space: pre;
                     }
                     .color_square {
                         display: inline-flex;
@@ -190,6 +191,16 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
+                &--from {
+                    input {
+                        margin-right: 2%;
+                    }
+                }
+                &--to {
+                    input {
+                        margin-left: 2%;
+                    }
+                }
                 &--from,
                 &--to {
                     display: inline-block;
@@ -197,7 +208,7 @@
                     height: 35px;
                     input {
                         font-family: 'Poppins', sans-serif;
-                        width: 111px;
+                        width: 96%;
                         height: 35px;
                         border: 1px solid $grey_light5;
                         font-size: 14px;

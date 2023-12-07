@@ -40,6 +40,13 @@
 
 @media (max-width: 760px) {
     .products_mostly_view {
+        .products_blocks_wrapper {
+            &__slot {
+                > a {
+                    width: 100%;
+                }
+            }
+        }
         .title {
             font-size: 20px;
             margin: 0 0 24px 0;
