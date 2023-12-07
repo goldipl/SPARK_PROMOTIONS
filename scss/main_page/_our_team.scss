@@ -110,15 +110,15 @@
     #our_team {
         .our_team_container {
             &__slot {
-                width: 20%;
+                width: 22%;
                 &--text {
                     .position {
-                        font-size: 13px;
+                        font-size: 12px;
                     }
                     .tel {
-                        font-size: 13px;
+                        font-size: 12px;
                         a {
-                            font-size: 13px;
+                            font-size: 12px;
                         }
                     }
                 }
@@ -131,6 +131,16 @@
                         object-fit: cover;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1460px) {
+    #our_team {
+        .our_team_container {
+            &__slot {
+                width: 20%;
             }
         }
     }

@@ -2013,16 +2013,16 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 
 @media (max-width: 1600px) {
   #our_team .our_team_container__slot {
-    width: 20%;
+    width: 22%;
   }
   #our_team .our_team_container__slot--text .position {
-    font-size: 13px;
+    font-size: 12px;
   }
   #our_team .our_team_container__slot--text .tel {
-    font-size: 13px;
+    font-size: 12px;
   }
   #our_team .our_team_container__slot--text .tel a {
-    font-size: 13px;
+    font-size: 12px;
   }
   #our_team .our_team_container__slot--image {
     width: 100%;
@@ -2033,6 +2033,11 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     height: 145px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+@media (max-width: 1460px) {
+  #our_team .our_team_container__slot {
+    width: 20%;
   }
 }
 @media (max-width: 1320px) {
