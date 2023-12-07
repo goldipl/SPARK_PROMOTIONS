@@ -512,14 +512,19 @@
             &_left {
                 width: 55%;
                 .input-slot {
-                    label,
-                    input,
-                    select {
+                    label {
                         font-size: 16px;
+                        &.products_quantity::before,
+                        &.products_branding_method::before,
+                        &.products_print_colors_quantity::before,
+                        &.products_print_postion::before {
+                            margin-right: 22px;
+                        }
                     }
                     input,
                     select {
                         width: 64%;
+                        font-size: 14px;
                     }
                 }
                 .text-slot {
@@ -530,6 +535,9 @@
                 .upload-files,
                 .add-files {
                     width: 64%;
+                    .title {
+                        font-size: 16px;
+                    }
                 }
             }
             &_right {
@@ -618,6 +626,7 @@
                 flex-direction: column;
                 &_left {
                     width: 100%;
+                    border-right: 0;
                     .input-slot {
                         input,
                         select {
@@ -626,6 +635,12 @@
                         }
                         label {
                             width: 100%;
+                            font-size: 14px;
+                            line-height: 160%;
+                        }
+                    }
+                    .upload-files {
+                        .title {
                             font-size: 14px;
                             line-height: 160%;
                         }
