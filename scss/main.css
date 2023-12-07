@@ -3934,10 +3934,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   }
 }
 .row__container.products-page-row .col__product_images {
-  width: 50%;
+  width: 46%;
 }
 .row__container.products-page-row .col__product_details {
-  width: 50%;
+  width: 54%;
 }
 
 @media (max-width: 1140px) {
@@ -4029,13 +4029,13 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   border: 0;
   cursor: pointer;
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   color: #FFFFFF;
   background-color: #90D065;
-  padding: 10px 73px 10px 33px;
+  padding: 8px 60px 8px 24px;
   border-radius: 10px;
   white-space: pre;
 }
@@ -4045,10 +4045,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
   background-position: center;
   background-size: contain;
-  width: 32px;
+  width: 28px;
   height: 17px;
-  top: 14px;
-  right: 28px;
+  top: 13px;
+  right: 22px;
 }
 .products_details__top .pricing_availability_container__btn:hover {
   border: 1px solid #90D065;
@@ -4064,10 +4064,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
   background-position: center;
   background-size: contain;
-  width: 32px;
+  width: 28px;
   height: 17px;
-  top: 15px;
-  right: 28px;
+  top: 13px;
+  right: 22px;
 }
 .products_details__top .pricing_availability_container__availability {
   margin-left: 37px;
@@ -4075,10 +4075,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 .products_details__top .pricing_availability_container__availability p {
   display: inline-flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 17px;
   color: #333333;
   margin: 0;
 }
@@ -4093,10 +4093,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-color: #68B236;
 }
 .products_details__top .pricing_availability_container__availability p .grey {
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 15px;
   color: #A4A4A4;
   white-space: pre;
   margin-top: 2px;
@@ -4378,12 +4378,76 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   .products_details {
     width: 100%;
   }
-  .products_details .pricing_availability_container {
-    flex-direction: column;
-    align-items: flex-start;
+  .products_details__top .products-variants {
+    margin: 0 0 28px 0;
+  }
+  .products_details .pricing_availability_container__btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    background-color: #90D065;
+    width: -moz-max-content;
+    width: max-content;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .products_details .pricing_availability_container__btn button {
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFFFFF;
+    background-color: #90D065;
+    padding: 8px 50px 8px 20px;
+    border-radius: 10px;
+    white-space: pre;
+  }
+  .products_details .pricing_availability_container__btn button::after {
+    position: absolute;
+    content: "";
+    background: url("./../assets/icons/send_request/send_envelope.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 17px;
+    top: 10px;
+    right: 17px;
+  }
+  .products_details .pricing_availability_container__btn:hover {
+    border: 1px solid #90D065;
+    background-color: #FFFFFF;
+  }
+  .products_details .pricing_availability_container__btn:hover button {
+    color: #90D065;
+    background-color: #FFFFFF;
+  }
+  .products_details .pricing_availability_container__btn:hover button::after {
+    position: absolute;
+    content: "";
+    background: url("./../assets/icons/send_request/send_envelope_green.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 17px;
+    top: 10px;
+    right: 17px;
   }
   .products_details .pricing_availability_container__availability {
-    margin: 16px 0 0 0;
+    margin: 0 0 0 24px;
+  }
+  .products_details .pricing_availability_container__availability p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .products_details .pricing_availability_container__availability p .grey {
+    font-size: 13px;
+    line-height: 13px;
   }
   .products_details__bottom_left {
     width: 55%;
