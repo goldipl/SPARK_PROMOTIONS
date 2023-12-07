@@ -6029,6 +6029,15 @@ aside .envelope-img img {
     height: auto;
   }
 }
+@media (max-height: 900px) {
+  .products_card_modal {
+    height: 90vh;
+    overflow-y: scroll;
+  }
+  .products_card_modal.added-to-cart {
+    height: auto;
+  }
+}
 .cart_pay_box {
   width: 100%;
   height: auto;
