@@ -538,13 +538,14 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a
   align-items: center;
   box-sizing: border-box;
   padding: 15px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0);
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a .order-nav-img img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a:hover {
+header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li a .order-nav-img:hover {
   border: 1px solid #A4A4A4;
 }
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.brands ul li:hover {

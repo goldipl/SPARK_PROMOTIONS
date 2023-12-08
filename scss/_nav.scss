@@ -316,13 +316,14 @@ header {
                                                 align-items: center;
                                                 box-sizing: border-box;
                                                 padding: 15px;
+                                                border-radius: 10px;
                                                 border: 1px solid rgba(255, 255, 255, 0);
                                                 img {
                                                     object-fit: contain;
                                                 }
-                                            }
-                                            &:hover {
-                                                border: 1px solid $grey_light2;
+                                                &:hover {
+                                                    border: 1px solid $grey_light2;
+                                                }
                                             }
                                         }
                                         &:hover {
