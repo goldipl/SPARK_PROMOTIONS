@@ -1015,6 +1015,12 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     z-index: 99999;
     padding: 10px;
   }
+  header #nav .bottom-nav .left-container ul li.first-line {
+    margin-right: 0 !important;
+  }
+  header #nav .bottom-nav .left-container ul li.first-line::after {
+    display: none !important;
+  }
   header #nav .bottom-nav.active {
     display: flex;
     flex-direction: column;
