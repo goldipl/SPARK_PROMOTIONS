@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('header #nav .top-nav .hamburger');
 const menu = document.querySelector('header #nav .bottom-nav');
-const menu_li = document.querySelectorAll('header #nav .bottom-nav .left-container ul li .bottom-nav-sublist > ul > li');
+const menu_li = document.querySelectorAll('header #nav .bottom-nav .left-container ul li .bottom-nav-sublist > ul > li .mobile-arrow');
 const footer_year = document.querySelector('.footer_bottom span');
 const header = document.querySelector('body header');
 const search_mobile_bar = document.querySelector('header #nav .top-nav .search-bar-wrapper');
@@ -17,7 +17,8 @@ hamburger.addEventListener('click', () => {
 });
 
 menu_li.forEach(e => e.addEventListener('click', () => {
-    e.classList.toggle('active');
+    e.nextElementSibling.classList.toggle('active');
+    e.parentElement.classList.toggle('opened');
 }));
 
 footer_year.innerHTML = new Date().getFullYear();

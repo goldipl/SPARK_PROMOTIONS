@@ -789,6 +789,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   background-repeat: no-repeat;
 }
 
+.mobile-arrow {
+  display: none;
+}
+
 @media (max-width: 1600px) {
   header #nav .top-nav {
     width: 80vw;
@@ -1003,6 +1007,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
 }
 /* mobile menu */
 @media (max-width: 1260px) {
+  .mobile-arrow {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 99999;
+    padding: 10px;
+  }
   header #nav .bottom-nav.active {
     display: flex;
     flex-direction: column;
@@ -1047,23 +1059,39 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     width: 100%;
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li {
+    width: 100%;
     padding: 0;
-    padding-left: 16px;
+    padding-left: 0;
+    margin-top: 0;
     border-bottom: 1px solid #68B236;
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.opened {
+    flex-direction: column;
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.opened > .mobile-arrow {
+    transition: 0.6s;
+    transform: rotate(180deg) translateY(5px);
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.opened > a {
+    width: calc(100% - 16px);
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li .bottom-nav-sub-sublist {
+    display: none !important;
+  }
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li .bottom-nav-sub-sublist.active {
+    position: relative;
+    display: flex !important;
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li:last-child {
     border-radius: 0;
   }
-  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li:hover .bottom-nav-sub-sublist {
-    display: none !important;
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li > a {
+    min-height: 34px;
+    padding-left: 16px;
+    width: 85%;
   }
-  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active .bottom-nav-sub-sublist {
-    position: relative;
-    display: flex !important;
-  }
-  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active {
-    flex-direction: column;
-    padding-left: 0;
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li > a::after {
+    display: none;
   }
   header #nav .bottom-nav.active .right-container {
     display: flex;
@@ -1124,6 +1152,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
     justify-content: flex-start !important;
     align-items: center !important;
+    white-space: break-spaces;
   }
   header #nav .top-nav .account-cart-container .account-container .logo-container {
     margin-top: 0;
@@ -1150,10 +1179,10 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
   header #nav .bottom-nav .left-container ul li.bottom-nav-links.category::before {
     display: none;
   }
-  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active > a {
+  header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist.bottom-nav-sublist:not(.brands, .special-orders) ul li.active > a {
     height: 32px;
     line-height: 32px;
-    padding-left: 28px;
+    padding-left: 16px;
     background-color: #68B236;
     color: #FFFFFF;
   }
@@ -1164,16 +1193,7 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     position: relative;
   }
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist:not(.brands, .special-orders) ul li::after {
-    position: absolute;
-    content: "";
-    background: url("./../assets/icons/chevron-down.svg") no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 16px;
-    height: 7.5px;
-    top: 14px;
-    right: 70px;
-    display: block;
+    display: none !important;
   }
 }
 @media (min-width: 1260px) and (max-width: 1320px) {

@@ -50,6 +50,9 @@
                         <ul>
                             <li>
                                 <a href="#">Artykuły biurowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -75,6 +78,9 @@
                             </li>
                             <li>
                                 <a href="#">Artykuły szkolne</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -91,6 +97,9 @@
                             </li>
                             <li>
                                 <a href="#">Breloki i odznaki</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -107,6 +116,9 @@
                             </li>
                             <li>
                                 <a href="#">Do picia</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -123,6 +135,9 @@
                             </li>
                             <li>
                                 <a href="#">Długopisy i zestawy piśmienne</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -139,6 +154,9 @@
                             </li>
                             <li>
                                 <a href="#">Dom i wyposażenie wnętrz</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -155,6 +173,9 @@
                             </li>
                             <li>
                                 <a href="#">Dyski</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -171,6 +192,9 @@
                             </li>
                             <li>
                                 <a href="#">Elektronika i zegary</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -187,6 +211,9 @@
                             </li>
                             <li>
                                 <a href="#">Elektronika markowa</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -203,6 +230,9 @@
                             </li>
                             <li>
                                 <a href="#">Gry i zabawki</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -219,6 +249,9 @@
                             </li>
                             <li>
                                 <a href="#">Higiena i bezpieczeństwo</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -235,6 +268,9 @@
                             </li>
                             <li>
                                 <a href="#">Kosmetyki i pielęgnacja</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
