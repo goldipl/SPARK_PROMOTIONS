@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/icons/Spark_Promotions_Logo.svg" height="64"/>
+    <img src="./assets/icons/Spark_Promotions_Logo.svg" height="100"/>
 </p>
 
 <h1 align="center">Spark Promotions website</h1>
