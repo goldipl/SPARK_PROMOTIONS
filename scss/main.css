@@ -609,7 +609,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist.office::after 
   display: block;
   content: "";
   bottom: 0;
-  left: 40%;
+  left: 50%;
   background: url("./../assets/img/header/header_image.jpg");
   height: 396px;
   width: 614px;
