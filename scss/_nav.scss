@@ -1073,3 +1073,12 @@ header {
         }
     } 
 }
+
+@media (min-width: 1260px) {
+    header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
+        height: 100%;
+        ul {
+            height: 100%;
+        }
+    }
+}

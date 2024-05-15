@@ -1213,6 +1213,14 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     margin: 0 auto 0;
   }
 }
+@media (min-width: 1260px) {
+  header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
+    height: 100%;
+  }
+  header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
+    height: 100%;
+  }
+}
 .breadcrumbs {
   margin-top: 16px;
 }
