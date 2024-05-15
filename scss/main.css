@@ -1218,6 +1218,9 @@ header #nav .bottom-nav .right-container ul.no-menu-links .new-nav li::before {
     height: 100%;
   }
   header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 100%;
   }
 }

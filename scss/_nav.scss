@@ -1078,6 +1078,9 @@ header {
     header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist {
         height: 100%;
         ul {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
             height: 100%;
         }
     }
