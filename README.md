@@ -5,11 +5,11 @@
 <h1 align="center">Spark Promotions Website</h1>
 
 <p align="center">
-    A dynamic e-commerce website for Spark Promotions, built with PHP, SCSS, Vanilla JavaScript, and HTML5. Features product catalog, shopping cart, user authentication, client panel, and email confirmations.
+    A professional e-commerce and promotional products website for Spark Promotions, built with PHP, SCSS, Vanilla JavaScript, and HTML5. The project includes a product catalog, shopping cart, authentication flow, client panel, and order confirmation emails.
 </p>
 
 <p align="center">
-    <strong>Language:</strong> Polish 🇵🇱 | <strong>Platform:</strong> Web | <strong>Framework:</strong> None (Vanilla PHP)
+    <strong>Language:</strong> Polish 🇵🇱 | <strong>Platform:</strong> Web | <strong>Framework:</strong> Vanilla PHP | <strong>Purpose:</strong> Educational / Portfolio Project
 </p>
 
 ## Table of Contents
@@ -214,14 +214,16 @@ SPARK_PROMOTIONS/
 
 ## License
 
-This work is licensed under a **Creative Commons Non-Commercial (CC BY-NC) License** - not for commercial use.
+Copyright © 2026 Marcin. All rights reserved.
 
-![CC BY-NC License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+This project is protected by copyright law and is intended exclusively for educational use. It may not be used for commercial purposes, copied, redistributed, modified, republished, or incorporated into other projects without the explicit written permission of the author.
 
-See [LICENSE.md](LICENSE.md) for full license details.
+The author retains all rights to the source code, design, assets, text, and visual content included in this repository. No part of this project may be copied or reused without authorization.
+
+This project is for education only. It is not for commercial use and it is not allowed to copy or distribute without written consent from the author.
+
+See [LICENSE.md](LICENSE.md) for the formal notice.
 
 ---
 
-**Spark Promotions** - Professional promotional products website.
-
-This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+**Spark Promotions** - Professional promotional products website for educational and portfolio purposes only.

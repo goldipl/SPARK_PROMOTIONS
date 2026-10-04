@@ -1,3 +1,14 @@
-## Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
+# License
 
-This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+Copyright © 2026 Marcin. All rights reserved.
+
+This project is protected by copyright law and is provided for educational use only.
+
+The following terms apply:
+
+- Commercial use is strictly prohibited.
+- No copying, redistribution, publication, or reuse of any part of this project is allowed without explicit written permission from the author.
+- No modification or derivative work may be created without the author's written consent.
+- The author retains all intellectual property rights to the source code, design, assets, images, and written content.
+
+This repository may be used only for learning, study, and educational reference purposes. It is not for commercial use and no copying is permitted.
